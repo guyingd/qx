@@ -49,6 +49,49 @@
       </tags>
   </entry>
   <entry>
+    <title>Hexo博客的基本操作</title>
+    <url>/article/aa2a7b7e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p><strong>Hexo官方文档:</strong><a href="https://hexo.io/zh-cn/docs">Hexo</a></p>
+</blockquote>
+<h1 id="Hexo操作"><a href="#Hexo操作" class="headerlink" title="Hexo操作"></a>Hexo操作</h1><h2 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h2><figure class="highlight js"><figcaption><span>新建文章，在blog\source\_posts</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> post (文章名称)</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>新建页面，在blog\source</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> page (页面名称)</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>清除缓存文件 (db.json) 和已生成的静态文件 (public)</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>生成静态文件</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>启动服务器，访问网址:http://localhost:4000</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>部署网站</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>hexo三连,四连</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; gulp &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>push三连</span></figcaption><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;github action update&quot;</span></span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+<br>
+
+<h2 id="文章操作"><a href="#文章操作" class="headerlink" title="文章操作"></a>文章操作</h2><blockquote>
+<p><strong>Markdown 教程</strong><br><a href="https://www.runoob.com/markdown/md-tutorial.html">菜鸟教程</a><br><a href="http://markdown.p2hp.com/basic-syntax/">官网–Markdown基本语法</a></p>
+</blockquote>
+<blockquote>
+<p><strong>blog\scaffolds中修改三种文章模板</strong></p>
+</blockquote>
+<blockquote>
+<p>#(空格)一级标题<br>##二级标题<br>###三级标题</p>
+</blockquote>
+<blockquote>
+<p><em>斜体文本</em> &emsp;*斜体文本*<br><strong>粗体文本</strong> &emsp;**粗体文本**<br><em><strong>粗斜体文本</strong></em> &emsp;***粗斜体文本***<br><del>横线删除</del> &emsp;~~横线删除~~ </p>
+</blockquote>
+<blockquote>
+<p>***水平分割线</p>
+</blockquote>
+<figure class="highlight html"><figcaption><span>文字蓝链</span></figcaption><table><tr><td class="code"><pre><span class="line">文字内容[tittle](https://*******)</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><figcaption><span>文章中自定义文本，size文字大小，face字体，color颜色，&emsp空格</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">&quot;2&quot;</span> <span class="attr">face</span>=<span class="string">&quot;verdana&quot;</span> <span class="attr">color</span>=<span class="string">&quot;blue&quot;</span> &gt;</span><span class="symbol">&amp;emsp;</span>这是一个文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><figcaption><span>插入自定义图片,</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">left</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">1.png</span> <span class="attr">width</span>=<span class="string">&quot;25%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;25%&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">left</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">1.png</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">2.png</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">![文本](图片地址 &quot;鼠标悬停弹出文本提示&quot;)</span><br></pre></td></tr></table></figure>
+<hr>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>测试用文章</title>
     <url>/article/d87f7e0c.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>test</p>
@@ -65,6 +108,59 @@
       </categories>
       <tags>
         <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客搜索挂了解决方法</title>
+    <url>/article/f8c79a1b.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p>省流助手：删除所有local-search.js中下面这行代码<br>window.pjax &amp;&amp; window.pjax.refresh($resultContent)</p>
+</blockquote>
+<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><p>我使用的是本地搜索，local-search，装好后一直正常使用，也没去动过配置<br>前天捣鼓着博客，突然发现博客部署到github上后搜索挂了</p>
+<div><img src=/images/4-2.webp width="60%" height="60%"></div>
+一直卡在数据库加载中
+
+<p>但是，部署在本地，搜索却一切正常</p>
+<div><img src=/images/4-3.webp width="60%" height="60%"></div>
+尝试过重装插件，清除浏览器缓存，search.xml改为json，但过一会又挂了
+
+<p>看网上也有不少人遇到这种问题，却找不到解决办法</p>
+<hr>
+<h1 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h1><p>遇事不决f12，我禁我自己（误）</p>
+<div><img src=/images/4-4.webp width="40%" height="40%"></div>
+local-search会请求生成在本地的search.xml，也就是数据库加载中里的“数据库”
+
+<p>部署在本地时正常请求</p>
+<div><img src=/images/4-8.webp width="80%" height="80%"></div>
+而部署在github时没有请求
+<div><img src=/images/4-9.webp width="65%" height="65%"></div>
+直接访问search.xml正常，不是search.xml的问题
+<div><img src=/images/4-5.webp width="60%" height="60%"></div>
+查看报错，看起来是这个js的问题
+<div><img src=/images/4-6.webp width="60%" height="60%"></div>
+本地找到local-search.js，这三个代码都一样
+<div><img src=/images/4-7.webp width="60%" height="60%"></div>
+js中只有一处pjax报错
+<div><img src=/images/4-10.webp width="60%" height="60%"></div>
+类型“Window & typeof globalThis”上不存在属性“pjax”。ts(2339)  
+
+
+<p>看不懂这种报错，但问题多半就是这行代码导致的，查看整个js后，尝试删除此行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">window.pjax &amp;&amp; window.pjax.refresh($resultContent)</span><br></pre></td></tr></table></figure>
+<p>删除后，搜索挂了的问题解决，博客正常请求search.xml</p>
+<div><img src=/images/4-8.webp width="70%" height="70%"></div>
+
+<p>但点击搜索结果后pjax失效，具体表现是aplayer停止播放音乐</p>
+<p>看来是pjax的bug，不过感知不强，其余地方的pjax仍然生效</p>
+<p>暂时先这样，以后找到更好的解决办法再更新</p>
+<hr>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
@@ -223,102 +319,6 @@
       </categories>
       <tags>
         <tag>C语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo博客的基本操作</title>
-    <url>/article/aa2a7b7e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p><strong>Hexo官方文档:</strong><a href="https://hexo.io/zh-cn/docs">Hexo</a></p>
-</blockquote>
-<h1 id="Hexo操作"><a href="#Hexo操作" class="headerlink" title="Hexo操作"></a>Hexo操作</h1><h2 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h2><figure class="highlight js"><figcaption><span>新建文章，在blog\source\_posts</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> post (文章名称)</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>新建页面，在blog\source</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> page (页面名称)</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>清除缓存文件 (db.json) 和已生成的静态文件 (public)</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>生成静态文件</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>启动服务器，访问网址:http://localhost:4000</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>部署网站</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>hexo三连,四连</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; gulp &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>push三连</span></figcaption><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;github action update&quot;</span></span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
-<br>
-
-<h2 id="文章操作"><a href="#文章操作" class="headerlink" title="文章操作"></a>文章操作</h2><blockquote>
-<p><strong>Markdown 教程</strong><br><a href="https://www.runoob.com/markdown/md-tutorial.html">菜鸟教程</a><br><a href="http://markdown.p2hp.com/basic-syntax/">官网–Markdown基本语法</a></p>
-</blockquote>
-<blockquote>
-<p><strong>blog\scaffolds中修改三种文章模板</strong></p>
-</blockquote>
-<blockquote>
-<p>#(空格)一级标题<br>##二级标题<br>###三级标题</p>
-</blockquote>
-<blockquote>
-<p><em>斜体文本</em> &emsp;*斜体文本*<br><strong>粗体文本</strong> &emsp;**粗体文本**<br><em><strong>粗斜体文本</strong></em> &emsp;***粗斜体文本***<br><del>横线删除</del> &emsp;~~横线删除~~ </p>
-</blockquote>
-<blockquote>
-<p>***水平分割线</p>
-</blockquote>
-<figure class="highlight html"><figcaption><span>文字蓝链</span></figcaption><table><tr><td class="code"><pre><span class="line">文字内容[tittle](https://*******)</span><br></pre></td></tr></table></figure>
-<figure class="highlight html"><figcaption><span>文章中自定义文本，size文字大小，face字体，color颜色，&emsp空格</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">&quot;2&quot;</span> <span class="attr">face</span>=<span class="string">&quot;verdana&quot;</span> <span class="attr">color</span>=<span class="string">&quot;blue&quot;</span> &gt;</span><span class="symbol">&amp;emsp;</span>这是一个文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight html"><figcaption><span>插入自定义图片,</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">left</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">1.png</span> <span class="attr">width</span>=<span class="string">&quot;25%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;25%&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">left</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">1.png</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">2.png</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">![文本](图片地址 &quot;鼠标悬停弹出文本提示&quot;)</span><br></pre></td></tr></table></figure>
-<hr>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客搜索挂了解决方法</title>
-    <url>/article/f8c79a1b.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>省流助手：删除所有local-search.js中下面这行代码<br>window.pjax &amp;&amp; window.pjax.refresh($resultContent)</p>
-</blockquote>
-<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><p>我使用的是本地搜索，local-search，装好后一直正常使用，也没去动过配置<br>前天捣鼓着博客，突然发现博客部署到github上后搜索挂了</p>
-<div><img src=/images/4-2.webp width="60%" height="60%"></div>
-一直卡在数据库加载中
-
-<p>但是，部署在本地，搜索却一切正常</p>
-<div><img src=/images/4-3.webp width="60%" height="60%"></div>
-尝试过重装插件，清除浏览器缓存，search.xml改为json，但过一会又挂了
-
-<p>看网上也有不少人遇到这种问题，却找不到解决办法</p>
-<hr>
-<h1 id="解决过程"><a href="#解决过程" class="headerlink" title="解决过程"></a>解决过程</h1><p>遇事不决f12，我禁我自己（误）</p>
-<div><img src=/images/4-4.webp width="40%" height="40%"></div>
-local-search会请求生成在本地的search.xml，也就是数据库加载中里的“数据库”
-
-<p>部署在本地时正常请求</p>
-<div><img src=/images/4-8.webp width="80%" height="80%"></div>
-而部署在github时没有请求
-<div><img src=/images/4-9.webp width="65%" height="65%"></div>
-直接访问search.xml正常，不是search.xml的问题
-<div><img src=/images/4-5.webp width="60%" height="60%"></div>
-查看报错，看起来是这个js的问题
-<div><img src=/images/4-6.webp width="60%" height="60%"></div>
-本地找到local-search.js，这三个代码都一样
-<div><img src=/images/4-7.webp width="60%" height="60%"></div>
-js中只有一处pjax报错
-<div><img src=/images/4-10.webp width="60%" height="60%"></div>
-类型“Window & typeof globalThis”上不存在属性“pjax”。ts(2339)  
-
-
-<p>看不懂这种报错，但问题多半就是这行代码导致的，查看整个js后，尝试删除此行</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">window.pjax &amp;&amp; window.pjax.refresh($resultContent)</span><br></pre></td></tr></table></figure>
-<p>删除后，搜索挂了的问题解决，博客正常请求search.xml</p>
-<div><img src=/images/4-8.webp width="70%" height="70%"></div>
-
-<p>但点击搜索结果后pjax失效，具体表现是aplayer停止播放音乐</p>
-<p>看来是pjax的bug，不过感知不强，其余地方的pjax仍然生效</p>
-<p>暂时先这样，以后找到更好的解决办法再更新</p>
-<hr>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>Butterfly</tag>
       </tags>
   </entry>
   <entry>
