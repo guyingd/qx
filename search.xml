@@ -49,64 +49,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo博客的基本操作</title>
-    <url>/article/aa2a7b7e.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p><strong>Hexo官方文档:</strong><a href="https://hexo.io/zh-cn/docs">Hexo</a></p>
-</blockquote>
-<h1 id="Hexo操作"><a href="#Hexo操作" class="headerlink" title="Hexo操作"></a>Hexo操作</h1><h2 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h2><figure class="highlight js"><figcaption><span>新建文章，在blog\source\_posts</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> post (文章名称)</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>新建页面，在blog\source</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> page (页面名称)</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>清除缓存文件 (db.json) 和已生成的静态文件 (public)</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>生成静态文件</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>启动服务器，访问网址:http://localhost:4000</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>部署网站</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><figcaption><span>hexo三连,四连</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; gulp &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-<br>
-
-<h2 id="文章操作"><a href="#文章操作" class="headerlink" title="文章操作"></a>文章操作</h2><blockquote>
-<p><strong>Markdown 教程</strong><br><a href="https://www.runoob.com/markdown/md-tutorial.html">菜鸟教程</a><br><a href="http://markdown.p2hp.com/basic-syntax/">官网–Markdown基本语法</a></p>
-</blockquote>
-<blockquote>
-<p><strong>blog\scaffolds中修改三种文章模板</strong></p>
-</blockquote>
-<blockquote>
-<p>#(空格)一级标题<br>##二级标题<br>###三级标题</p>
-</blockquote>
-<blockquote>
-<p><em>斜体文本</em> &emsp;*斜体文本*<br><strong>粗体文本</strong> &emsp;**粗体文本**<br><em><strong>粗斜体文本</strong></em> &emsp;***粗斜体文本***<br><del>横线删除</del> &emsp;~~横线删除~~ </p>
-</blockquote>
-<blockquote>
-<p>***水平分割线</p>
-</blockquote>
-<figure class="highlight html"><figcaption><span>文字蓝链</span></figcaption><table><tr><td class="code"><pre><span class="line">文字内容[tittle](https://*******)</span><br></pre></td></tr></table></figure>
-<figure class="highlight html"><figcaption><span>文章中自定义文本，size文字大小，face字体，color颜色，&emsp空格</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">&quot;2&quot;</span> <span class="attr">face</span>=<span class="string">&quot;verdana&quot;</span> <span class="attr">color</span>=<span class="string">&quot;blue&quot;</span> &gt;</span><span class="symbol">&amp;emsp;</span>这是一个文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight html"><figcaption><span>插入自定义图片,</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">left</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">1.png</span> <span class="attr">width</span>=<span class="string">&quot;25%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;25%&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">left</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">1.png</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">2.png</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">![文本](图片地址 &quot;鼠标悬停弹出文本提示&quot;)</span><br></pre></td></tr></table></figure>
-<hr>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试用文章</title>
-    <url>/article/d87f7e0c.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>test</p>
-<p>test</p>
-<span id="more"></span>
-<p>test</p>
-<p>test<br>看看能不能自动同步<br>test</p>
-]]></content>
-      <categories>
-        <category>Test</category>
-      </categories>
-      <tags>
-        <tag>Test</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客搜索挂了解决方法</title>
     <url>/article/f8c79a1b.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
@@ -157,6 +99,68 @@ js中只有一处pjax报错
       <tags>
         <tag>Hexo</tag>
         <tag>Butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试用文章</title>
+    <url>/article/d87f7e0c.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>test</p>
+<p>test</p>
+<p>span</p>
+<p>test</p>
+<p>22222</p>
+<p>11111</p>
+<p>测试</p>
+<p>test<br>看看能不能自动同步<br>test</p>
+]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo博客的基本操作</title>
+    <url>/article/aa2a7b7e.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
+<p><strong>Hexo官方文档:</strong><a href="https://hexo.io/zh-cn/docs">Hexo</a></p>
+</blockquote>
+<h1 id="Hexo操作"><a href="#Hexo操作" class="headerlink" title="Hexo操作"></a>Hexo操作</h1><h2 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h2><figure class="highlight js"><figcaption><span>新建文章，在blog\source\_posts</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> post (文章名称)</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>新建页面，在blog\source</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> page (页面名称)</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>清除缓存文件 (db.json) 和已生成的静态文件 (public)</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>生成静态文件</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>启动服务器，访问网址:http://localhost:4000</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>部署网站</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>hexo三连,四连</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; gulp &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><figcaption><span>push三连</span></figcaption><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;github action update&quot;</span></span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
+<br>
+
+<h2 id="文章操作"><a href="#文章操作" class="headerlink" title="文章操作"></a>文章操作</h2><blockquote>
+<p><strong>Markdown 教程</strong><br><a href="https://www.runoob.com/markdown/md-tutorial.html">菜鸟教程</a><br><a href="http://markdown.p2hp.com/basic-syntax/">官网–Markdown基本语法</a></p>
+</blockquote>
+<blockquote>
+<p><strong>blog\scaffolds中修改三种文章模板</strong></p>
+</blockquote>
+<blockquote>
+<p>#(空格)一级标题<br>##二级标题<br>###三级标题</p>
+</blockquote>
+<blockquote>
+<p><em>斜体文本</em> &emsp;*斜体文本*<br><strong>粗体文本</strong> &emsp;**粗体文本**<br><em><strong>粗斜体文本</strong></em> &emsp;***粗斜体文本***<br><del>横线删除</del> &emsp;~~横线删除~~ </p>
+</blockquote>
+<blockquote>
+<p>***水平分割线</p>
+</blockquote>
+<figure class="highlight html"><figcaption><span>文字蓝链</span></figcaption><table><tr><td class="code"><pre><span class="line">文字内容[tittle](https://*******)</span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><figcaption><span>文章中自定义文本，size文字大小，face字体，color颜色，&emsp空格</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">size</span>=<span class="string">&quot;2&quot;</span> <span class="attr">face</span>=<span class="string">&quot;verdana&quot;</span> <span class="attr">color</span>=<span class="string">&quot;blue&quot;</span> &gt;</span><span class="symbol">&amp;emsp;</span>这是一个文本<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><figcaption><span>插入自定义图片,</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">left</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">1.png</span> <span class="attr">width</span>=<span class="string">&quot;25%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;25%&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">align</span>=<span class="string">left</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">1.png</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">2.png</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">![文本](图片地址 &quot;鼠标悬停弹出文本提示&quot;)</span><br></pre></td></tr></table></figure>
+<hr>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -360,7 +364,7 @@ js中只有一处pjax报错
     <title>JAVA/面向对象学习笔记</title>
     <url>/article/bfb663c6.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote>
-<p>我看的教程（视频）：《浙江大学-翁恺-Java-面向对象程序设计》</p>
+<p>所看教程（视频）：《浙江大学-翁恺-Java-面向对象程序设计》</p>
 </blockquote>
 <h1 id="面向对象"><a href="#面向对象" class="headerlink" title="面向对象"></a>面向对象</h1><h2 id="什么是面向对象"><a href="#什么是面向对象" class="headerlink" title="什么是面向对象"></a>什么是面向对象</h2><p>面向对象是把<strong>一组数据结构</strong>和<strong>处理他们的方法</strong>组成对象。<br>把具有<strong>相同行为</strong>的对象归纳成<strong>类</strong><br>通过<strong>封装</strong>隐藏类的内部细节<br>通过<strong>继承</strong>使类得到泛化<br>通过<strong>多态</strong>实现基于对象类型的动态分派 </p>
 <h2 id="只能操作对象"><a href="#只能操作对象" class="headerlink" title="只能操作对象"></a>只能操作对象</h2><p>一切事物都是调用加封装的结果<br>程序实现的一切功能都是<strong>调用</strong>加<strong>封装</strong>的结果<br>程序调用一个个对象<br>封装的也是一个个对象</p>
@@ -388,10 +392,20 @@ js中只有一处pjax报错
 <p><strong>对象变量是对象的管理者</strong>  </p>
 <h2 id="让对象做事情"><a href="#让对象做事情" class="headerlink" title="让对象做事情"></a>让对象做事情</h2><p>使用 . 运算符<br>vm.insertMomey();<br>vm.getFood();<br>通过.运算符调用某个对象的方法  </p>
 <h2 id="成员变量、成员方法"><a href="#成员变量、成员方法" class="headerlink" title="成员变量、成员方法"></a>成员变量、成员方法</h2><p>类定义了<strong>对象中</strong>所具有的变量，这些变量称作成员变量<br>每个对象有自己的变量，和同一个类的其他对象是分开的<br>在方法中可以直接写成员变量（方法）的名字来访问成员变量（方法）（省去了this关键字）  </p>
-<p>java会给成员变量默认0值   </p>
-<h2 id="本地变量"><a href="#本地变量" class="headerlink" title="本地变量"></a>本地变量</h2><p>定义在<strong>方法内部</strong>的变量是本地变量<br>本地变量的生存期和作用域都是方法内部  </p>
+<p>java会给成员变量默认0值</p>
+<p>成员变量（方法）分为实例变量（方法）和类变量（方法）<br>加了static的就是类变量（方法）  </p>
+<h3 id="类变量"><a href="#类变量" class="headerlink" title="类变量"></a>类变量</h3><p>声明类变量： <strong>static</strong> &lt;类型&gt; &lt;变量名&gt;  </p>
+<p>访问类变量：<br>通过对象访问：&lt;对象名&gt;.&lt;类变量名&gt;<br>通过类访问：&lt;类名&gt;.&lt;类变量名&gt;  </p>
+<p>类变量不属于任何一个对象，属于这个类，但任何一个对象都拥有这个变量  </p>
+<p>修改类变量的值，所有对象中的该变量的值都会改变  </p>
+<p>类变量的初始化只会进行一次（在类的装载时）  </p>
+<h3 id="类方法"><a href="#类方法" class="headerlink" title="类方法"></a>类方法</h3><p>声明类方法： <strong>static</strong> &lt;返回类型&gt; &lt;方法名&gt;() {  }  </p>
+<p>static方法只能调用static方法，只能访问static变量   </p>
+<p>类方法可以通过类的名字去访问，也可以通过对象去访问  </p>
+<h2 id="本地（局部）变量"><a href="#本地（局部）变量" class="headerlink" title="本地（局部）变量"></a>本地（局部）变量</h2><p>定义在<strong>方法内部</strong>的变量是本地变量<br>本地变量的生存期和作用域都是方法内部  </p>
 <p>本地变量没被赋值，会被禁止使用  </p>
-<p>成员变量的生存期是对象的生存期，作用域是类内部的成员方法  </p>
+<p>成员变量的生存期是对象的生存期，作用域是类内部的成员方法 </p>
+<h3 id="var局部变量"><a href="#var局部变量" class="headerlink" title="var局部变量"></a>var局部变量</h3><p>使用var时必须指出初始值(不可以是null)<br>var &lt;变量名&gt; = &lt;值&gt;;<br>编译器可以推断出该变量的类型，且之后该变量的类型都是确定的，不可以给该变量赋其它类型的值</p>
 <h2 id="对象初始化"><a href="#对象初始化" class="headerlink" title="对象初始化"></a>对象初始化</h2><p>可以在定义成员变量的地方直接赋值<br>int price = 80;  </p>
 <p>在创建一个对象的过程中，会首先去做各种初始化的动作</p>
 <h3 id="构造方法"><a href="#构造方法" class="headerlink" title="构造方法"></a>构造方法</h3><p>与类同名的函数，没有返回值<br>在创建一个对象时会自动调用的方法<br>应该是public</p>
@@ -406,9 +420,102 @@ js中只有一处pjax报错
 <figure class="highlight java"><figcaption><span>Main.java</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Clock</span> <span class="variable">clock</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Clock</span>();</span><br><span class="line">        clock.start();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <hr>
-<h1 id="访问属性"><a href="#访问属性" class="headerlink" title="访问属性"></a>访问属性</h1><p>private：这个成员是私有的，只有在类的内部（成员方法和定义初始化 ）才能访问<br>一般来说，成员变量都该是private<br><strong>这个限制是对类的而不是对对象的</strong>：同一个类的不同对象可以互相访问对方的成员变量  </p>
-<p>public：任何人都可以访问<br>任何人指的是在任何类的方法或定义初始化中可以使用<br>使用指的是调用、访问或定义变量<br>很多的成员方法都是public</p>
-]]></content>
+<h1 id="访问属性"><a href="#访问属性" class="headerlink" title="访问属性"></a>访问属性</h1><p><strong>private</strong>：这个成员是私有的，只有在类的内部（成员方法和定义初始化 ）才能访问<br>一般来说，成员变量都该是private<br><strong>这个限制是对类的而不是对对象的</strong>：同一个类的不同对象可以互相访问对方的成员变量  </p>
+<p><strong>public</strong>：任何人都可以访问<br>任何人指的是在任何类的方法或定义初始化中可以使用<br>使用指的是调用、访问或定义变量<br>很多的成员方法都是public<br>public的类，类名和文件名要一致，一个编译单元只能有一个public的类  </p>
+<p><strong>protected</strong>：受保护的成员  </p>
+<p><strong>friendly</strong>：默认属性，友好的成员  </p>
+<table>
+<thead>
+<tr>
+<th>访问属性</th>
+<th>本类</th>
+<th>同包</th>
+<th>子类</th>
+<th>其它</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>private</td>
+<td>√</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>friendly</td>
+<td>√</td>
+<td>√</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>protected</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td></td>
+</tr>
+<tr>
+<td>public</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+<td>√</td>
+</tr>
+</tbody></table>
+<hr>
+<h1 id="包package"><a href="#包package" class="headerlink" title="包package"></a>包package</h1><p>包是java管理类的一个机制<br>源文件中同名类要在<strong>不同</strong>包内  </p>
+<p>声明该类的指定包名<br>package &lt;包名&gt;;  </p>
+<p>包名中的.代表文件夹的层次  </p>
+<p>没有package语句的源程序都将视为在同一个无名包内  </p>
+<h2 id="import"><a href="#import" class="headerlink" title="import"></a>import</h2><p>使用import语句引入包中的类和接口  </p>
+<p>import test.Hallo<br>test包中的Hallo类  </p>
+<p>只要用到的类和本类不在同一个包内，就要import它  </p>
+<p>如果不使用import，当要用到类时要给出全名：&lt;包名&gt;.&lt;类名&gt;  </p>
+<p>引入一个包内的所有东西：import &lt;包名&gt;.*;（注意同名类的冲突） </p>
+<hr>
+<h1 id="NoteBook例子"><a href="#NoteBook例子" class="headerlink" title="NoteBook例子"></a>NoteBook例子</h1><p>记事本可以做什么？<br>1、能存储记录<br>2、不限制能存储的记录的数量<br>3、能知道已经存储的记录的数量<br>4、能查看存进去的每一条记录<br>5、能删除一条记录<br>6、能列出所有的记录  </p>
+<p>确定需求后，进行接口设计  </p>
+<figure class="highlight java"><figcaption><span>接口设计</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">NoteBook</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">add</span><span class="params">(String s)</span> &#123;</span><br><span class="line">        <span class="comment">//添加内容</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getSize</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">//放了多少个</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getNote</span><span class="params">(<span class="type">int</span> index)</span> &#123;</span><br><span class="line">        <span class="comment">//得到指定位置的内容</span></span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">boolean</span> <span class="title function_">removeNote</span><span class="params">(<span class="type">int</span> index)</span> &#123;</span><br><span class="line">        <span class="comment">//删除</span></span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String[] list() &#123;</span><br><span class="line">        <span class="comment">//返回全部内容</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>接口设计完，考虑实际功能的实现，首先是数据的存放  </p>
+<h2 id="顺序容器"><a href="#顺序容器" class="headerlink" title="顺序容器"></a>顺序容器</h2><p>private ArrayList<String> notes = new ArrayList<String>();<br>用来存放String的一个ArrayList<br>ArrayList内的东西是有顺序的，是加入数据的顺序，形成对应下标的索引（从0开始）  </p>
+<p>这种类型叫做范型类：泛型类封装不特定于特定数据类型的操作<br>这种范型类是一种容器  </p>
+<p>容器类有两个类型：容器的类型、元素的类型  </p>
+<p>利用容器类的方法可以实现需要的功能<br>notes.add(s);  //向容器添加数据<br>notes.size();  //容器存了多少个东西<br>notes.get(1); //得到1位置处的数据</p>
+<p>完成全部功能接口</p>
+<figure class="highlight java"><figcaption><span>NoteBook.java</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.ArrayList;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">NoteBook</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> ArrayList&lt;String&gt; notes = <span class="keyword">new</span> <span class="title class_">ArrayList</span>&lt;String&gt;();<span class="comment">//容器类</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">add</span><span class="params">(String s)</span> &#123;</span><br><span class="line">        <span class="comment">//添加内容</span></span><br><span class="line">        notes.add(s);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">add</span><span class="params">(String s, <span class="type">int</span> location)</span> &#123;</span><br><span class="line">        <span class="comment">//加到指定位置前，后面的内容下标后推</span></span><br><span class="line">        notes.add(location, s);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getSize</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">//放了多少个</span></span><br><span class="line">        <span class="keyword">return</span> notes.size();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getNote</span><span class="params">(<span class="type">int</span> index)</span> &#123;</span><br><span class="line">        <span class="comment">//得到指定位置的内容</span></span><br><span class="line">        <span class="keyword">return</span> notes.get(index);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">removeNote</span><span class="params">(<span class="type">int</span> index)</span> &#123;</span><br><span class="line">        <span class="comment">//删除，后面下标前移，因为remove方法自会抛异常，所以无需返回boolean</span></span><br><span class="line">        notes.remove(index);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String[] list() &#123;</span><br><span class="line">        <span class="comment">//返回全部内容</span></span><br><span class="line">        String[] a = <span class="keyword">new</span> <span class="title class_">String</span>[notes.size()];</span><br><span class="line"></span><br><span class="line">        <span class="comment">//for (int i=0; i&lt; notes.size(); i++)&#123;</span></span><br><span class="line">        <span class="comment">//    a[i] = notes.get(i);</span></span><br><span class="line">        <span class="comment">//&#125;</span></span><br><span class="line">        notes.toArray(a);<span class="comment">//会自己把数组按顺序填好</span></span><br><span class="line">        <span class="comment">//要熟悉系统类库里有的方法，无需重复造轮子</span></span><br><span class="line">        <span class="keyword">return</span> a;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>写出上层程序</p>
+<figure class="highlight java"><figcaption><span>Main.java</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">NoteBook</span> <span class="variable">nb</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">NoteBook</span>();</span><br><span class="line"></span><br><span class="line">        nb.add(<span class="string">&quot;first&quot;</span>);</span><br><span class="line">        nb.add(<span class="string">&quot;second&quot;</span>);</span><br><span class="line">        System.out.println(nb.getSize());</span><br><span class="line">        System.out.println(nb.getNote(<span class="number">1</span>));</span><br><span class="line"></span><br><span class="line">        nb.add(<span class="string">&quot;third&quot;</span>, <span class="number">1</span>);</span><br><span class="line">        System.out.println(nb.getNote(<span class="number">1</span>));</span><br><span class="line">        System.out.println(nb.getNote(<span class="number">2</span>));</span><br><span class="line">        System.out.println(nb.getSize());</span><br><span class="line"></span><br><span class="line">        nb.removeNote(<span class="number">1</span>);</span><br><span class="line">        String[] b = nb.list();</span><br><span class="line">        <span class="keyword">for</span> (String s : b) &#123;</span><br><span class="line">            System.out.println(s);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">2</span><br><span class="line">second</span><br><span class="line">third</span><br><span class="line">second</span><br><span class="line">3</span><br><span class="line">first</span><br><span class="line">second</span><br></pre></td></tr></table></figure>
+
+<h2 id="对象数组"><a href="#对象数组" class="headerlink" title="对象数组"></a>对象数组</h2><p>String[] a = new String[notes.size()];<br>对象数组中的每个元素都是对象的管理者而非对象本身<br>当创建了一个对象数组，只是管理者们被创建了，但对象还没有，得想办法把每个对象创建出来  </p>
+<h3 id="for-each循环"><a href="#for-each循环" class="headerlink" title="for-each循环"></a>for-each循环</h3><p>对于普通数组：  </p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span>[] a = <span class="keyword">new</span> <span class="title class_">int</span>[<span class="number">10</span>];</span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; a.length; i++) &#123;</span><br><span class="line">    a[i] = i;<span class="comment">//赋值</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> ( <span class="type">int</span> k : a ) &#123;</span><br><span class="line">    System.out.println(k);</span><br><span class="line">    k++;<span class="comment">//每个k都是a中元素的复制品，不会起作用</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>对于对象数组：  </p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Value[] a = <span class="keyword">new</span> <span class="title class_">Value</span>[<span class="number">10</span>]; </span><br><span class="line"><span class="keyword">for</span> (<span class="type">int</span> i=<span class="number">0</span>; i&lt; <span class="number">10</span>; i++)&#123;</span><br><span class="line">    a[i] = <span class="keyword">new</span> <span class="title class_">Value</span>[];</span><br><span class="line">    a[i].set(i);</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> ( Value v : a )&#123;</span><br><span class="line">    System.out.println(v.get());</span><br><span class="line">    v.set(<span class="number">0</span>);<span class="comment">//起作用，因为对象数组存的是对象管理者，v=a[i]，v也会成为对象管理者</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="集合容器"><a href="#集合容器" class="headerlink" title="集合容器"></a>集合容器</h2><p>集合容器内所有元素都不相同<br>而且里面的元素不排序  </p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">HashSet&lt;String&gt; s = <span class="keyword">new</span> <span class="title class_">HashSet</span>&lt;String&gt;();</span><br><span class="line">s.add(<span class="string">&quot;first&quot;</span>);</span><br><span class="line">s.add(<span class="string">&quot;second&quot;</span>);</span><br><span class="line">s.add(<span class="string">&quot;first&quot;</span>);</span><br><span class="line">System.out.println(s);<span class="comment">//容器都可以这样输出</span></span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">[second, first]</span><br></pre></td></tr></table></figure>
+
+<h2 id="public-String-toString"><a href="#public-String-toString" class="headerlink" title="public String toString"></a>public String toString</h2><p>在java中只要类中实现了这样一个方法<br>就可以直接用对象名输出这个对象<br>容器当中都有这样一个方法 </p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> String <span class="title function_">toString</span><span class="params">()</span>&#123;  </span><br><span class="line">    <span class="keyword">return</span> <span class="string">&quot;&quot;</span>;  </span><br><span class="line">&#125;  </span><br></pre></td></tr></table></figure>
+
+<h2 id="Hash表"><a href="#Hash表" class="headerlink" title="Hash表"></a>Hash表</h2><p>例子：数字与美元硬币名字对应，查找硬币名称<br>1=penny<br>5=nickel<br>10=dime<br>25=quarter<br>50=half-dollar</p>
+<p>定义接口：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Coin</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getName</span><span class="params">(<span class="type">int</span> amount)</span>&#123;</span><br><span class="line">            <span class="keyword">return</span>  <span class="string">&quot;&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>为什么不用switch-case？<br>体现在代码中的硬编码越少越好  </p>
+<p>使用Hash表（一种数据结构）<br>在这个表中，所有东西是以一对值放入的，一个叫做key（键），一个叫做值<br>一个key对应一个值，可以用key取值<br>Hash表中的元素没有顺序  </p>
+<figure class="highlight java"><figcaption><span>Coin.java</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Coin</span> &#123;</span><br><span class="line">    <span class="comment">//不能使用int，容器当中所有的类型都得是对象,而不能是基本类型</span></span><br><span class="line">    <span class="comment">//Integer是int的包裹类型</span></span><br><span class="line">    <span class="keyword">private</span> HashMap&lt;Integer, String&gt; coinnames = <span class="keyword">new</span> <span class="title class_">HashMap</span>&lt;Integer, String&gt;();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">Coin</span><span class="params">()</span>&#123;</span><br><span class="line">        coinnames.put(<span class="number">1</span>, <span class="string">&quot;penny&quot;</span>);<span class="comment">//1对应penny</span></span><br><span class="line">        coinnames.put(<span class="number">10</span>, <span class="string">&quot;dime&quot;</span>);</span><br><span class="line">        coinnames.put(<span class="number">25</span>, <span class="string">&quot;quarter&quot;</span>);</span><br><span class="line">        coinnames.put(<span class="number">50</span>, <span class="string">&quot;half-dolar&quot;</span>);</span><br><span class="line">        </span><br><span class="line">        System.out.println(coinnames.keySet().size());<span class="comment">//keySet()，把所有key做为一个HashSet的集合给你，在这个集合可以得到size</span></span><br><span class="line">        System.out.println(coinnames);<span class="comment">//也可以直接输出</span></span><br><span class="line">        coinnames.put(<span class="number">50</span>, <span class="string">&quot;五十&quot;</span>);<span class="comment">//会替换掉前面的</span></span><br><span class="line">        System.out.println(coinnames);</span><br><span class="line">        <span class="keyword">for</span> (Integer k : coinnames.keySet())&#123;<span class="comment">//遍历Hash表</span></span><br><span class="line">            <span class="type">String</span> <span class="variable">s</span> <span class="operator">=</span> coinnames.get(k);</span><br><span class="line">            System.out.println(s);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> String <span class="title function_">getName</span><span class="params">(<span class="type">int</span> amount)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (coinnames.containsKey(amount))</span><br><span class="line">            <span class="keyword">return</span> coinnames.get(amount);</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="keyword">return</span>  <span class="string">&quot;NOT FOUND&quot;</span>;<span class="comment">//不判断的话，不存在会返回null</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><figcaption><span>Main.java</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> java.util.Scanner;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        <span class="type">Scanner</span> <span class="variable">in</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Scanner</span>(System.in);</span><br><span class="line">        <span class="type">int</span> <span class="variable">amount</span> <span class="operator">=</span> in.nextInt();</span><br><span class="line">        <span class="type">Coin</span> <span class="variable">coin</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Coin</span>();</span><br><span class="line">        <span class="type">String</span> <span class="variable">name</span> <span class="operator">=</span> coin.getName(amount);</span><br><span class="line">        System.out.println(name);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>输出：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="number">10</span></span><br><span class="line"><span class="number">4</span></span><br><span class="line">&#123;<span class="number">1</span>=penny, <span class="number">50</span>=half-dolar, <span class="number">25</span>=quarter, <span class="number">10</span>=dime&#125;</span><br><span class="line">&#123;<span class="number">1</span>=penny, <span class="number">50</span>=五十, <span class="number">25</span>=quarter, <span class="number">10</span>=dime&#125;</span><br><span class="line">penny</span><br><span class="line">五十</span><br><span class="line">quarter</span><br><span class="line">dime</span><br><span class="line">dime</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="继承与子类"><a href="#继承与子类" class="headerlink" title="继承与子类"></a>继承与子类</h1><h2 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h2><h2 id="子类与父类"><a href="#子类与父类" class="headerlink" title="子类与父类"></a>子类与父类</h2>]]></content>
       <categories>
         <category>学习笔记</category>
       </categories>
