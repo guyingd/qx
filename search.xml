@@ -53,46 +53,6 @@
       </tags>
   </entry>
   <entry>
-    <title>FakeLocation模拟校园跑教程</title>
-    <url>/article/c5d354fd.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我们学校用的是运动世界校园，所以就用这个软件为例，其他软件差不多<br>博主测试设备：红米k40安卓11、红米6pro安卓9  </p>
-<blockquote>
-<p>吐槽：这软件，什么都往里塞，天天更新加广告（一指禅干掉）  </p>
-</blockquote>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>1、首先是有面具<strong>Root</strong>，而非小米官方等残废root<br>2、下载万恶之源：运动世界校园<br>3、下载安装<a href="https://wwm.lanzoul.com/iMHUo057ibyb">FakeLocation1.3.0.2版本</a><br>4、下载安装<a href="https://wwm.lanzoul.com/iQ6lq057irkd">隐藏应用列表xp模块</a>我使用的版本1.6较老，但能稳定用我也没去升级<br>5、安装lsp/xp框架<br>6、下载安装<a href="https://wwm.lanzoul.com/i8RYM057ibzc">Godvip</a>  </p>
-<hr>
-<h1 id="隐藏防检测"><a href="#隐藏防检测" class="headerlink" title="隐藏防检测"></a>隐藏防检测</h1><h2 id="运动世界校园权限设置"><a href="#运动世界校园权限设置" class="headerlink" title="运动世界校园权限设置"></a>运动世界校园权限设置</h2><p>确保权限设置与图一致，关闭miui的模糊定位  </p>
-<div><img src=/images/11-1.webp width="90%" height="90%"></div>
-
-<h2 id="隐藏root"><a href="#隐藏root" class="headerlink" title="隐藏root"></a>隐藏root</h2><p>面具本身随机包名安装<br>面具hide对运动世界校园全勾选（如果是24版本的面具，自行去酷安找shamiko模块隐藏root教程，我还没升到24，因为我用hide就能很好地隐藏root）  </p>
-<h2 id="隐藏应用列表设置"><a href="#隐藏应用列表设置" class="headerlink" title="隐藏应用列表设置"></a>隐藏应用列表设置</h2><p>推荐先看酷安详细图文：<a href="https://www.coolapk.com/feed/34458057?shareKey=YjBlYzcxNDgwMzYwNjI4OGIzZmM~">隐藏应用列表使用教程 Pro</a>  </p>
-<p>简单速通：<br>1、lsp/edxp启用<strong>隐藏应用列表</strong><br>2、也许需要重启手机<br>3、点击模板管理，启用所有隐藏方式<br>4、选择要隐藏的应用，将FakeLocation、面具、lsp等搞机应用勾选<br>5、对运动校园应用模板  </p>
-<div><img src=/images/11-2.webp width="100%" height="100%"></div>
-
-<h2 id="破解FakeLocation"><a href="#破解FakeLocation" class="headerlink" title="破解FakeLocation"></a>破解FakeLocation</h2><p>lsp启用Godvip，模块对FakeLocation起作用  </p>
-<h2 id="FakeLocation设置"><a href="#FakeLocation设置" class="headerlink" title="FakeLocation设置"></a>FakeLocation设置</h2><p>给FakeLocation软件Root权限<br>FakeLocation设置页只打开<strong>模拟GPS信号</strong>  </p>
-<div><img src=/images/11-3.webp width="50%" height="50%"></div>
-
-<h2 id="如何模拟跑"><a href="#如何模拟跑" class="headerlink" title="如何模拟跑"></a>如何模拟跑</h2><p>首先到一个较空旷，能接收到gps信号的地方（宿舍阳台、宿舍走廊），拿个椅子坐下，手机关闭wifi（可以开启蓝牙和数据）<br>FakeLocation选择<strong>要模拟的位置</strong>到跑道，当然具体在哪无所谓<br>打开运动软件，<strong>待运动软件接收到gps信号</strong>提示可以开始跑，返回FakeLocation软件，点击<strong>启动模拟</strong>（第一次打开需要等待一会，建议在模拟跑前先开关一次预热），并<strong>打开摇杆</strong>  </p>
-<p>摇杆设置：<br>摇杆里的<strong>模拟gps信号</strong>和<strong>步频模拟</strong>都得关掉，不能打开！不能打开！不能打开！   </p>
-<div><img src=/images/11-4.webp width="100%" height="100%"></div>
-
-<p>接着返回运动软件，你会发现显示的位置瞬移到了之前选择的模拟位置处，然后开始运动，要去哪就<strong>用摇杆摇</strong>到哪，步频可以使用其它软件模拟，但<strong>建议抖手</strong><br>跑完后先结束运动，关闭运动软件，再停止位置模拟  </p>
-<hr>
-<h1 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h1><p>1、当摇杆回到中间时（速度为0），运动软件会提示gps信号弱，这是正常现象<br>2、启动模拟后，运动软件上显示的位置没变：杀掉运动软件和FakeLocation，重新操作一次<br>3、启动模拟后，运动软件上显示的位置变了，但一开始运动位置就变回原来位置：杀掉运动软件和FakeLocation，重新操作一次<br>4、被检测到环境异常4：FakeLocation没隐藏好、运动软件检测到gps信号长期未变。请自查有无和教程操作不同的地方  </p>
-<h1 id="温馨提示"><a href="#温馨提示" class="headerlink" title="温馨提示"></a>温馨提示</h1><blockquote>
-<p>如有问题可在评论区回复或在酷安找我<br>本教程虽然目前还可行，博主自用了两个学期也没被检测到一次，但安卓设备众多，系统繁杂，不确保教程的通用性<br>Root手机导致手机变砖、假跑被检测到影响体育成绩等后果，博主不承担任何责任</p>
-</blockquote>
-<hr>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>超星学习通数据泄露事件记录</title>
     <url>/article/af84a159.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="事件时间轴"><a href="#事件时间轴" class="headerlink" title="事件时间轴"></a>事件时间轴</h1><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>时间轴 </p>
@@ -140,6 +100,46 @@
       </categories>
       <tags>
         <tag>其它</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>FakeLocation模拟校园跑教程</title>
+    <url>/article/c5d354fd.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>我们学校用的是运动世界校园，所以就用这个软件为例，其他软件差不多<br>博主测试设备：红米k40安卓11、红米6pro安卓9  </p>
+<blockquote>
+<p>吐槽：这软件，什么都往里塞，天天更新加广告（一指禅干掉）  </p>
+</blockquote>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>1、首先是有面具<strong>Root</strong>，而非小米官方等残废root<br>2、下载万恶之源：运动世界校园<br>3、下载安装<a href="https://wwm.lanzoul.com/iMHUo057ibyb">FakeLocation1.3.0.2版本</a><br>4、下载安装<a href="https://wwm.lanzoul.com/iQ6lq057irkd">隐藏应用列表xp模块</a>我使用的版本1.6较老，但能稳定用我也没去升级<br>5、安装lsp/xp框架<br>6、下载安装<a href="https://wwm.lanzoul.com/i8RYM057ibzc">Godvip</a>  </p>
+<hr>
+<h1 id="隐藏防检测"><a href="#隐藏防检测" class="headerlink" title="隐藏防检测"></a>隐藏防检测</h1><h2 id="运动世界校园权限设置"><a href="#运动世界校园权限设置" class="headerlink" title="运动世界校园权限设置"></a>运动世界校园权限设置</h2><p>确保权限设置与图一致，关闭miui的模糊定位  </p>
+<div><img src=/images/11-1.webp width="90%" height="90%"></div>
+
+<h2 id="隐藏root"><a href="#隐藏root" class="headerlink" title="隐藏root"></a>隐藏root</h2><p>面具本身随机包名安装<br>面具hide对运动世界校园全勾选（如果是24版本的面具，自行去酷安找shamiko模块隐藏root教程，我还没升到24，因为我用hide就能很好地隐藏root）  </p>
+<h2 id="隐藏应用列表设置"><a href="#隐藏应用列表设置" class="headerlink" title="隐藏应用列表设置"></a>隐藏应用列表设置</h2><p>推荐先看酷安详细图文：<a href="https://www.coolapk.com/feed/34458057?shareKey=YjBlYzcxNDgwMzYwNjI4OGIzZmM~">隐藏应用列表使用教程 Pro</a>  </p>
+<p>简单速通：<br>1、lsp/edxp启用<strong>隐藏应用列表</strong><br>2、也许需要重启手机<br>3、点击模板管理，启用所有隐藏方式<br>4、选择要隐藏的应用，将FakeLocation、面具、lsp等搞机应用勾选<br>5、对运动校园应用模板  </p>
+<div><img src=/images/11-2.webp width="100%" height="100%"></div>
+
+<h2 id="破解FakeLocation"><a href="#破解FakeLocation" class="headerlink" title="破解FakeLocation"></a>破解FakeLocation</h2><p>lsp启用Godvip，模块对FakeLocation起作用  </p>
+<h2 id="FakeLocation设置"><a href="#FakeLocation设置" class="headerlink" title="FakeLocation设置"></a>FakeLocation设置</h2><p>给FakeLocation软件Root权限<br>FakeLocation设置页只打开<strong>模拟GPS信号</strong>  </p>
+<div><img src=/images/11-3.webp width="50%" height="50%"></div>
+
+<h2 id="如何模拟跑"><a href="#如何模拟跑" class="headerlink" title="如何模拟跑"></a>如何模拟跑</h2><p>首先到一个较空旷，能接收到gps信号的地方（宿舍阳台、宿舍走廊），拿个椅子坐下，手机关闭wifi（可以开启蓝牙和数据）<br>FakeLocation选择<strong>要模拟的位置</strong>到跑道，当然具体在哪无所谓<br>打开运动软件，<strong>待运动软件接收到gps信号</strong>提示可以开始跑，返回FakeLocation软件，点击<strong>启动模拟</strong>（第一次打开需要等待一会，建议在模拟跑前先开关一次预热），并<strong>打开摇杆</strong>  </p>
+<p>摇杆设置：<br>摇杆里的<strong>模拟gps信号</strong>和<strong>步频模拟</strong>都得关掉，不能打开！不能打开！不能打开！   </p>
+<div><img src=/images/11-4.webp width="100%" height="100%"></div>
+
+<p>接着返回运动软件，你会发现显示的位置瞬移到了之前选择的模拟位置处，然后开始运动，要去哪就<strong>用摇杆摇</strong>到哪，步频可以使用其它软件模拟，但<strong>建议抖手</strong><br>跑完后先结束运动，关闭运动软件，再停止位置模拟  </p>
+<hr>
+<h1 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h1><p>1、当摇杆回到中间时（速度为0），运动软件会提示gps信号弱，这是正常现象<br>2、启动模拟后，运动软件上显示的位置没变：杀掉运动软件和FakeLocation，重新操作一次<br>3、启动模拟后，运动软件上显示的位置变了，但一开始运动位置就变回原来位置：杀掉运动软件和FakeLocation，重新操作一次<br>4、被检测到环境异常4：FakeLocation没隐藏好、运动软件检测到gps信号长期未变。请自查有无和教程操作不同的地方  </p>
+<h1 id="温馨提示"><a href="#温馨提示" class="headerlink" title="温馨提示"></a>温馨提示</h1><blockquote>
+<p>如有问题可在评论区回复或在酷安找我<br>本教程虽然目前还可行，博主自用了两个学期也没被检测到一次，但安卓设备众多，系统繁杂，不确保教程的通用性<br>Root手机导致手机变砖、假跑被检测到影响体育成绩等后果，博主不承担任何责任</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
