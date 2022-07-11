@@ -287,12 +287,6 @@
       </tags>
   </entry>
   <entry>
-    <title>测试用文章</title>
-    <url>/article/d87f7e0c.html</url>
-    <content><![CDATA[<p>testdadadasd142adaadwwadadadasdwaawadwadawad<br> test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test<br>waawdadadada<br>11111111111111111111111111111</p>
-]]></content>
-  </entry>
-  <entry>
     <title>博客搜索挂了解决方法</title>
     <url>/article/f8c79a1b.html</url>
     <content><![CDATA[<blockquote>
@@ -511,6 +505,12 @@ js中只有一处pjax报错
       <tags>
         <tag>C语言</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>测试用文章</title>
+    <url>/article/d87f7e0c.html</url>
+    <content><![CDATA[<p>testdadadasd142adaadwwadadadasdwaawadwadawad<br> test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test<br>waawdadadada<br>11111111111111111111111111111</p>
+]]></content>
   </entry>
   <entry>
     <title>C语言单链表菜品管理系统</title>
@@ -767,6 +767,63 @@ js中只有一处pjax报错
       </tags>
   </entry>
   <entry>
+    <title>我的butterfly魔改</title>
+    <url>/article/ab2d75d5.html</url>
+    <content><![CDATA[<p>咕咕咕</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Butterfly</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于UptimeRobot的监控面板</title>
+    <url>/article/8f1fedc5.html</url>
+    <content><![CDATA[<blockquote>
+<p>演示：<a href="https://status.chuckle.top/">轻笑的网站监控面板</a></p>
+</blockquote>
+<h1 id="注册UptimeRobot"><a href="#注册UptimeRobot" class="headerlink" title="注册UptimeRobot"></a>注册UptimeRobot</h1><p>填写邮箱以完成注册  </p>
+<blockquote>
+<p><a href="https://uptimerobot.com/signUp?ref=website-header">跳转至注册</a></p>
+</blockquote>
+<h1 id="新建监视器"><a href="#新建监视器" class="headerlink" title="新建监视器"></a>新建监视器</h1><p>点击左上角Add New Monitor  </p>
+<div><img src=/images/9-1.webp width="70%" height="70%"></div>
+
+<p>在弹出窗口填写需要需要监控的站点的相关信息  </p>
+<div><img src=/images/9-2.webp width="70%" height="70%"></div>
+
+<p>点击Create Monitor完成创建   </p>
+<h1 id="创建API密钥"><a href="#创建API密钥" class="headerlink" title="创建API密钥"></a>创建API密钥</h1><p>点击My Settings</p>
+<div><img src=/images/9-3.webp width="70%" height="70%"></div>
+为监视器创建一个api密钥（也可选择第三个，为所有监视器创建一个密钥）  
+<div><img src=/images/9-4.webp width="70%" height="70%"></div>
+
+<h1 id="fork监控面板仓库"><a href="#fork监控面板仓库" class="headerlink" title="fork监控面板仓库"></a>fork监控面板仓库</h1><p>选择其中一个fork<br><a href="https://github.com/yb/uptime-status">yb/uptime-status</a><br><a href="https://github.com/Ice-Hazymoon/status">Ice-Hazymoon/status</a>  </p>
+<h1 id="修改config-js"><a href="#修改config-js" class="headerlink" title="修改config.js"></a>修改config.js</h1><p>进入刚fork的仓库，打开/public/config.js<br>添加监视器的api密钥  </p>
+<blockquote>
+<p>需要监控的站点较多，也可为所有监控器创建一个api密钥填入</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ApiKeys: [</span><br><span class="line">   &#x27;在这里粘贴api密钥&#x27;,</span><br><span class="line"> ],</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>还可以选择在ApiDomain修改自定义反代域名，详见<a href="https://github.com/yb/uptime-status/">https://github.com/yb/uptime-status/</a></p>
+</blockquote>
+<h1 id="vercel部署"><a href="#vercel部署" class="headerlink" title="vercel部署"></a>vercel部署</h1><p>新建一个项目<br>import监控面板仓库<br>等待几分钟创建完成，点击vist，一个监控面板就完成了  </p>
+<div><img src=/images/9-5.webp width="70%" height="70%"></div>
+
+<div><img src=/images/9-6.webp width="70%" height="70%"></div>
+
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JAVA/面向对象学习笔记(2)</title>
     <url>/article/9f2dc6c7.html</url>
     <content><![CDATA[<blockquote>
@@ -875,19 +932,6 @@ js中只有一处pjax报错
       </categories>
       <tags>
         <tag>JAVA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的butterfly魔改</title>
-    <url>/article/ab2d75d5.html</url>
-    <content><![CDATA[<p>咕咕咕</p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Butterfly</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -1163,50 +1207,6 @@ js中只有一处pjax报错
       </categories>
       <tags>
         <tag>JAVA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于UptimeRobot的监控面板</title>
-    <url>/article/8f1fedc5.html</url>
-    <content><![CDATA[<blockquote>
-<p>演示：<a href="https://status.chuckle.top/">轻笑的网站监控面板</a></p>
-</blockquote>
-<h1 id="注册UptimeRobot"><a href="#注册UptimeRobot" class="headerlink" title="注册UptimeRobot"></a>注册UptimeRobot</h1><p>填写邮箱以完成注册  </p>
-<blockquote>
-<p><a href="https://uptimerobot.com/signUp?ref=website-header">跳转至注册</a></p>
-</blockquote>
-<h1 id="新建监视器"><a href="#新建监视器" class="headerlink" title="新建监视器"></a>新建监视器</h1><p>点击左上角Add New Monitor  </p>
-<div><img src=/images/9-1.webp width="70%" height="70%"></div>
-
-<p>在弹出窗口填写需要需要监控的站点的相关信息  </p>
-<div><img src=/images/9-2.webp width="70%" height="70%"></div>
-
-<p>点击Create Monitor完成创建   </p>
-<h1 id="创建API密钥"><a href="#创建API密钥" class="headerlink" title="创建API密钥"></a>创建API密钥</h1><p>点击My Settings</p>
-<div><img src=/images/9-3.webp width="70%" height="70%"></div>
-为监视器创建一个api密钥（也可选择第三个，为所有监视器创建一个密钥）  
-<div><img src=/images/9-4.webp width="70%" height="70%"></div>
-
-<h1 id="fork监控面板仓库"><a href="#fork监控面板仓库" class="headerlink" title="fork监控面板仓库"></a>fork监控面板仓库</h1><p>选择其中一个fork<br><a href="https://github.com/yb/uptime-status">yb/uptime-status</a><br><a href="https://github.com/Ice-Hazymoon/status">Ice-Hazymoon/status</a>  </p>
-<h1 id="修改config-js"><a href="#修改config-js" class="headerlink" title="修改config.js"></a>修改config.js</h1><p>进入刚fork的仓库，打开/public/config.js<br>添加监视器的api密钥  </p>
-<blockquote>
-<p>需要监控的站点较多，也可为所有监控器创建一个api密钥填入</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ApiKeys: [</span><br><span class="line">   &#x27;在这里粘贴api密钥&#x27;,</span><br><span class="line"> ],</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>还可以选择在ApiDomain修改自定义反代域名，详见<a href="https://github.com/yb/uptime-status/">https://github.com/yb/uptime-status/</a></p>
-</blockquote>
-<h1 id="vercel部署"><a href="#vercel部署" class="headerlink" title="vercel部署"></a>vercel部署</h1><p>新建一个项目<br>import监控面板仓库<br>等待几分钟创建完成，点击vist，一个监控面板就完成了  </p>
-<div><img src=/images/9-5.webp width="70%" height="70%"></div>
-
-<div><img src=/images/9-6.webp width="70%" height="70%"></div>
-
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
       </tags>
   </entry>
 </search>
