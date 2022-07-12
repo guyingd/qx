@@ -59,6 +59,77 @@
       </tags>
   </entry>
   <entry>
+    <title>记一次超声波避障小车比赛</title>
+    <url>/article/81935dcb.html</url>
+    <content><![CDATA[<blockquote>
+<p>去年第一次红外循迹比赛的时候我还没整博客，第二次便记录一下吧</p>
+</blockquote>
+<h1 id="比赛简介"><a href="#比赛简介" class="headerlink" title="比赛简介"></a>比赛简介</h1><p>学校机械院举办的智能小车比赛，一学期一次，上次是红外循迹，这次是超声波避障<br>小车是学院统一采购的，第一次去比赛时拿到的是散件，51单片机、电阻、其它芯片等，都得自己焊  </p>
+<hr>
+<h1 id="关于队伍"><a href="#关于队伍" class="headerlink" title="关于队伍"></a>关于队伍</h1><p>一位机械院的同学在酷安私信我参不参加智能小车比赛，我那时还不认识他，但想着反正闲着也是闲着，参加点活动也好，便一拍即合，后面他又拉来了商学院的一位男同学和两位女同学<br>第一次比赛，我们也是唯一有商学院同学的队伍（其它队伍队均两机械两计科），不过我们队也是女同学最多的，Buff加满   </p>
+<p>队名我提议是秋名山车队，又是一拍即合  </p>
+<hr>
+<h1 id="关于比赛"><a href="#关于比赛" class="headerlink" title="关于比赛"></a>关于比赛</h1><p>小车在上次比赛时就已搞好，所以这次重点在写个超声波避障程序烧进去<br>作为队里唯一的计科同学，这个程序当然得我搞了<br>但我倒也摸鱼，程序不难，测试过一次没毛病，剩下就是数值的微调（这就是我比赛前一天晚上才去调的原因么（误））</p>
+<hr>
+<h1 id="比赛过程"><a href="#比赛过程" class="headerlink" title="比赛过程"></a>比赛过程</h1><p>过程简单，就是一遍一遍测试，然后改改数值，调调机制，然后队伍抽签轮流上，看谁跑的时间短<br>上午7个队（本来12个队，弃权了5个，新报名的队伍焊坏小车的不少），取前三进入下午复赛  </p>
+<hr>
+<h1 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h1><p>第一次的比赛我们第二，这次还是第二，属于万年老二了<br>上次有初赛复赛都有奖册，我拿了一本，这次只有复赛一本册子，给了队里一位女同学，争取以后人手一本  </p>
+<hr>
+<h1 id="一些图片"><a href="#一些图片" class="headerlink" title="一些图片"></a>一些图片</h1><div><img src=/images/12-1.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-2.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-3.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-4.webp width="100%" height="100%"></div>
+
+<hr>
+]]></content>
+      <categories>
+        <category>Chuckle</category>
+      </categories>
+      <tags>
+        <tag>Chuckle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一篇文章：一点小小的说明与介绍</title>
+    <url>/article/ff73d561.html</url>
+    <content><![CDATA[<h1 id="本博的说明"><a href="#本博的说明" class="headerlink" title="本博的说明"></a>本博的说明</h1><p>1.目前记录自己学习编程之路</p>
+<p>2.酷安机佬分享搞机</p>
+<p>3.记录日常</p>
+<p>4.欢迎交换友链</p>
+<p>5.更多</p>
+<hr>
+<h1 id="写博原因"><a href="#写博原因" class="headerlink" title="写博原因"></a>写博原因</h1><blockquote>
+<p>不写博客不知道自己多牛B，写了博客就知道自己多lowB<br><del>博客不是你想写，想写就能写，这玩意儿需要大量知识，沉淀，研究，总结</del><br>博客就是自己想什么就写什么的哈，比如有个瞬间想法也可以写进去，记录下来！何必在意那么多！<br><del>把工作中需要用的技术和实现代码写到博客里，下次再用上就直接复制粘贴</del></p>
+<blockquote>
+<p>来自评论区<a href="https://www.bilibili.com/video/BV1334y1q72q">bilibili评论区</a> </p>
+</blockquote>
+</blockquote>
+<p>写博明确的好处————CodeSheep<br>1.培养总结能力<br>2.面试加分项<br>3.让自己的知识在某个地方留下痕迹，不流失<br>4.加深对技术点的理解(写的过程=复现)<br>5.帮助自己创建一个属于自己的知识体系<br>6.踩坑记录<br>7.获得阅读量，提高知名度，结交志同道合的朋友<br>8.提高表达与写作能力<br>9.·····</p>
+<p><strong>总之写博是提升自己方便自己的好途径</strong><br>作为一只计科大一<font size=2><del>带学牲</del></font>，未来的程序员，写博是必要的</p>
+<hr>
+<h1 id="CodeSheep的tip"><a href="#CodeSheep的tip" class="headerlink" title="CodeSheep的tip"></a>CodeSheep的tip</h1><blockquote>
+<p>写博客可以系统地整合自己某一阶段的学习成果</p>
+<p>博客的方向：<br>可复现，能否解决实际问题</p>
+<p>注意：<br>尊重知识产权，用别人的代码或者语言，记得表明来源。</p>
+<p>入门：<br>备忘录，基础理解，踩坑的记录分享、学习笔记<br>实战类：<br>环境搭建，操作记录</p>
+</blockquote>
+<hr>
+<h1 id="为什么用hexo搭博客"><a href="#为什么用hexo搭博客" class="headerlink" title="为什么用hexo搭博客"></a>为什么用hexo搭博客</h1><p>1.静态博客够用了</p>
+<p>2.hexo用的人多，遇到问题百度好解决</p>
+<p>3.主题丰富</p>
+<p>4.无需服务器 <del>部署到github/gitee无需软妹币</del></p>
+]]></content>
+      <categories>
+        <category>Chuckle</category>
+      </categories>
+      <tags>
+        <tag>Chuckle</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>广海阳江校区介绍</title>
     <url>/article/8154a640.html</url>
     <content><![CDATA[<blockquote>
@@ -183,77 +254,6 @@
       </tags>
   </entry>
   <entry>
-    <title>记一次超声波避障小车比赛</title>
-    <url>/article/81935dcb.html</url>
-    <content><![CDATA[<blockquote>
-<p>去年第一次红外循迹比赛的时候我还没整博客，第二次便记录一下吧</p>
-</blockquote>
-<h1 id="比赛简介"><a href="#比赛简介" class="headerlink" title="比赛简介"></a>比赛简介</h1><p>学校机械院举办的智能小车比赛，一学期一次，上次是红外循迹，这次是超声波避障<br>小车是学院统一采购的，第一次去比赛时拿到的是散件，51单片机、电阻、其它芯片等，都得自己焊  </p>
-<hr>
-<h1 id="关于队伍"><a href="#关于队伍" class="headerlink" title="关于队伍"></a>关于队伍</h1><p>一位机械院的同学在酷安私信我参不参加智能小车比赛，我那时还不认识他，但想着反正闲着也是闲着，参加点活动也好，便一拍即合，后面他又拉来了商学院的一位男同学和两位女同学<br>第一次比赛，我们也是唯一有商学院同学的队伍（其它队伍队均两机械两计科），不过我们队也是女同学最多的，Buff加满   </p>
-<p>队名我提议是秋名山车队，又是一拍即合  </p>
-<hr>
-<h1 id="关于比赛"><a href="#关于比赛" class="headerlink" title="关于比赛"></a>关于比赛</h1><p>小车在上次比赛时就已搞好，所以这次重点在写个超声波避障程序烧进去<br>作为队里唯一的计科同学，这个程序当然得我搞了<br>但我倒也摸鱼，程序不难，测试过一次没毛病，剩下就是数值的微调（这就是我比赛前一天晚上才去调的原因么（误））</p>
-<hr>
-<h1 id="比赛过程"><a href="#比赛过程" class="headerlink" title="比赛过程"></a>比赛过程</h1><p>过程简单，就是一遍一遍测试，然后改改数值，调调机制，然后队伍抽签轮流上，看谁跑的时间短<br>上午7个队（本来12个队，弃权了5个，新报名的队伍焊坏小车的不少），取前三进入下午复赛  </p>
-<hr>
-<h1 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h1><p>第一次的比赛我们第二，这次还是第二，属于万年老二了<br>上次有初赛复赛都有奖册，我拿了一本，这次只有复赛一本册子，给了队里一位女同学，争取以后人手一本  </p>
-<hr>
-<h1 id="一些图片"><a href="#一些图片" class="headerlink" title="一些图片"></a>一些图片</h1><div><img src=/images/12-1.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-2.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-3.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-4.webp width="100%" height="100%"></div>
-
-<hr>
-]]></content>
-      <categories>
-        <category>Chuckle</category>
-      </categories>
-      <tags>
-        <tag>Chuckle</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第一篇文章：一点小小的说明与介绍</title>
-    <url>/article/ff73d561.html</url>
-    <content><![CDATA[<h1 id="本博的说明"><a href="#本博的说明" class="headerlink" title="本博的说明"></a>本博的说明</h1><p>1.目前记录自己学习编程之路</p>
-<p>2.酷安机佬分享搞机</p>
-<p>3.记录日常</p>
-<p>4.欢迎交换友链</p>
-<p>5.更多</p>
-<hr>
-<h1 id="写博原因"><a href="#写博原因" class="headerlink" title="写博原因"></a>写博原因</h1><blockquote>
-<p>不写博客不知道自己多牛B，写了博客就知道自己多lowB<br><del>博客不是你想写，想写就能写，这玩意儿需要大量知识，沉淀，研究，总结</del><br>博客就是自己想什么就写什么的哈，比如有个瞬间想法也可以写进去，记录下来！何必在意那么多！<br><del>把工作中需要用的技术和实现代码写到博客里，下次再用上就直接复制粘贴</del></p>
-<blockquote>
-<p>来自评论区<a href="https://www.bilibili.com/video/BV1334y1q72q">bilibili评论区</a> </p>
-</blockquote>
-</blockquote>
-<p>写博明确的好处————CodeSheep<br>1.培养总结能力<br>2.面试加分项<br>3.让自己的知识在某个地方留下痕迹，不流失<br>4.加深对技术点的理解(写的过程=复现)<br>5.帮助自己创建一个属于自己的知识体系<br>6.踩坑记录<br>7.获得阅读量，提高知名度，结交志同道合的朋友<br>8.提高表达与写作能力<br>9.·····</p>
-<p><strong>总之写博是提升自己方便自己的好途径</strong><br>作为一只计科大一<font size=2><del>带学牲</del></font>，未来的程序员，写博是必要的</p>
-<hr>
-<h1 id="CodeSheep的tip"><a href="#CodeSheep的tip" class="headerlink" title="CodeSheep的tip"></a>CodeSheep的tip</h1><blockquote>
-<p>写博客可以系统地整合自己某一阶段的学习成果</p>
-<p>博客的方向：<br>可复现，能否解决实际问题</p>
-<p>注意：<br>尊重知识产权，用别人的代码或者语言，记得表明来源。</p>
-<p>入门：<br>备忘录，基础理解，踩坑的记录分享、学习笔记<br>实战类：<br>环境搭建，操作记录</p>
-</blockquote>
-<hr>
-<h1 id="为什么用hexo搭博客"><a href="#为什么用hexo搭博客" class="headerlink" title="为什么用hexo搭博客"></a>为什么用hexo搭博客</h1><p>1.静态博客够用了</p>
-<p>2.hexo用的人多，遇到问题百度好解决</p>
-<p>3.主题丰富</p>
-<p>4.无需服务器 <del>部署到github/gitee无需软妹币</del></p>
-]]></content>
-      <categories>
-        <category>Chuckle</category>
-      </categories>
-      <tags>
-        <tag>Chuckle</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客的基本操作</title>
     <url>/article/aa2a7b7e.html</url>
     <content><![CDATA[<blockquote>
@@ -285,12 +285,6 @@
       <tags>
         <tag>Hexo</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试用文章</title>
-    <url>/article/d87f7e0c.html</url>
-    <content><![CDATA[<p>testdadadasd142adaadwwadadadasdwaawadwadawad<br> test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test<br>waawdadadada<br>11111111111111111111111111111</p>
-]]></content>
   </entry>
   <entry>
     <title>博客搜索挂了解决方法</title>
@@ -551,6 +545,12 @@ js中只有一处pjax报错
       <tags>
         <tag>C语言</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>测试用文章</title>
+    <url>/article/d87f7e0c.html</url>
+    <content><![CDATA[<p>testdadadasd142adaadwwadadadasdwaawadwadawad<br> test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test  test<br>waawdadadada<br>11111111111111111111111111111</p>
+]]></content>
   </entry>
   <entry>
     <title>JAVA/面向对象学习笔记(1)</title>
@@ -891,6 +891,50 @@ js中只有一处pjax报错
       </tags>
   </entry>
   <entry>
+    <title>基于UptimeRobot的监控面板</title>
+    <url>/article/8f1fedc5.html</url>
+    <content><![CDATA[<blockquote>
+<p>演示：<a href="https://status.chuckle.top/">轻笑的网站监控面板</a></p>
+</blockquote>
+<h1 id="注册UptimeRobot"><a href="#注册UptimeRobot" class="headerlink" title="注册UptimeRobot"></a>注册UptimeRobot</h1><p>填写邮箱以完成注册  </p>
+<blockquote>
+<p><a href="https://uptimerobot.com/signUp?ref=website-header">跳转至注册</a></p>
+</blockquote>
+<h1 id="新建监视器"><a href="#新建监视器" class="headerlink" title="新建监视器"></a>新建监视器</h1><p>点击左上角Add New Monitor  </p>
+<div><img src=/images/9-1.webp width="70%" height="70%"></div>
+
+<p>在弹出窗口填写需要需要监控的站点的相关信息  </p>
+<div><img src=/images/9-2.webp width="70%" height="70%"></div>
+
+<p>点击Create Monitor完成创建   </p>
+<h1 id="创建API密钥"><a href="#创建API密钥" class="headerlink" title="创建API密钥"></a>创建API密钥</h1><p>点击My Settings</p>
+<div><img src=/images/9-3.webp width="70%" height="70%"></div>
+为监视器创建一个api密钥（也可选择第三个，为所有监视器创建一个密钥）  
+<div><img src=/images/9-4.webp width="70%" height="70%"></div>
+
+<h1 id="fork监控面板仓库"><a href="#fork监控面板仓库" class="headerlink" title="fork监控面板仓库"></a>fork监控面板仓库</h1><p>选择其中一个fork<br><a href="https://github.com/yb/uptime-status">yb/uptime-status</a><br><a href="https://github.com/Ice-Hazymoon/status">Ice-Hazymoon/status</a>  </p>
+<h1 id="修改config-js"><a href="#修改config-js" class="headerlink" title="修改config.js"></a>修改config.js</h1><p>进入刚fork的仓库，打开/public/config.js<br>添加监视器的api密钥  </p>
+<blockquote>
+<p>需要监控的站点较多，也可为所有监控器创建一个api密钥填入</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ApiKeys: [</span><br><span class="line">   &#x27;在这里粘贴api密钥&#x27;,</span><br><span class="line"> ],</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>还可以选择在ApiDomain修改自定义反代域名，详见<a href="https://github.com/yb/uptime-status/">https://github.com/yb/uptime-status/</a></p>
+</blockquote>
+<h1 id="vercel部署"><a href="#vercel部署" class="headerlink" title="vercel部署"></a>vercel部署</h1><p>新建一个项目<br>import监控面板仓库<br>等待几分钟创建完成，点击vist，一个监控面板就完成了  </p>
+<div><img src=/images/9-5.webp width="70%" height="70%"></div>
+
+<div><img src=/images/9-6.webp width="70%" height="70%"></div>
+
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JAVA/面向对象学习笔记(3)</title>
     <url>/article/8636f786.html</url>
     <content><![CDATA[<blockquote>
@@ -1163,50 +1207,6 @@ js中只有一处pjax报错
       </categories>
       <tags>
         <tag>JAVA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于UptimeRobot的监控面板</title>
-    <url>/article/8f1fedc5.html</url>
-    <content><![CDATA[<blockquote>
-<p>演示：<a href="https://status.chuckle.top/">轻笑的网站监控面板</a></p>
-</blockquote>
-<h1 id="注册UptimeRobot"><a href="#注册UptimeRobot" class="headerlink" title="注册UptimeRobot"></a>注册UptimeRobot</h1><p>填写邮箱以完成注册  </p>
-<blockquote>
-<p><a href="https://uptimerobot.com/signUp?ref=website-header">跳转至注册</a></p>
-</blockquote>
-<h1 id="新建监视器"><a href="#新建监视器" class="headerlink" title="新建监视器"></a>新建监视器</h1><p>点击左上角Add New Monitor  </p>
-<div><img src=/images/9-1.webp width="70%" height="70%"></div>
-
-<p>在弹出窗口填写需要需要监控的站点的相关信息  </p>
-<div><img src=/images/9-2.webp width="70%" height="70%"></div>
-
-<p>点击Create Monitor完成创建   </p>
-<h1 id="创建API密钥"><a href="#创建API密钥" class="headerlink" title="创建API密钥"></a>创建API密钥</h1><p>点击My Settings</p>
-<div><img src=/images/9-3.webp width="70%" height="70%"></div>
-为监视器创建一个api密钥（也可选择第三个，为所有监视器创建一个密钥）  
-<div><img src=/images/9-4.webp width="70%" height="70%"></div>
-
-<h1 id="fork监控面板仓库"><a href="#fork监控面板仓库" class="headerlink" title="fork监控面板仓库"></a>fork监控面板仓库</h1><p>选择其中一个fork<br><a href="https://github.com/yb/uptime-status">yb/uptime-status</a><br><a href="https://github.com/Ice-Hazymoon/status">Ice-Hazymoon/status</a>  </p>
-<h1 id="修改config-js"><a href="#修改config-js" class="headerlink" title="修改config.js"></a>修改config.js</h1><p>进入刚fork的仓库，打开/public/config.js<br>添加监视器的api密钥  </p>
-<blockquote>
-<p>需要监控的站点较多，也可为所有监控器创建一个api密钥填入</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ApiKeys: [</span><br><span class="line">   &#x27;在这里粘贴api密钥&#x27;,</span><br><span class="line"> ],</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>还可以选择在ApiDomain修改自定义反代域名，详见<a href="https://github.com/yb/uptime-status/">https://github.com/yb/uptime-status/</a></p>
-</blockquote>
-<h1 id="vercel部署"><a href="#vercel部署" class="headerlink" title="vercel部署"></a>vercel部署</h1><p>新建一个项目<br>import监控面板仓库<br>等待几分钟创建完成，点击vist，一个监控面板就完成了  </p>
-<div><img src=/images/9-5.webp width="70%" height="70%"></div>
-
-<div><img src=/images/9-6.webp width="70%" height="70%"></div>
-
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
       </tags>
   </entry>
 </search>
