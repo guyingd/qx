@@ -1,53 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>超星学习通数据泄露事件记录</title>
-    <url>/article/af84a159.html</url>
-    <content><![CDATA[<h1 id="事件时间轴"><a href="#事件时间轴" class="headerlink" title="事件时间轴"></a>事件时间轴</h1><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>时间轴 </p>
-</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022-06-20</p>
-</div></div><div class='timeline-item-content'><ol>
-<li>学习通被爆有<code>1.7亿</code>师生账号信息<code>数据泄露</code><br>包括手机号码、邮箱、姓名、学校、班级、明文密码等信息<br>随后，热搜词条<code>#学习通数据库疑发生信息泄露#</code>被撤,词条内容被屏蔽<div><img src=/images/13-1.webp width="40%" height="40%"></div>
-
-</li>
-</ol>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022-06-21 上午</p>
-</div></div><div class='timeline-item-content'><p><code>#学习通#</code>词条登顶微博热搜第一<br>很多人发现自己学习通的使用量多达上万、几十万次（图为博主的次数，2万次）</p>
-<div><img src=/images/13-2.webp width="40%" height="40%"></div>
-
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022-06-21 15:45</p>
-</div></div><div class='timeline-item-content'><p>学习通就泄露事件做出声明：<code>目前还未发现数据泄露，确认不存在明文密码泄露。</code></p>
-<div><img src=/images/13-3.webp width="40%" height="40%"></div>
-
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022-06-21 16:17</p>
-</div></div><div class='timeline-item-content'><p>学习通就异常使用量做出声明：<code>正常现象。</code></p>
-<div><img src=/images/13-4.webp width="40%" height="40%"></div>
-
-</div></div></div>
+    <title>FakeLocation模拟校园跑教程</title>
+    <url>/article/c5d354fd.html</url>
+    <content><![CDATA[<p>我们学校用的是运动世界校园，所以就用这个软件为例，其他软件差不多<br>博主测试设备：红米k40安卓11、红米6pro安卓9  </p>
+<blockquote>
+<p>吐槽：这软件，什么都往里塞，天天更新加广告（一指禅干掉）  </p>
+</blockquote>
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>1、首先是有面具<strong>Root</strong>，而非小米官方等残废root<br>2、下载万恶之源：运动世界校园<br>3、下载安装<a href="https://wwm.lanzoul.com/iMHUo057ibyb">FakeLocation1.3.0.2版本</a><br>4、下载安装<a href="https://wwm.lanzoul.com/iQ6lq057irkd">隐藏应用列表xp模块</a>我使用的版本1.6较老，但能稳定用我也没去升级<br>5、安装lsp/xp框架<br>6、下载安装<a href="https://wwm.lanzoul.com/i8RYM057ibzc">Godvip</a>  </p>
 <hr>
-<h1 id="事件相关"><a href="#事件相关" class="headerlink" title="事件相关"></a>事件相关</h1><ol>
-<li><p>2020年超星学习通就被<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台(cnvd)</a>警告存在<code>信息泄露漏洞</code></p>
-<div class="tag link"><a class="link-card" title="超星学习通App存在信息泄露漏洞" href="https://www.cnvd.org.cn/flaw/show/CNVD-2020-61119"><div class="left"><img src="/img/head.webp"/></div><div class="right"><p class="text">超星学习通App存在信息泄露漏洞</p><p class="url">https://www.cnvd.org.cn/flaw/show/CNVD-2020-61119</p></div></a></div>
-<div><img src=/images/13-5.webp width="40%" height="40%"></div>
-</li>
-<li><p>著名蓝色机器人发通知与投票：</p>
-<div><img src=/images/13-6.webp width="40%" height="40%"></div>
-</li>
-<li><p>博主已中招</p>
-<div><img src=/images/13-7.webp width="40%" height="40%"></div>
-</li>
-<li><p>学习通的一些<code>免责条款</code>：总之，无责</p>
-<div><img src=/images/13-8.webp width="40%" height="40%"></div>
+<h1 id="隐藏防检测"><a href="#隐藏防检测" class="headerlink" title="隐藏防检测"></a>隐藏防检测</h1><h2 id="运动世界校园权限设置"><a href="#运动世界校园权限设置" class="headerlink" title="运动世界校园权限设置"></a>运动世界校园权限设置</h2><p>确保权限设置与图一致，关闭miui的模糊定位  </p>
+<div><img src=/images/11-1.webp width="90%" height="90%"></div>
 
+<h2 id="隐藏root"><a href="#隐藏root" class="headerlink" title="隐藏root"></a>隐藏root</h2><p>面具本身随机包名安装<br>面具hide对运动世界校园全勾选（如果是24版本的面具，自行去酷安找shamiko模块隐藏root教程，我还没升到24，因为我用hide就能很好地隐藏root）  </p>
+<h2 id="隐藏应用列表设置"><a href="#隐藏应用列表设置" class="headerlink" title="隐藏应用列表设置"></a>隐藏应用列表设置</h2><p>推荐先看酷安详细图文：<a href="https://www.coolapk.com/feed/34458057?shareKey=YjBlYzcxNDgwMzYwNjI4OGIzZmM~">隐藏应用列表使用教程 Pro</a>  </p>
+<p>简单速通：<br>1、lsp/edxp启用<strong>隐藏应用列表</strong><br>2、也许需要重启手机<br>3、点击模板管理，启用所有隐藏方式<br>4、选择要隐藏的应用，将FakeLocation、面具、lsp等搞机应用勾选<br>5、对运动校园应用模板  </p>
+<div><img src=/images/11-2.webp width="100%" height="100%"></div>
 
-</li>
-</ol>
+<h2 id="破解FakeLocation"><a href="#破解FakeLocation" class="headerlink" title="破解FakeLocation"></a>破解FakeLocation</h2><p>lsp启用Godvip，模块对FakeLocation起作用  </p>
+<h2 id="FakeLocation设置"><a href="#FakeLocation设置" class="headerlink" title="FakeLocation设置"></a>FakeLocation设置</h2><p>给FakeLocation软件Root权限<br>FakeLocation设置页只打开<strong>模拟GPS信号</strong>  </p>
+<div><img src=/images/11-3.webp width="50%" height="50%"></div>
+
+<h2 id="如何模拟跑"><a href="#如何模拟跑" class="headerlink" title="如何模拟跑"></a>如何模拟跑</h2><p>首先到一个较空旷，能接收到gps信号的地方（宿舍阳台、宿舍走廊），拿个椅子坐下，手机关闭wifi（可以开启蓝牙和数据）<br>FakeLocation选择<strong>要模拟的位置</strong>到跑道，当然具体在哪无所谓<br>打开运动软件，<strong>待运动软件接收到gps信号</strong>提示可以开始跑，返回FakeLocation软件，点击<strong>启动模拟</strong>（第一次打开需要等待一会，建议在模拟跑前先开关一次预热），并<strong>打开摇杆</strong>  </p>
+<p>摇杆设置：<br>摇杆里的<strong>模拟gps信号</strong>和<strong>步频模拟</strong>都得关掉，不能打开！不能打开！不能打开！   </p>
+<div><img src=/images/11-4.webp width="100%" height="100%"></div>
+
+<p>接着返回运动软件，你会发现显示的位置瞬移到了之前选择的模拟位置处，然后开始运动，要去哪就<strong>用摇杆摇</strong>到哪，步频可以使用其它软件模拟，但<strong>建议抖手</strong><br>跑完后先结束运动，关闭运动软件，再停止位置模拟  </p>
+<hr>
+<h1 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h1><p>1、当摇杆回到中间时（速度为0），运动软件会提示gps信号弱，这是正常现象<br>2、启动模拟后，运动软件上显示的位置没变：杀掉运动软件和FakeLocation，重新操作一次<br>3、启动模拟后，运动软件上显示的位置变了，但一开始运动位置就变回原来位置：杀掉运动软件和FakeLocation，重新操作一次<br>4、被检测到环境异常4：FakeLocation没隐藏好、运动软件检测到gps信号长期未变。请自查有无和教程操作不同的地方  </p>
+<h1 id="温馨提示"><a href="#温馨提示" class="headerlink" title="温馨提示"></a>温馨提示</h1><blockquote>
+<p>如有问题可在评论区回复或在酷安找我<br>本教程虽然目前还可行，博主自用了两个学期也没被检测到一次，但安卓设备众多，系统繁杂，不确保教程的通用性<br>Root手机导致手机变砖、假跑被检测到影响体育成绩等后果，博主不承担任何责任</p>
+</blockquote>
 <hr>
 ]]></content>
       <categories>
-        <category>其它</category>
+        <category>教程</category>
       </categories>
       <tags>
-        <tag>其它</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -97,6 +87,40 @@
 <p>2.hexo用的人多，遇到问题百度好解决</p>
 <p>3.主题丰富</p>
 <p>4.无需服务器 <del>部署到github/gitee无需软妹币</del></p>
+]]></content>
+      <categories>
+        <category>Chuckle</category>
+      </categories>
+      <tags>
+        <tag>Chuckle</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一次超声波避障小车比赛</title>
+    <url>/article/81935dcb.html</url>
+    <content><![CDATA[<blockquote>
+<p>去年第一次红外循迹比赛的时候我还没整博客，第二次便记录一下吧</p>
+</blockquote>
+<h1 id="比赛简介"><a href="#比赛简介" class="headerlink" title="比赛简介"></a>比赛简介</h1><p>学校机械院举办的智能小车比赛，一学期一次，上次是红外循迹，这次是超声波避障<br>小车是学院统一采购的，第一次去比赛时拿到的是散件，51单片机、电阻、其它芯片等，都得自己焊  </p>
+<hr>
+<h1 id="关于队伍"><a href="#关于队伍" class="headerlink" title="关于队伍"></a>关于队伍</h1><p>一位机械院的同学在酷安私信我参不参加智能小车比赛，我那时还不认识他，但想着反正闲着也是闲着，参加点活动也好，便一拍即合，后面他又拉来了商学院的一位男同学和两位女同学<br>第一次比赛，我们也是唯一有商学院同学的队伍（其它队伍队均两机械两计科），不过我们队也是女同学最多的，Buff加满   </p>
+<p>队名我提议是秋名山车队，又是一拍即合  </p>
+<hr>
+<h1 id="关于比赛"><a href="#关于比赛" class="headerlink" title="关于比赛"></a>关于比赛</h1><p>小车在上次比赛时就已搞好，所以这次重点在写个超声波避障程序烧进去<br>作为队里唯一的计科同学，这个程序当然得我搞了<br>但我倒也摸鱼，程序不难，测试过一次没毛病，剩下就是数值的微调（这就是我比赛前一天晚上才去调的原因么（误））</p>
+<hr>
+<h1 id="比赛过程"><a href="#比赛过程" class="headerlink" title="比赛过程"></a>比赛过程</h1><p>过程简单，就是一遍一遍测试，然后改改数值，调调机制，然后队伍抽签轮流上，看谁跑的时间短<br>上午7个队（本来12个队，弃权了5个，新报名的队伍焊坏小车的不少），取前三进入下午复赛  </p>
+<hr>
+<h1 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h1><p>第一次的比赛我们第二，这次还是第二，属于万年老二了<br>上次有初赛复赛都有奖册，我拿了一本，这次只有复赛一本册子，给了队里一位女同学，争取以后人手一本  </p>
+<hr>
+<h1 id="一些图片"><a href="#一些图片" class="headerlink" title="一些图片"></a>一些图片</h1><div><img src=/images/12-1.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-2.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-3.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-4.webp width="100%" height="100%"></div>
+
+<hr>
 ]]></content>
       <categories>
         <category>Chuckle</category>
@@ -180,80 +204,6 @@
       </tags>
   </entry>
   <entry>
-    <title>记一次超声波避障小车比赛</title>
-    <url>/article/81935dcb.html</url>
-    <content><![CDATA[<blockquote>
-<p>去年第一次红外循迹比赛的时候我还没整博客，第二次便记录一下吧</p>
-</blockquote>
-<h1 id="比赛简介"><a href="#比赛简介" class="headerlink" title="比赛简介"></a>比赛简介</h1><p>学校机械院举办的智能小车比赛，一学期一次，上次是红外循迹，这次是超声波避障<br>小车是学院统一采购的，第一次去比赛时拿到的是散件，51单片机、电阻、其它芯片等，都得自己焊  </p>
-<hr>
-<h1 id="关于队伍"><a href="#关于队伍" class="headerlink" title="关于队伍"></a>关于队伍</h1><p>一位机械院的同学在酷安私信我参不参加智能小车比赛，我那时还不认识他，但想着反正闲着也是闲着，参加点活动也好，便一拍即合，后面他又拉来了商学院的一位男同学和两位女同学<br>第一次比赛，我们也是唯一有商学院同学的队伍（其它队伍队均两机械两计科），不过我们队也是女同学最多的，Buff加满   </p>
-<p>队名我提议是秋名山车队，又是一拍即合  </p>
-<hr>
-<h1 id="关于比赛"><a href="#关于比赛" class="headerlink" title="关于比赛"></a>关于比赛</h1><p>小车在上次比赛时就已搞好，所以这次重点在写个超声波避障程序烧进去<br>作为队里唯一的计科同学，这个程序当然得我搞了<br>但我倒也摸鱼，程序不难，测试过一次没毛病，剩下就是数值的微调（这就是我比赛前一天晚上才去调的原因么（误））</p>
-<hr>
-<h1 id="比赛过程"><a href="#比赛过程" class="headerlink" title="比赛过程"></a>比赛过程</h1><p>过程简单，就是一遍一遍测试，然后改改数值，调调机制，然后队伍抽签轮流上，看谁跑的时间短<br>上午7个队（本来12个队，弃权了5个，新报名的队伍焊坏小车的不少），取前三进入下午复赛  </p>
-<hr>
-<h1 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h1><p>第一次的比赛我们第二，这次还是第二，属于万年老二了<br>上次有初赛复赛都有奖册，我拿了一本，这次只有复赛一本册子，给了队里一位女同学，争取以后人手一本  </p>
-<hr>
-<h1 id="一些图片"><a href="#一些图片" class="headerlink" title="一些图片"></a>一些图片</h1><div><img src=/images/12-1.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-2.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-3.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-4.webp width="100%" height="100%"></div>
-
-<hr>
-]]></content>
-      <categories>
-        <category>Chuckle</category>
-      </categories>
-      <tags>
-        <tag>Chuckle</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>FakeLocation模拟校园跑教程</title>
-    <url>/article/c5d354fd.html</url>
-    <content><![CDATA[<p>我们学校用的是运动世界校园，所以就用这个软件为例，其他软件差不多<br>博主测试设备：红米k40安卓11、红米6pro安卓9  </p>
-<blockquote>
-<p>吐槽：这软件，什么都往里塞，天天更新加广告（一指禅干掉）  </p>
-</blockquote>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>1、首先是有面具<strong>Root</strong>，而非小米官方等残废root<br>2、下载万恶之源：运动世界校园<br>3、下载安装<a href="https://wwm.lanzoul.com/iMHUo057ibyb">FakeLocation1.3.0.2版本</a><br>4、下载安装<a href="https://wwm.lanzoul.com/iQ6lq057irkd">隐藏应用列表xp模块</a>我使用的版本1.6较老，但能稳定用我也没去升级<br>5、安装lsp/xp框架<br>6、下载安装<a href="https://wwm.lanzoul.com/i8RYM057ibzc">Godvip</a>  </p>
-<hr>
-<h1 id="隐藏防检测"><a href="#隐藏防检测" class="headerlink" title="隐藏防检测"></a>隐藏防检测</h1><h2 id="运动世界校园权限设置"><a href="#运动世界校园权限设置" class="headerlink" title="运动世界校园权限设置"></a>运动世界校园权限设置</h2><p>确保权限设置与图一致，关闭miui的模糊定位  </p>
-<div><img src=/images/11-1.webp width="90%" height="90%"></div>
-
-<h2 id="隐藏root"><a href="#隐藏root" class="headerlink" title="隐藏root"></a>隐藏root</h2><p>面具本身随机包名安装<br>面具hide对运动世界校园全勾选（如果是24版本的面具，自行去酷安找shamiko模块隐藏root教程，我还没升到24，因为我用hide就能很好地隐藏root）  </p>
-<h2 id="隐藏应用列表设置"><a href="#隐藏应用列表设置" class="headerlink" title="隐藏应用列表设置"></a>隐藏应用列表设置</h2><p>推荐先看酷安详细图文：<a href="https://www.coolapk.com/feed/34458057?shareKey=YjBlYzcxNDgwMzYwNjI4OGIzZmM~">隐藏应用列表使用教程 Pro</a>  </p>
-<p>简单速通：<br>1、lsp/edxp启用<strong>隐藏应用列表</strong><br>2、也许需要重启手机<br>3、点击模板管理，启用所有隐藏方式<br>4、选择要隐藏的应用，将FakeLocation、面具、lsp等搞机应用勾选<br>5、对运动校园应用模板  </p>
-<div><img src=/images/11-2.webp width="100%" height="100%"></div>
-
-<h2 id="破解FakeLocation"><a href="#破解FakeLocation" class="headerlink" title="破解FakeLocation"></a>破解FakeLocation</h2><p>lsp启用Godvip，模块对FakeLocation起作用  </p>
-<h2 id="FakeLocation设置"><a href="#FakeLocation设置" class="headerlink" title="FakeLocation设置"></a>FakeLocation设置</h2><p>给FakeLocation软件Root权限<br>FakeLocation设置页只打开<strong>模拟GPS信号</strong>  </p>
-<div><img src=/images/11-3.webp width="50%" height="50%"></div>
-
-<h2 id="如何模拟跑"><a href="#如何模拟跑" class="headerlink" title="如何模拟跑"></a>如何模拟跑</h2><p>首先到一个较空旷，能接收到gps信号的地方（宿舍阳台、宿舍走廊），拿个椅子坐下，手机关闭wifi（可以开启蓝牙和数据）<br>FakeLocation选择<strong>要模拟的位置</strong>到跑道，当然具体在哪无所谓<br>打开运动软件，<strong>待运动软件接收到gps信号</strong>提示可以开始跑，返回FakeLocation软件，点击<strong>启动模拟</strong>（第一次打开需要等待一会，建议在模拟跑前先开关一次预热），并<strong>打开摇杆</strong>  </p>
-<p>摇杆设置：<br>摇杆里的<strong>模拟gps信号</strong>和<strong>步频模拟</strong>都得关掉，不能打开！不能打开！不能打开！   </p>
-<div><img src=/images/11-4.webp width="100%" height="100%"></div>
-
-<p>接着返回运动软件，你会发现显示的位置瞬移到了之前选择的模拟位置处，然后开始运动，要去哪就<strong>用摇杆摇</strong>到哪，步频可以使用其它软件模拟，但<strong>建议抖手</strong><br>跑完后先结束运动，关闭运动软件，再停止位置模拟  </p>
-<hr>
-<h1 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h1><p>1、当摇杆回到中间时（速度为0），运动软件会提示gps信号弱，这是正常现象<br>2、启动模拟后，运动软件上显示的位置没变：杀掉运动软件和FakeLocation，重新操作一次<br>3、启动模拟后，运动软件上显示的位置变了，但一开始运动位置就变回原来位置：杀掉运动软件和FakeLocation，重新操作一次<br>4、被检测到环境异常4：FakeLocation没隐藏好、运动软件检测到gps信号长期未变。请自查有无和教程操作不同的地方  </p>
-<h1 id="温馨提示"><a href="#温馨提示" class="headerlink" title="温馨提示"></a>温馨提示</h1><blockquote>
-<p>如有问题可在评论区回复或在酷安找我<br>本教程虽然目前还可行，博主自用了两个学期也没被检测到一次，但安卓设备众多，系统繁杂，不确保教程的通用性<br>Root手机导致手机变砖、假跑被检测到影响体育成绩等后果，博主不承担任何责任</p>
-</blockquote>
-<hr>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客的基本操作</title>
     <url>/article/aa2a7b7e.html</url>
     <content><![CDATA[<blockquote>
@@ -284,6 +234,56 @@
       </categories>
       <tags>
         <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>超星学习通数据泄露事件记录</title>
+    <url>/article/af84a159.html</url>
+    <content><![CDATA[<h1 id="事件时间轴"><a href="#事件时间轴" class="headerlink" title="事件时间轴"></a>事件时间轴</h1><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>时间轴 </p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022-06-20</p>
+</div></div><div class='timeline-item-content'><ol>
+<li>学习通被爆有<code>1.7亿</code>师生账号信息<code>数据泄露</code><br>包括手机号码、邮箱、姓名、学校、班级、明文密码等信息<br>随后，热搜词条<code>#学习通数据库疑发生信息泄露#</code>被撤,词条内容被屏蔽<div><img src=/images/13-1.webp width="40%" height="40%"></div>
+
+</li>
+</ol>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022-06-21 上午</p>
+</div></div><div class='timeline-item-content'><p><code>#学习通#</code>词条登顶微博热搜第一<br>很多人发现自己学习通的使用量多达上万、几十万次（图为博主的次数，2万次）</p>
+<div><img src=/images/13-2.webp width="40%" height="40%"></div>
+
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022-06-21 15:45</p>
+</div></div><div class='timeline-item-content'><p>学习通就泄露事件做出声明：<code>目前还未发现数据泄露，确认不存在明文密码泄露。</code></p>
+<div><img src=/images/13-3.webp width="40%" height="40%"></div>
+
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022-06-21 16:17</p>
+</div></div><div class='timeline-item-content'><p>学习通就异常使用量做出声明：<code>正常现象。</code></p>
+<div><img src=/images/13-4.webp width="40%" height="40%"></div>
+
+</div></div></div>
+<hr>
+<h1 id="事件相关"><a href="#事件相关" class="headerlink" title="事件相关"></a>事件相关</h1><ol>
+<li><p>2020年超星学习通就被<a href="https://www.cnvd.org.cn/">国家信息安全漏洞共享平台(cnvd)</a>警告存在<code>信息泄露漏洞</code></p>
+<div class="tag link"><a class="link-card" title="超星学习通App存在信息泄露漏洞" href="https://www.cnvd.org.cn/flaw/show/CNVD-2020-61119"><div class="left"><img src="/img/head.webp"/></div><div class="right"><p class="text">超星学习通App存在信息泄露漏洞</p><p class="url">https://www.cnvd.org.cn/flaw/show/CNVD-2020-61119</p></div></a></div>
+<div><img src=/images/13-5.webp width="40%" height="40%"></div>
+</li>
+<li><p>著名蓝色机器人发通知与投票：</p>
+<div><img src=/images/13-6.webp width="40%" height="40%"></div>
+</li>
+<li><p>博主已中招</p>
+<div><img src=/images/13-7.webp width="40%" height="40%"></div>
+</li>
+<li><p>学习通的一些<code>免责条款</code>：总之，无责</p>
+<div><img src=/images/13-8.webp width="40%" height="40%"></div>
+
+
+</li>
+</ol>
+<hr>
+]]></content>
+      <categories>
+        <category>其它</category>
+      </categories>
+      <tags>
+        <tag>其它</tag>
       </tags>
   </entry>
   <entry>
@@ -553,63 +553,6 @@ js中只有一处pjax报错
       </tags>
   </entry>
   <entry>
-    <title>基于UptimeRobot的监控面板</title>
-    <url>/article/8f1fedc5.html</url>
-    <content><![CDATA[<blockquote>
-<p>演示：<a href="https://status.chuckle.top/">轻笑的网站监控面板</a></p>
-</blockquote>
-<h1 id="注册UptimeRobot"><a href="#注册UptimeRobot" class="headerlink" title="注册UptimeRobot"></a>注册UptimeRobot</h1><p>填写邮箱以完成注册  </p>
-<blockquote>
-<p><a href="https://uptimerobot.com/signUp?ref=website-header">跳转至注册</a></p>
-</blockquote>
-<h1 id="新建监视器"><a href="#新建监视器" class="headerlink" title="新建监视器"></a>新建监视器</h1><p>点击左上角Add New Monitor  </p>
-<div><img src=/images/9-1.webp width="70%" height="70%"></div>
-
-<p>在弹出窗口填写需要需要监控的站点的相关信息  </p>
-<div><img src=/images/9-2.webp width="70%" height="70%"></div>
-
-<p>点击Create Monitor完成创建   </p>
-<h1 id="创建API密钥"><a href="#创建API密钥" class="headerlink" title="创建API密钥"></a>创建API密钥</h1><p>点击My Settings</p>
-<div><img src=/images/9-3.webp width="70%" height="70%"></div>
-为监视器创建一个api密钥（也可选择第三个，为所有监视器创建一个密钥）  
-<div><img src=/images/9-4.webp width="70%" height="70%"></div>
-
-<h1 id="fork监控面板仓库"><a href="#fork监控面板仓库" class="headerlink" title="fork监控面板仓库"></a>fork监控面板仓库</h1><p>选择其中一个fork<br><a href="https://github.com/yb/uptime-status">yb/uptime-status</a><br><a href="https://github.com/Ice-Hazymoon/status">Ice-Hazymoon/status</a>  </p>
-<h1 id="修改config-js"><a href="#修改config-js" class="headerlink" title="修改config.js"></a>修改config.js</h1><p>进入刚fork的仓库，打开/public/config.js<br>添加监视器的api密钥  </p>
-<blockquote>
-<p>需要监控的站点较多，也可为所有监控器创建一个api密钥填入</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ApiKeys: [</span><br><span class="line">   &#x27;在这里粘贴api密钥&#x27;,</span><br><span class="line"> ],</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>还可以选择在ApiDomain修改自定义反代域名，详见<a href="https://github.com/yb/uptime-status/">https://github.com/yb/uptime-status/</a></p>
-</blockquote>
-<h1 id="vercel部署"><a href="#vercel部署" class="headerlink" title="vercel部署"></a>vercel部署</h1><p>新建一个项目<br>import监控面板仓库<br>等待几分钟创建完成，点击vist，一个监控面板就完成了  </p>
-<div><img src=/images/9-5.webp width="70%" height="70%"></div>
-
-<div><img src=/images/9-6.webp width="70%" height="70%"></div>
-
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的butterfly魔改</title>
-    <url>/article/ab2d75d5.html</url>
-    <content><![CDATA[<p>咕咕咕</p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Butterfly</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JAVA/面向对象学习笔记(1)</title>
     <url>/article/bfb663c6.html</url>
     <content><![CDATA[<blockquote>
@@ -821,6 +764,63 @@ js中只有一处pjax报错
       </categories>
       <tags>
         <tag>JAVA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的butterfly魔改</title>
+    <url>/article/ab2d75d5.html</url>
+    <content><![CDATA[<p>咕咕咕</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Butterfly</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于UptimeRobot的监控面板</title>
+    <url>/article/8f1fedc5.html</url>
+    <content><![CDATA[<blockquote>
+<p>演示：<a href="https://status.chuckle.top/">轻笑的网站监控面板</a></p>
+</blockquote>
+<h1 id="注册UptimeRobot"><a href="#注册UptimeRobot" class="headerlink" title="注册UptimeRobot"></a>注册UptimeRobot</h1><p>填写邮箱以完成注册  </p>
+<blockquote>
+<p><a href="https://uptimerobot.com/signUp?ref=website-header">跳转至注册</a></p>
+</blockquote>
+<h1 id="新建监视器"><a href="#新建监视器" class="headerlink" title="新建监视器"></a>新建监视器</h1><p>点击左上角Add New Monitor  </p>
+<div><img src=/images/9-1.webp width="70%" height="70%"></div>
+
+<p>在弹出窗口填写需要需要监控的站点的相关信息  </p>
+<div><img src=/images/9-2.webp width="70%" height="70%"></div>
+
+<p>点击Create Monitor完成创建   </p>
+<h1 id="创建API密钥"><a href="#创建API密钥" class="headerlink" title="创建API密钥"></a>创建API密钥</h1><p>点击My Settings</p>
+<div><img src=/images/9-3.webp width="70%" height="70%"></div>
+为监视器创建一个api密钥（也可选择第三个，为所有监视器创建一个密钥）  
+<div><img src=/images/9-4.webp width="70%" height="70%"></div>
+
+<h1 id="fork监控面板仓库"><a href="#fork监控面板仓库" class="headerlink" title="fork监控面板仓库"></a>fork监控面板仓库</h1><p>选择其中一个fork<br><a href="https://github.com/yb/uptime-status">yb/uptime-status</a><br><a href="https://github.com/Ice-Hazymoon/status">Ice-Hazymoon/status</a>  </p>
+<h1 id="修改config-js"><a href="#修改config-js" class="headerlink" title="修改config.js"></a>修改config.js</h1><p>进入刚fork的仓库，打开/public/config.js<br>添加监视器的api密钥  </p>
+<blockquote>
+<p>需要监控的站点较多，也可为所有监控器创建一个api密钥填入</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ApiKeys: [</span><br><span class="line">   &#x27;在这里粘贴api密钥&#x27;,</span><br><span class="line"> ],</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>还可以选择在ApiDomain修改自定义反代域名，详见<a href="https://github.com/yb/uptime-status/">https://github.com/yb/uptime-status/</a></p>
+</blockquote>
+<h1 id="vercel部署"><a href="#vercel部署" class="headerlink" title="vercel部署"></a>vercel部署</h1><p>新建一个项目<br>import监控面板仓库<br>等待几分钟创建完成，点击vist，一个监控面板就完成了  </p>
+<div><img src=/images/9-5.webp width="70%" height="70%"></div>
+
+<div><img src=/images/9-6.webp width="70%" height="70%"></div>
+
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
