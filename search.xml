@@ -611,7 +611,7 @@ js中只有一处pjax报错
   <entry>
     <title>测试用文章</title>
     <url>/article/d87f7e0c.html</url>
-    <content><![CDATA[<p>waawdadadadadawdda<br>11111111111111111111111111111<br>222222222222222222222222222<br>sfaadwadawddwaas<br>21414141414aaa<br>4232432</p>
+    <content><![CDATA[<p>waawdadadadadawdda<br>11111111111111111111111111111<br>222222222222222222222222222<br>sfaadwadawddwaas<br>21414141414aaa<br>4232432adawadsdsadwadw</p>
 ]]></content>
   </entry>
   <entry>
@@ -1310,5 +1310,10 @@ js中只有一处pjax报错
       <tags>
         <tag>JAVA</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>2313123</title>
+    <url>/article/29a862bf.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
