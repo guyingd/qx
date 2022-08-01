@@ -6,7 +6,7 @@
   <link href="https://www.chuckle.top/atom.xml" rel="self"/>
   
   <link href="https://www.chuckle.top/"/>
-  <updated>2022-07-20T14:26:10.000Z</updated>
+  <updated>2022-07-29T09:34:38.000Z</updated>
   <id>https://www.chuckle.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaWeb笔记--寄途的初始</title>
+    <link href="https://www.chuckle.top/article/7c1f73d5.html"/>
+    <id>https://www.chuckle.top/article/7c1f73d5.html</id>
+    <published>2022-07-29T10:34:38.000Z</published>
+    <updated>2022-07-29T09:34:38.000Z</updated>
+    
+    
+    <summary type="html">JavaEE入土的初始，从开学到寄</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JavaWeb" scheme="https://www.chuckle.top/tags/JavaWeb/"/>
+    
+    <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
+    
+  </entry>
   
   <entry>
     <title>新生生存指南</title>
@@ -154,6 +175,8 @@
     
     <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
     
+    <category term="JavaSE" scheme="https://www.chuckle.top/tags/JavaSE/"/>
+    
   </entry>
   
   <entry>
@@ -220,6 +243,8 @@
     
     <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
     
+    <category term="JavaSE" scheme="https://www.chuckle.top/tags/JavaSE/"/>
+    
   </entry>
   
   <entry>
@@ -268,6 +293,8 @@
     
     
     <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
+    
+    <category term="JavaSE" scheme="https://www.chuckle.top/tags/JavaSE/"/>
     
   </entry>
   
