@@ -1327,4 +1327,19 @@ js中只有一处pjax报错
         <tag>JavaSE</tag>
       </tags>
   </entry>
+  <entry>
+    <title>JavaSE查缺补漏笔记</title>
+    <url>/article/3c6a38d9.html</url>
+    <content><![CDATA[<blockquote>
+<p>跟着翁恺或者学校的进度学完的JavaSE，如泛型、I/O、线程、映射、反射等等大部分没有提到或只是简略介绍，想要从JavaSE衔接上JavaEE，这些知识不可跳过。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JAVA</tag>
+        <tag>JavaSE</tag>
+      </tags>
+  </entry>
 </search>
