@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>给Butterfly加上顶部加载条</title>
+    <url>/article/13d6481a.html</url>
+    <content><![CDATA[<blockquote>
+<p>效果已在本站实装，切换页面顶部有加载进度条<br>参考文章<a href="https://cloud.tencent.com/developer/article/1960734">为Hexo博客添加顶部加载条</a></p>
+</blockquote>
+<h1 id="引入css"><a href="#引入css" class="headerlink" title="引入css"></a>引入css</h1><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.pace</span> &#123;</span><br><span class="line">  -webkit-<span class="attribute">pointer-events</span>: none;</span><br><span class="line">  <span class="attribute">pointer-events</span>: none;</span><br><span class="line">  -webkit-user-select: none;</span><br><span class="line">  -moz-user-select: none;</span><br><span class="line">  user-select: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.pace-inactive</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-progress</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#e90f92</span>;</span><br><span class="line">  <span class="attribute">position</span>: fixed;</span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">2000</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">2px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-progress-inner</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0px</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">#e90f92</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="number">#e90f92</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">1.0</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">  -moz-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">  -ms-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">  -o-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-activity</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">position</span>: fixed;</span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">2000</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">14px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">14px</span>;</span><br><span class="line">  <span class="attribute">border</span>: solid <span class="number">2px</span> transparent;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#e90f92</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#e90f92</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">  -webkit-<span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">  -moz-<span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">  -ms-<span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">  -o-<span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">  <span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@-webkit-keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-moz-keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; -moz-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; -moz-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-o-keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; -o-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; -o-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-ms-keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; -ms-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; -ms-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* 在下面修改进度条外观 */</span></span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-progress</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#1ef4fbec</span>; <span class="comment">/*进度条颜色*/</span></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">3px</span>;<span class="comment">/* 进度条厚度 */</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-progress-inner</span> &#123;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">#1ef4fbce</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="number">#1ecffbd0</span>; <span class="comment">/*阴影颜色*/</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-activity</span> &#123;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#1edafbe5</span>;	<span class="comment">/*上边框颜色*/</span></span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#1ef4fbec</span>;	<span class="comment">/*左边框颜色*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="引入js"><a href="#引入js" class="headerlink" title="引入js"></a>引入js</h1><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;//cdn.bootcss.com/pace/1.0.2/pace.min.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>然后三连即可</strong></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Butterfly</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>FakeLocation模拟校园跑教程</title>
     <url>/article/c5d354fd.html</url>
     <content><![CDATA[<p>我们学校用的是运动世界校园，所以就用这个软件为例，其他软件差不多<br>博主测试设备：红米k40安卓11、红米6pro安卓9  </p>
@@ -38,24 +56,6 @@
       </categories>
       <tags>
         <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>给Butterfly加上顶部加载条</title>
-    <url>/article/13d6481a.html</url>
-    <content><![CDATA[<blockquote>
-<p>效果已在本站实装，切换页面顶部有加载进度条<br>参考文章<a href="https://cloud.tencent.com/developer/article/1960734">为Hexo博客添加顶部加载条</a></p>
-</blockquote>
-<h1 id="引入css"><a href="#引入css" class="headerlink" title="引入css"></a>引入css</h1><figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.pace</span> &#123;</span><br><span class="line">  -webkit-<span class="attribute">pointer-events</span>: none;</span><br><span class="line">  <span class="attribute">pointer-events</span>: none;</span><br><span class="line">  -webkit-user-select: none;</span><br><span class="line">  -moz-user-select: none;</span><br><span class="line">  user-select: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.pace-inactive</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-progress</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#e90f92</span>;</span><br><span class="line">  <span class="attribute">position</span>: fixed;</span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">2000</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">2px</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-progress-inner</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">position</span>: absolute;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">0px</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">100px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100%</span>;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">#e90f92</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="number">#e90f92</span>;</span><br><span class="line">  <span class="attribute">opacity</span>: <span class="number">1.0</span>;</span><br><span class="line">  -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">  -moz-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">  -ms-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">  -o-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">  <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">3deg</span>) <span class="built_in">translate</span>(<span class="number">0px</span>, -<span class="number">4px</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-activity</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">  <span class="attribute">position</span>: fixed;</span><br><span class="line">  <span class="attribute">z-index</span>: <span class="number">2000</span>;</span><br><span class="line">  <span class="attribute">top</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">right</span>: <span class="number">15px</span>;</span><br><span class="line">  <span class="attribute">width</span>: <span class="number">14px</span>;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">14px</span>;</span><br><span class="line">  <span class="attribute">border</span>: solid <span class="number">2px</span> transparent;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#e90f92</span>;</span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#e90f92</span>;</span><br><span class="line">  <span class="attribute">border-radius</span>: <span class="number">10px</span>;</span><br><span class="line">  -webkit-<span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">  -moz-<span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">  -ms-<span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">  -o-<span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">  <span class="attribute">animation</span>: pace-spinner <span class="number">400ms</span> linear infinite;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">@-webkit-keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; -webkit-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-moz-keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; -moz-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; -moz-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-o-keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; -o-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; -o-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@-ms-keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; -ms-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; -ms-<span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">@keyframes</span> pace-spinner &#123;</span><br><span class="line">  <span class="number">0%</span> &#123; <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">0deg</span>); &#125;</span><br><span class="line">  <span class="number">100%</span> &#123; <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); <span class="attribute">transform</span>: <span class="built_in">rotate</span>(<span class="number">360deg</span>); &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">/* 在下面修改进度条外观 */</span></span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-progress</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: <span class="number">#1ef4fbec</span>; <span class="comment">/*进度条颜色*/</span></span><br><span class="line">  <span class="attribute">height</span>: <span class="number">3px</span>;<span class="comment">/* 进度条厚度 */</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-progress-inner</span> &#123;</span><br><span class="line">  <span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">10px</span> <span class="number">#1ef4fbce</span>, <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="number">#1ecffbd0</span>; <span class="comment">/*阴影颜色*/</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.pace</span> <span class="selector-class">.pace-activity</span> &#123;</span><br><span class="line">  <span class="attribute">border-top-color</span>: <span class="number">#1edafbe5</span>;	<span class="comment">/*上边框颜色*/</span></span><br><span class="line">  <span class="attribute">border-left-color</span>: <span class="number">#1ef4fbec</span>;	<span class="comment">/*左边框颜色*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="引入js"><a href="#引入js" class="headerlink" title="引入js"></a>引入js</h1><figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;//cdn.bootcss.com/pace/1.0.2/pace.min.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-<p><strong>然后三连即可</strong></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Butterfly</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -106,6 +106,40 @@
       </categories>
       <tags>
         <tag>其它</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一次超声波避障小车比赛</title>
+    <url>/article/81935dcb.html</url>
+    <content><![CDATA[<blockquote>
+<p>去年第一次红外循迹比赛的时候我还没整博客，第二次便记录一下吧</p>
+</blockquote>
+<h1 id="比赛简介"><a href="#比赛简介" class="headerlink" title="比赛简介"></a>比赛简介</h1><p>学校机械院举办的智能小车比赛，一学期一次，上次是红外循迹，这次是超声波避障<br>小车是学院统一采购的，第一次去比赛时拿到的是散件，51单片机、电阻、其它芯片等，都得自己焊  </p>
+<hr>
+<h1 id="关于队伍"><a href="#关于队伍" class="headerlink" title="关于队伍"></a>关于队伍</h1><p>一位机械院的同学在酷安私信我参不参加智能小车比赛，我那时还不认识他，但想着反正闲着也是闲着，参加点活动也好，便一拍即合，后面他又拉来了商学院的一位男同学和两位女同学<br>第一次比赛，我们也是唯一有商学院同学的队伍（其它队伍队均两机械两计科），不过我们队也是女同学最多的，Buff加满   </p>
+<p>队名我提议是秋名山车队，又是一拍即合  </p>
+<hr>
+<h1 id="关于比赛"><a href="#关于比赛" class="headerlink" title="关于比赛"></a>关于比赛</h1><p>小车在上次比赛时就已搞好，所以这次重点在写个超声波避障程序烧进去<br>作为队里唯一的计科同学，这个程序当然得我搞了<br>但我倒也摸鱼，程序不难，测试过一次没毛病，剩下就是数值的微调（这就是我比赛前一天晚上才去调的原因么（误））</p>
+<hr>
+<h1 id="比赛过程"><a href="#比赛过程" class="headerlink" title="比赛过程"></a>比赛过程</h1><p>过程简单，就是一遍一遍测试，然后改改数值，调调机制，然后队伍抽签轮流上，看谁跑的时间短<br>上午7个队（本来12个队，弃权了5个，新报名的队伍焊坏小车的不少），取前三进入下午复赛  </p>
+<hr>
+<h1 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h1><p>第一次的比赛我们第二，这次还是第二，属于万年老二了<br>上次有初赛复赛都有奖册，我拿了一本，这次只有复赛一本册子，给了队里一位女同学，争取以后人手一本  </p>
+<hr>
+<h1 id="一些图片"><a href="#一些图片" class="headerlink" title="一些图片"></a>一些图片</h1><div><img src=/images/12-1.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-2.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-3.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-4.webp width="100%" height="100%"></div>
+
+<hr>
+]]></content>
+      <categories>
+        <category>Chuckle</category>
+      </categories>
+      <tags>
+        <tag>Chuckle</tag>
       </tags>
   </entry>
   <entry>
@@ -230,37 +264,31 @@
       </tags>
   </entry>
   <entry>
-    <title>记一次超声波避障小车比赛</title>
-    <url>/article/81935dcb.html</url>
-    <content><![CDATA[<blockquote>
-<p>去年第一次红外循迹比赛的时候我还没整博客，第二次便记录一下吧</p>
-</blockquote>
-<h1 id="比赛简介"><a href="#比赛简介" class="headerlink" title="比赛简介"></a>比赛简介</h1><p>学校机械院举办的智能小车比赛，一学期一次，上次是红外循迹，这次是超声波避障<br>小车是学院统一采购的，第一次去比赛时拿到的是散件，51单片机、电阻、其它芯片等，都得自己焊  </p>
-<hr>
-<h1 id="关于队伍"><a href="#关于队伍" class="headerlink" title="关于队伍"></a>关于队伍</h1><p>一位机械院的同学在酷安私信我参不参加智能小车比赛，我那时还不认识他，但想着反正闲着也是闲着，参加点活动也好，便一拍即合，后面他又拉来了商学院的一位男同学和两位女同学<br>第一次比赛，我们也是唯一有商学院同学的队伍（其它队伍队均两机械两计科），不过我们队也是女同学最多的，Buff加满   </p>
-<p>队名我提议是秋名山车队，又是一拍即合  </p>
-<hr>
-<h1 id="关于比赛"><a href="#关于比赛" class="headerlink" title="关于比赛"></a>关于比赛</h1><p>小车在上次比赛时就已搞好，所以这次重点在写个超声波避障程序烧进去<br>作为队里唯一的计科同学，这个程序当然得我搞了<br>但我倒也摸鱼，程序不难，测试过一次没毛病，剩下就是数值的微调（这就是我比赛前一天晚上才去调的原因么（误））</p>
-<hr>
-<h1 id="比赛过程"><a href="#比赛过程" class="headerlink" title="比赛过程"></a>比赛过程</h1><p>过程简单，就是一遍一遍测试，然后改改数值，调调机制，然后队伍抽签轮流上，看谁跑的时间短<br>上午7个队（本来12个队，弃权了5个，新报名的队伍焊坏小车的不少），取前三进入下午复赛  </p>
-<hr>
-<h1 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h1><p>第一次的比赛我们第二，这次还是第二，属于万年老二了<br>上次有初赛复赛都有奖册，我拿了一本，这次只有复赛一本册子，给了队里一位女同学，争取以后人手一本  </p>
-<hr>
-<h1 id="一些图片"><a href="#一些图片" class="headerlink" title="一些图片"></a>一些图片</h1><div><img src=/images/12-1.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-2.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-3.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-4.webp width="100%" height="100%"></div>
-
-<hr>
+    <title>JavaWeb笔记--寄途的初始</title>
+    <url>/article/7c1f73d5.html</url>
+    <content><![CDATA[<p>咕咕咕（</p>
 ]]></content>
       <categories>
-        <category>Chuckle</category>
+        <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>Chuckle</tag>
+        <tag>JavaWeb</tag>
+        <tag>JAVA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JavaSE查缺补漏笔记</title>
+    <url>/article/3c6a38d9.html</url>
+    <content><![CDATA[<blockquote>
+<p>跟着翁恺或者学校的进度学完的JavaSE，如泛型、I/O、线程、映射、反射等等大部分没有提到或只是简略介绍，想要从JavaSE衔接上JavaEE，这些知识不可跳过。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>JAVA</tag>
+        <tag>JavaSE</tag>
       </tags>
   </entry>
   <entry>
@@ -313,34 +341,6 @@
       </categories>
       <tags>
         <tag>其它</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaWeb笔记--寄途的初始</title>
-    <url>/article/7c1f73d5.html</url>
-    <content><![CDATA[<p>咕咕咕（</p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>JavaWeb</tag>
-        <tag>JAVA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>JavaSE查缺补漏笔记</title>
-    <url>/article/3c6a38d9.html</url>
-    <content><![CDATA[<blockquote>
-<p>跟着翁恺或者学校的进度学完的JavaSE，如泛型、I/O、线程、映射、反射等等大部分没有提到或只是简略介绍，想要从JavaSE衔接上JavaEE，这些知识不可跳过。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>JAVA</tag>
-        <tag>JavaSE</tag>
       </tags>
   </entry>
   <entry>
@@ -415,6 +415,12 @@
       <tags>
         <tag>Hexo</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>测试用文章</title>
+    <url>/article/d87f7e0c.html</url>
+    <content><![CDATA[<p>waawdadadadadawdda<br>11111111111111111111111111111<br>241412<br>aaaaaaaaaa<br>65767awdaad<br><img src="https://cdn.nlark.com/yuque/0/2022/png/26795473/1659838729962-11aa244b-c946-45ac-bedb-c2278df4a1ce.png" width="50%" height="50%"></p>
+]]></content>
   </entry>
   <entry>
     <title>博客搜索挂了解决方法</title>
@@ -675,12 +681,6 @@ js中只有一处pjax报错
       <tags>
         <tag>C语言</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>测试用文章</title>
-    <url>/article/d87f7e0c.html</url>
-    <content><![CDATA[<p>waawdadadadadawdda<br>11111111111111111111111111111<br>241412<br>aaaaaaaaaa<br>65767awdaad<br><img src="https://cdn.nlark.com/yuque/0/2022/png/26795473/1659838729962-11aa244b-c946-45ac-bedb-c2278df4a1ce.png" width="50%" height="50%"></p>
-]]></content>
   </entry>
   <entry>
     <title>JAVA/面向对象学习笔记(1)</title>
@@ -1010,6 +1010,63 @@ js中只有一处pjax报错
       </tags>
   </entry>
   <entry>
+    <title>我的butterfly魔改</title>
+    <url>/article/ab2d75d5.html</url>
+    <content><![CDATA[<p>咕咕咕~</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Butterfly</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于UptimeRobot的监控面板</title>
+    <url>/article/8f1fedc5.html</url>
+    <content><![CDATA[<blockquote>
+<p>演示：<a href="https://status.chuckle.top/">轻笑的网站监控面板</a></p>
+</blockquote>
+<h1 id="注册UptimeRobot"><a href="#注册UptimeRobot" class="headerlink" title="注册UptimeRobot"></a>注册UptimeRobot</h1><p>填写邮箱以完成注册  </p>
+<blockquote>
+<p><a href="https://uptimerobot.com/signUp?ref=website-header">跳转至注册</a></p>
+</blockquote>
+<h1 id="新建监视器"><a href="#新建监视器" class="headerlink" title="新建监视器"></a>新建监视器</h1><p>点击左上角Add New Monitor  </p>
+<div><img src=/images/9-1.webp width="70%" height="70%"></div>
+
+<p>在弹出窗口填写需要需要监控的站点的相关信息  </p>
+<div><img src=/images/9-2.webp width="70%" height="70%"></div>
+
+<p>点击Create Monitor完成创建   </p>
+<h1 id="创建API密钥"><a href="#创建API密钥" class="headerlink" title="创建API密钥"></a>创建API密钥</h1><p>点击My Settings</p>
+<div><img src=/images/9-3.webp width="70%" height="70%"></div>
+为监视器创建一个api密钥（也可选择第三个，为所有监视器创建一个密钥）  
+<div><img src=/images/9-4.webp width="70%" height="70%"></div>
+
+<h1 id="fork监控面板仓库"><a href="#fork监控面板仓库" class="headerlink" title="fork监控面板仓库"></a>fork监控面板仓库</h1><p>选择其中一个fork<br><a href="https://github.com/yb/uptime-status">yb/uptime-status</a><br><a href="https://github.com/Ice-Hazymoon/status">Ice-Hazymoon/status</a>  </p>
+<h1 id="修改config-js"><a href="#修改config-js" class="headerlink" title="修改config.js"></a>修改config.js</h1><p>进入刚fork的仓库，打开/public/config.js<br>添加监视器的api密钥  </p>
+<blockquote>
+<p>需要监控的站点较多，也可为所有监控器创建一个api密钥填入</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ApiKeys: [</span><br><span class="line">   &#x27;在这里粘贴api密钥&#x27;,</span><br><span class="line"> ],</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>还可以选择在ApiDomain修改自定义反代域名，详见<a href="https://github.com/yb/uptime-status/">https://github.com/yb/uptime-status/</a></p>
+</blockquote>
+<h1 id="vercel部署"><a href="#vercel部署" class="headerlink" title="vercel部署"></a>vercel部署</h1><p>新建一个项目<br>import监控面板仓库<br>等待几分钟创建完成，点击vist，一个监控面板就完成了  </p>
+<div><img src=/images/9-5.webp width="70%" height="70%"></div>
+
+<div><img src=/images/9-6.webp width="70%" height="70%"></div>
+
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JAVA/面向对象学习笔记(3)</title>
     <url>/article/8636f786.html</url>
     <content><![CDATA[<blockquote>
@@ -1283,63 +1340,6 @@ js中只有一处pjax报错
       <tags>
         <tag>JAVA</tag>
         <tag>JavaSE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>基于UptimeRobot的监控面板</title>
-    <url>/article/8f1fedc5.html</url>
-    <content><![CDATA[<blockquote>
-<p>演示：<a href="https://status.chuckle.top/">轻笑的网站监控面板</a></p>
-</blockquote>
-<h1 id="注册UptimeRobot"><a href="#注册UptimeRobot" class="headerlink" title="注册UptimeRobot"></a>注册UptimeRobot</h1><p>填写邮箱以完成注册  </p>
-<blockquote>
-<p><a href="https://uptimerobot.com/signUp?ref=website-header">跳转至注册</a></p>
-</blockquote>
-<h1 id="新建监视器"><a href="#新建监视器" class="headerlink" title="新建监视器"></a>新建监视器</h1><p>点击左上角Add New Monitor  </p>
-<div><img src=/images/9-1.webp width="70%" height="70%"></div>
-
-<p>在弹出窗口填写需要需要监控的站点的相关信息  </p>
-<div><img src=/images/9-2.webp width="70%" height="70%"></div>
-
-<p>点击Create Monitor完成创建   </p>
-<h1 id="创建API密钥"><a href="#创建API密钥" class="headerlink" title="创建API密钥"></a>创建API密钥</h1><p>点击My Settings</p>
-<div><img src=/images/9-3.webp width="70%" height="70%"></div>
-为监视器创建一个api密钥（也可选择第三个，为所有监视器创建一个密钥）  
-<div><img src=/images/9-4.webp width="70%" height="70%"></div>
-
-<h1 id="fork监控面板仓库"><a href="#fork监控面板仓库" class="headerlink" title="fork监控面板仓库"></a>fork监控面板仓库</h1><p>选择其中一个fork<br><a href="https://github.com/yb/uptime-status">yb/uptime-status</a><br><a href="https://github.com/Ice-Hazymoon/status">Ice-Hazymoon/status</a>  </p>
-<h1 id="修改config-js"><a href="#修改config-js" class="headerlink" title="修改config.js"></a>修改config.js</h1><p>进入刚fork的仓库，打开/public/config.js<br>添加监视器的api密钥  </p>
-<blockquote>
-<p>需要监控的站点较多，也可为所有监控器创建一个api密钥填入</p>
-</blockquote>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ApiKeys: [</span><br><span class="line">   &#x27;在这里粘贴api密钥&#x27;,</span><br><span class="line"> ],</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>还可以选择在ApiDomain修改自定义反代域名，详见<a href="https://github.com/yb/uptime-status/">https://github.com/yb/uptime-status/</a></p>
-</blockquote>
-<h1 id="vercel部署"><a href="#vercel部署" class="headerlink" title="vercel部署"></a>vercel部署</h1><p>新建一个项目<br>import监控面板仓库<br>等待几分钟创建完成，点击vist，一个监控面板就完成了  </p>
-<div><img src=/images/9-5.webp width="70%" height="70%"></div>
-
-<div><img src=/images/9-6.webp width="70%" height="70%"></div>
-
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的butterfly魔改</title>
-    <url>/article/ab2d75d5.html</url>
-    <content><![CDATA[<p>咕咕咕~</p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Butterfly</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
