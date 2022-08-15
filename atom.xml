@@ -6,7 +6,7 @@
   <link href="https://www.chuckle.top/atom.xml" rel="self"/>
   
   <link href="https://www.chuckle.top/"/>
-  <updated>2022-08-01T09:34:38.000Z</updated>
+  <updated>2022-08-15T15:46:39.000Z</updated>
   <id>https://www.chuckle.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小米妙享--MIUI的生态互联</title>
+    <link href="https://www.chuckle.top/article/eb38f645.html"/>
+    <id>https://www.chuckle.top/article/eb38f645.html</id>
+    <published>2022-08-15T14:46:39.000Z</published>
+    <updated>2022-08-15T15:46:39.000Z</updated>
+    
+    
+    <summary type="html">小米妙享作为去年的产品，在最近的更新中展现了全新的面貌</summary>
+    
+    
+    
+    <category term="其它" scheme="https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    
+    <category term="小米妙享" scheme="https://www.chuckle.top/tags/%E5%B0%8F%E7%B1%B3%E5%A6%99%E4%BA%AB/"/>
+    
+    <category term="MIUI" scheme="https://www.chuckle.top/tags/MIUI/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaWeb笔记--寄途的初始</title>
@@ -416,25 +437,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>第一篇文章：一点小小的说明与介绍</title>
-    <link href="https://www.chuckle.top/article/ff73d561.html"/>
-    <id>https://www.chuckle.top/article/ff73d561.html</id>
-    <published>2022-03-10T14:20:19.000Z</published>
-    <updated>2022-04-05T14:20:19.000Z</updated>
-    
-    
-    <summary type="html">一点说明</summary>
-    
-    
-    
-    <category term="Chuckle" scheme="https://www.chuckle.top/categories/Chuckle/"/>
-    
-    
-    <category term="Chuckle" scheme="https://www.chuckle.top/tags/Chuckle/"/>
     
   </entry>
   
