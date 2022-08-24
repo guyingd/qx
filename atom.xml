@@ -6,7 +6,7 @@
   <link href="https://www.chuckle.top/atom.xml" rel="self"/>
   
   <link href="https://www.chuckle.top/"/>
-  <updated>2022-08-23T12:14:59.000Z</updated>
+  <updated>2022-08-24T14:25:29.000Z</updated>
   <id>https://www.chuckle.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>归档、分类、标签页文章卡片加上所属分类和标签</title>
+    <link href="https://www.chuckle.top/article/a19bb7fb.html"/>
+    <id>https://www.chuckle.top/article/a19bb7fb.html</id>
+    <published>2022-08-24T14:24:29.000Z</published>
+    <updated>2022-08-24T14:25:29.000Z</updated>
+    
+    
+    <summary type="html">给归档、分类、标签页文章卡片的标题下方加上所属分类和标签</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.chuckle.top/categories/Hexo/"/>
+    
+    
+    <category term="Butterfly" scheme="https://www.chuckle.top/tags/Butterfly/"/>
+    
+    <category term="Hexo" scheme="https://www.chuckle.top/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>控制指定单页的背景样式</title>
@@ -416,25 +437,6 @@
     
     
     <category term="项目" scheme="https://www.chuckle.top/categories/%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-    <category term="C语言" scheme="https://www.chuckle.top/tags/C%E8%AF%AD%E8%A8%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C语言学习笔记</title>
-    <link href="https://www.chuckle.top/article/13675369.html"/>
-    <id>https://www.chuckle.top/article/13675369.html</id>
-    <published>2022-03-27T06:08:09.000Z</published>
-    <updated>2022-03-30T02:13:21.000Z</updated>
-    
-    
-    <summary type="html">我的C语言学习笔记</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
     <category term="C语言" scheme="https://www.chuckle.top/tags/C%E8%AF%AD%E8%A8%80/"/>
