@@ -20,40 +20,6 @@
       </tags>
   </entry>
   <entry>
-    <title>记一次超声波避障小车比赛</title>
-    <url>/article/81935dcb.html</url>
-    <content><![CDATA[<blockquote>
-<p>去年第一次红外循迹比赛的时候我还没整博客，第二次便记录一下吧</p>
-</blockquote>
-<h1 id="比赛简介"><a href="#比赛简介" class="headerlink" title="比赛简介"></a>比赛简介</h1><p>学校机械院举办的智能小车比赛，一学期一次，上次是红外循迹，这次是超声波避障<br>小车是学院统一采购的，第一次去比赛时拿到的是散件，51单片机、电阻、其它芯片等，都得自己焊  </p>
-<hr>
-<h1 id="关于队伍"><a href="#关于队伍" class="headerlink" title="关于队伍"></a>关于队伍</h1><p>一位机械院的同学在酷安私信我参不参加智能小车比赛，我那时还不认识他，但想着反正闲着也是闲着，参加点活动也好，便一拍即合，后面他又拉来了商学院的一位男同学和两位女同学<br>第一次比赛，我们也是唯一有商学院同学的队伍（其它队伍队均两机械两计科），不过我们队也是女同学最多的，Buff加满   </p>
-<p>队名我提议是秋名山车队，又是一拍即合  </p>
-<hr>
-<h1 id="关于比赛"><a href="#关于比赛" class="headerlink" title="关于比赛"></a>关于比赛</h1><p>小车在上次比赛时就已搞好，所以这次重点在写个超声波避障程序烧进去<br>作为队里唯一的计科同学，这个程序当然得我搞了<br>但我倒也摸鱼，程序不难，测试过一次没毛病，剩下就是数值的微调（这就是我比赛前一天晚上才去调的原因么（误））</p>
-<hr>
-<h1 id="比赛过程"><a href="#比赛过程" class="headerlink" title="比赛过程"></a>比赛过程</h1><p>过程简单，就是一遍一遍测试，然后改改数值，调调机制，然后队伍抽签轮流上，看谁跑的时间短<br>上午7个队（本来12个队，弃权了5个，新报名的队伍焊坏小车的不少），取前三进入下午复赛  </p>
-<hr>
-<h1 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h1><p>第一次的比赛我们第二，这次还是第二，属于万年老二了<br>上次有初赛复赛都有奖册，我拿了一本，这次只有复赛一本册子，给了队里一位女同学，争取以后人手一本  </p>
-<hr>
-<h1 id="一些图片"><a href="#一些图片" class="headerlink" title="一些图片"></a>一些图片</h1><div><img src=/images/12-1.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-2.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-3.webp width="100%" height="100%"></div>
-
-<div><img src=/images/12-4.webp width="100%" height="100%"></div>
-
-<hr>
-]]></content>
-      <categories>
-        <category>Chuckle</category>
-      </categories>
-      <tags>
-        <tag>Chuckle</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>FakeLocation模拟校园跑教程</title>
     <url>/article/c5d354fd.html</url>
     <content><![CDATA[<p>我们学校用的是运动世界校园，所以就用这个软件为例，其他软件差不多<br>博主测试设备：红米k40安卓11、红米6pro安卓9  </p>
@@ -91,6 +57,40 @@
       </categories>
       <tags>
         <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>记一次超声波避障小车比赛</title>
+    <url>/article/81935dcb.html</url>
+    <content><![CDATA[<blockquote>
+<p>去年第一次红外循迹比赛的时候我还没整博客，第二次便记录一下吧</p>
+</blockquote>
+<h1 id="比赛简介"><a href="#比赛简介" class="headerlink" title="比赛简介"></a>比赛简介</h1><p>学校机械院举办的智能小车比赛，一学期一次，上次是红外循迹，这次是超声波避障<br>小车是学院统一采购的，第一次去比赛时拿到的是散件，51单片机、电阻、其它芯片等，都得自己焊  </p>
+<hr>
+<h1 id="关于队伍"><a href="#关于队伍" class="headerlink" title="关于队伍"></a>关于队伍</h1><p>一位机械院的同学在酷安私信我参不参加智能小车比赛，我那时还不认识他，但想着反正闲着也是闲着，参加点活动也好，便一拍即合，后面他又拉来了商学院的一位男同学和两位女同学<br>第一次比赛，我们也是唯一有商学院同学的队伍（其它队伍队均两机械两计科），不过我们队也是女同学最多的，Buff加满   </p>
+<p>队名我提议是秋名山车队，又是一拍即合  </p>
+<hr>
+<h1 id="关于比赛"><a href="#关于比赛" class="headerlink" title="关于比赛"></a>关于比赛</h1><p>小车在上次比赛时就已搞好，所以这次重点在写个超声波避障程序烧进去<br>作为队里唯一的计科同学，这个程序当然得我搞了<br>但我倒也摸鱼，程序不难，测试过一次没毛病，剩下就是数值的微调（这就是我比赛前一天晚上才去调的原因么（误））</p>
+<hr>
+<h1 id="比赛过程"><a href="#比赛过程" class="headerlink" title="比赛过程"></a>比赛过程</h1><p>过程简单，就是一遍一遍测试，然后改改数值，调调机制，然后队伍抽签轮流上，看谁跑的时间短<br>上午7个队（本来12个队，弃权了5个，新报名的队伍焊坏小车的不少），取前三进入下午复赛  </p>
+<hr>
+<h1 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h1><p>第一次的比赛我们第二，这次还是第二，属于万年老二了<br>上次有初赛复赛都有奖册，我拿了一本，这次只有复赛一本册子，给了队里一位女同学，争取以后人手一本  </p>
+<hr>
+<h1 id="一些图片"><a href="#一些图片" class="headerlink" title="一些图片"></a>一些图片</h1><div><img src=/images/12-1.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-2.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-3.webp width="100%" height="100%"></div>
+
+<div><img src=/images/12-4.webp width="100%" height="100%"></div>
+
+<hr>
+]]></content>
+      <categories>
+        <category>Chuckle</category>
+      </categories>
+      <tags>
+        <tag>Chuckle</tag>
       </tags>
   </entry>
   <entry>
