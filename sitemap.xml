@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.chuckle.top/gallery/index.html</loc>
+    
+    <lastmod>2022-08-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/article/a19bb7fb.html</loc>
     
     <lastmod>2022-08-24</lastmod>
@@ -174,15 +183,6 @@
   
   <url>
     <loc>https://www.chuckle.top/link/index.html</loc>
-    
-    <lastmod>2022-07-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/gallery/index.html</loc>
     
     <lastmod>2022-07-16</lastmod>
     
@@ -380,20 +380,6 @@
 
   
   <url>
-    <loc>https://www.chuckle.top/tags/Butterfly/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/tags/Hexo/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -409,6 +395,20 @@
   
   <url>
     <loc>https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/</loc>
+    <lastmod>2022-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/Butterfly/</loc>
+    <lastmod>2022-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/Hexo/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -459,13 +459,6 @@
 
   
   <url>
-    <loc>https://www.chuckle.top/categories/Hexo/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -481,6 +474,13 @@
   
   <url>
     <loc>https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/</loc>
+    <lastmod>2022-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/categories/Hexo/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
