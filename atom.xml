@@ -185,63 +185,6 @@
   </entry>
   
   <entry>
-    <title>新生生存指南</title>
-    <link href="https://www.chuckle.top/article/f6a0ce6c.html"/>
-    <id>https://www.chuckle.top/article/f6a0ce6c.html</id>
-    <published>2022-07-20T14:25:10.000Z</published>
-    <updated>2022-07-20T14:26:10.000Z</updated>
-    
-    
-    <summary type="html">一份在9月的炎炎夏日中，令人暖心的校区生存指南</summary>
-    
-    
-    
-    <category term="其它" scheme="https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/"/>
-    
-    
-    <category term="其它" scheme="https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>“扬帆起航”LOGO设计活动--初柒网络科技</title>
-    <link href="https://www.chuckle.top/article/560689dd.html"/>
-    <id>https://www.chuckle.top/article/560689dd.html</id>
-    <published>2022-07-16T15:21:38.000Z</published>
-    <updated>2022-07-16T15:22:38.000Z</updated>
-    
-    
-    <summary type="html">武汉初柒网络科技有限公司为广大博主免费设计logo活动</summary>
-    
-    
-    
-    <category term="其它" scheme="https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/"/>
-    
-    
-    <category term="其它" scheme="https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>广海阳江校区介绍</title>
-    <link href="https://www.chuckle.top/article/8154a640.html"/>
-    <id>https://www.chuckle.top/article/8154a640.html</id>
-    <published>2022-06-27T08:38:29.000Z</published>
-    <updated>2022-06-27T08:40:29.000Z</updated>
-    
-    
-    <summary type="html">广东海洋大学阳江校区介绍，主要介绍计算机科学与工程学院</summary>
-    
-    
-    
-    <category term="其它" scheme="https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/"/>
-    
-    
-    <category term="其它" scheme="https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/"/>
-    
-  </entry>
-  
-  <entry>
     <title>超星学习通数据泄露事件记录</title>
     <link href="https://www.chuckle.top/article/af84a159.html"/>
     <id>https://www.chuckle.top/article/af84a159.html</id>
@@ -442,6 +385,72 @@
     <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
     
     <category term="JavaSE" scheme="https://www.chuckle.top/tags/JavaSE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言单链表菜品管理系统</title>
+    <link href="https://www.chuckle.top/article/a696e8fe.html"/>
+    <id>https://www.chuckle.top/article/a696e8fe.html</id>
+    <published>2022-03-31T11:07:19.000Z</published>
+    <updated>2022-03-31T02:13:21.000Z</updated>
+    
+    
+    <summary type="html">一个简单的管理系统</summary>
+    
+    
+    
+    <category term="项目" scheme="https://www.chuckle.top/categories/%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="C语言" scheme="https://www.chuckle.top/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C语言学习笔记</title>
+    <link href="https://www.chuckle.top/article/13675369.html"/>
+    <id>https://www.chuckle.top/article/13675369.html</id>
+    <published>2022-03-27T06:08:09.000Z</published>
+    <updated>2022-03-30T02:13:21.000Z</updated>
+    
+    
+    <summary type="html">我的C语言学习笔记</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="C语言" scheme="https://www.chuckle.top/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客搜索挂了解决方法</title>
+    <link href="https://www.chuckle.top/article/f8c79a1b.html"/>
+    <id>https://www.chuckle.top/article/f8c79a1b.html</id>
+    <published>2022-03-17T02:35:15.000Z</published>
+    <updated>2022-03-18T02:13:21.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;省流助手：删除所有local-search.js中下面这行代码&lt;br&gt;window.pjax &amp;amp;&amp;amp;</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://www.chuckle.top/categories/Hexo/"/>
+    
+    
+    <category term="Butterfly" scheme="https://www.chuckle.top/tags/Butterfly/"/>
+    
+    <category term="Hexo" scheme="https://www.chuckle.top/tags/Hexo/"/>
     
   </entry>
   
