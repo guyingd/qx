@@ -6,7 +6,7 @@
   <link href="https://www.chuckle.top/atom.xml" rel="self"/>
   
   <link href="https://www.chuckle.top/"/>
-  <updated>2022-09-16T05:50:08.000Z</updated>
+  <updated>2022-09-19T08:45:34.000Z</updated>
   <id>https://www.chuckle.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给网站增加悬浮伸缩侧边栏</title>
+    <link href="https://www.chuckle.top/article/fab5c3df.html"/>
+    <id>https://www.chuckle.top/article/fab5c3df.html</id>
+    <published>2022-09-18T08:45:34.000Z</published>
+    <updated>2022-09-19T08:45:34.000Z</updated>
+    
+    
+    <summary type="html">aplayer什么的都可以往里塞，优雅，太优雅了~</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.chuckle.top/categories/Hexo/"/>
+    
+    
+    <category term="Butterfly" scheme="https://www.chuckle.top/tags/Butterfly/"/>
+    
+    <category term="Hexo" scheme="https://www.chuckle.top/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>添加音乐页面</title>
@@ -338,7 +359,7 @@
   </entry>
   
   <entry>
-    <title>我的butterfly魔改</title>
+    <title>Butterfly魔改</title>
     <link href="https://www.chuckle.top/article/ab2d75d5.html"/>
     <id>https://www.chuckle.top/article/ab2d75d5.html</id>
     <published>2022-04-16T13:43:55.000Z</published>
@@ -423,34 +444,6 @@
     
     
     <category term="C语言" scheme="https://www.chuckle.top/tags/C%E8%AF%AD%E8%A8%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客搜索挂了解决方法</title>
-    <link href="https://www.chuckle.top/article/f8c79a1b.html"/>
-    <id>https://www.chuckle.top/article/f8c79a1b.html</id>
-    <published>2022-03-17T02:35:15.000Z</published>
-    <updated>2022-03-18T02:13:21.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;省流助手：删除所有local-search.js中下面这行代码&lt;br&gt;window.pjax &amp;amp;&amp;amp;</summary>
-        
-      
-    
-    
-    
-    <category term="Hexo" scheme="https://www.chuckle.top/categories/Hexo/"/>
-    
-    
-    <category term="Butterfly" scheme="https://www.chuckle.top/tags/Butterfly/"/>
-    
-    <category term="Hexo" scheme="https://www.chuckle.top/tags/Hexo/"/>
     
   </entry>
   
