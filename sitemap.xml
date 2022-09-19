@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.chuckle.top/update/index.html</loc>
+    
+    <lastmod>2022-09-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/article/2ec41fd7.html</loc>
+    
+    <lastmod>2022-09-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/article/fab5c3df.html</loc>
     
     <lastmod>2022-09-19</lastmod>
@@ -30,15 +48,6 @@
   
   <url>
     <loc>https://www.chuckle.top/about/index.html</loc>
-    
-    <lastmod>2022-09-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/update/index.html</loc>
     
     <lastmod>2022-09-18</lastmod>
     
@@ -380,6 +389,27 @@
 
   
   <url>
+    <loc>https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/</loc>
+    <lastmod>2022-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/Butterfly/</loc>
+    <lastmod>2022-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/Hexo/</loc>
+    <lastmod>2022-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-09-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -388,6 +418,13 @@
   
   <url>
     <loc>https://www.chuckle.top/tags/Chuckle/</loc>
+    <lastmod>2022-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
     <lastmod>2022-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -408,13 +445,6 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
-    <lastmod>2022-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/tags/%E5%B0%8F%E7%B1%B3%E5%A6%99%E4%BA%AB/</loc>
     <lastmod>2022-09-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -429,21 +459,21 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/Hexo/</loc>
+    <loc>https://www.chuckle.top/tags/JS/</loc>
     <lastmod>2022-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/Butterfly/</loc>
+    <loc>https://www.chuckle.top/tags/CSS/</loc>
     <lastmod>2022-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/</loc>
+    <loc>https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/</loc>
     <lastmod>2022-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -457,6 +487,20 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/</loc>
+    <lastmod>2022-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/categories/Hexo/</loc>
+    <lastmod>2022-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://www.chuckle.top/categories/%E6%95%99%E7%A8%8B/</loc>
@@ -474,20 +518,6 @@
   
   <url>
     <loc>https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/</loc>
-    <lastmod>2022-09-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/categories/Hexo/</loc>
     <lastmod>2022-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
