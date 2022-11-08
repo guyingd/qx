@@ -47,8 +47,8 @@ $(document).keydown(function(e){
 <meta property="og:description" content="@media screen and (max-width:600px){#page{padding:0 5px!important}} #about-page .author-box{position:relative;width:189px;height:189px;background:rgba(253,253,253);border-radius:50%;overflow:hidd">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://www.chuckle.top/img/1.webp">
-<meta property="article:published_time" content="2022-10-28T02:29:11.600Z">
-<meta property="article:modified_time" content="2022-10-28T02:29:11.600Z">
+<meta property="article:published_time" content="2022-11-08T09:39:57.530Z">
+<meta property="article:modified_time" content="2022-11-08T09:39:57.530Z">
 <meta property="article:author" content="『轻笑Chuckle』">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://www.chuckle.top/img/1.webp"><link rel="shortcut icon" href="/img/head.webp"><link rel="canonical" href="https://www.chuckle.top/about/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//sdk.51.la"/><link rel="stylesheet" href="/css/index.css?134"><link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn1.tianli0.top/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"Jep3hHOli30gtK4U",ck:"Jep3hHOli30gtK4U"});
@@ -100,7 +100,7 @@ f.parentNode.insertBefore(h,f);h.src=e;})(window,document,"https://sdk.51.la/per
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2022-10-28 10:29:11'
+  postUpdate: '2022-11-08 17:39:57'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -309,6 +309,130 @@ f.parentNode.insertBefore(h,f);h.src=e;})(window,document,"https://sdk.51.la/per
 .like-technology .content-bottom,.like-music .content-bottom{margin-bottom:50px}
 .about-statistic .card-content .banner-button-group{bottom:2.3rem}
 }
+.chuckle-img{
+    /* 100%窗口高度 */
+    height: auto;
+    /* 弹性布局 水平+垂直居中 */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* 径向渐变背景 */
+    background: radial-gradient(circle at top center,#29323cd0,#1C1C1Cd4);
+}
+.chuckle-img .container{
+    /* 弹性布局 默认水平排列 */
+    display: flex;
+    width: 90vw;
+    max-width: auto;
+    height: 350px;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+.chuckle-img .item{
+    /* 相对定位 */
+    position: relative;
+    width: 60px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    /* 保持原有尺寸比例，裁切长边 */
+    background-size: cover;
+    /* 定位背景图像为正中间 */
+    background-position: center;
+    /* 过渡效果：时长 贝塞尔曲线 */
+    transition: 0.5s cubic-bezier(0.05,0.61,0.41,0.95);
+    overflow: hidden;
+}
+.chuckle-img .item .shadow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    transition: 0.5s cubic-bezier(0.05,0.61,0.41,0.95);
+}
+.chuckle-img .item .content{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    right: 0;
+    bottom: 10px;
+    height: 40px;
+    transition: 0.5s cubic-bezier(0.05,0.61,0.41,0.95);
+}
+.chuckle-img .item .content .icon{
+    min-width: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.chuckle-img .item:nth-child(1) .fa{
+    color: #fc6e51;
+}
+.chuckle-img .item:nth-child(2) .fa{
+    color: #ffce54;
+}
+.chuckle-img .item:nth-child(3) .fa{
+    color: #2ecc71;
+}
+.chuckle-img .item:nth-child(4) .fa{
+    color: #5d9cec;
+}
+.chuckle-img .item:nth-child(5) .fa{
+    color: #ac92ec;
+}
+.chuckle-img .item:nth-child(6) .fa{
+    color: #363636;
+}
+.chuckle-img .item .content .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: #fff;
+    width: 100%;
+}
+.chuckle-img .item .content .text div{
+    /* 超出显示省略号（需要设置width） */
+    width: calc(100% - 70px);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+.chuckle-img .item .content .text .tit{
+    font-weight: bold;
+    font-size: 18px;
+}
+.chuckle-img .item .content .text .sub{
+    /* 设置过渡效果延迟时间 */
+    transition-delay: 0.1s;
+}
+/* 选中态样式 */
+.chuckle-img .item.active{
+    flex: 1;
+    margin: 0;
+    border-radius: 40px;
+}
+.chuckle-img .item.active .shadow{
+    background: linear-gradient(to top,rgba(0,0,0,0.35) 65%,transparent);
+}
+.chuckle-img .item.active .content{
+    bottom: 20px;
+    left: 20px;
+}
+.chuckle-img .item.active .content .text div{
+    opacity: 1;
+}
+@media screen and (max-width:900px){.chuckle-img{display:none;}}
 </style>
                 <div class="author-main">
                     <div class="author-box">
@@ -450,6 +574,84 @@ f.parentNode.insertBefore(h,f);h.src=e;})(window,document,"https://sdk.51.la/per
                     </div> -->
                 </div>
                 <div class="author-content">
+                    <div class="author-content-item chuckle-img">
+                        <div class="container">
+                            <div class="item active" style="background-image: url(/img/img3.webp);">
+                                <div class="shadow"></div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fa fa-image"></i>
+                                    </div>
+                                    <div class="text">
+                                        <div class="tit">这是标题</div>
+                                        <div class="sub">这是一段描述</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" style="background-image: url(/img/blny.webp);">
+                                <div class="shadow"></div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fa fa-image"></i>
+                                    </div>
+                                    <div class="text">
+                                        <div class="tit">这是标题</div>
+                                        <div class="sub">这是一段描述</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" style="background-image: url(/img/img3.webp);">
+                                <div class="shadow"></div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fa fa-image"></i>
+                                    </div>
+                                    <div class="text">
+                                        <div class="tit">这是标题</div>
+                                        <div class="sub">这是一段描述</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" style="background-image: url(/img/blny.webp);">
+                                <div class="shadow"></div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fa fa-image"></i>
+                                    </div>
+                                    <div class="text">
+                                        <div class="tit">这是标题</div>
+                                        <div class="sub">这是一段描述</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" style="background-image: url(/img/img3.webp);">
+                                <div class="shadow"></div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fa fa-image"></i>
+                                    </div>
+                                    <div class="text">
+                                        <div class="tit">这是标题</div>
+                                        <div class="sub">这是一段描述</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" style="background-image: url(/img/img3.webp);">
+                                <div class="shadow"></div>
+                                <div class="content">
+                                    <div class="icon">
+                                        <i class="fa fa-image"></i>
+                                    </div>
+                                    <div class="text">
+                                        <div class="tit">这是标题</div>
+                                        <div class="sub">这是一段描述</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="author-content">
                     <div class="author-content-item game-lol">
                         <div class="card-content">
                             <div class="author-content-item-tips">爱好游戏</div><span
@@ -578,6 +780,22 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
         s.innerHTML += '<div><span>' + title[i] + '</span><span class="num">' + num[i] + '</span></div>'
     }
 });
+// 获取所有.item元素
+let items=document.querySelectorAll('.item');
+
+// 设置选中态样式
+function setActive(){
+    // 遍历所有.item元素，移出active样式
+    items.forEach((item)=>{
+        item.classList.remove('active');
+    })
+    // 为当前选中项添加active样式
+    this.classList.add('active');
+}
+// 遍历所有.item元素，分别为其设置点击事件
+items.forEach((item)=>{
+    item.addEventListener('click',setActive);
+})
 </script>
 
 </div></div></main><footer id="footer" style="background: rgba(0, 0, 0, 0);"><div id="footer-wrap"><div id="footer_icon"><div class="icon_left"><a class="icon_link" target="_blank" href="http://foreverblog.cn/go.html" rel="noopener external nofollow" title="虫洞-随机访问十年之约成员博客"><i class="fa-solid fa-circle-notch fa-fw"></i></a><a class="icon_link" target="_blank" href="https://travellings.cn" rel="noopener external nofollow" title="开往-随机跳转到另一个加入开往的网页"><i class="fa-solid fa-subway fa-fw"></i></a><a class="icon_link" href="/link/" title="友链"><i class="fa-solid fa-link fa-fw"></i></a><a class="icon_link" href="/messageboard/" title="留言"><i class="fa-regular fa-comment fa-fw"></i></a></div><img class="footer_logo entered loaded" src="/img/head.webp" data-lazy-src="/img/head.webp" onclick="btf.scrollToDest(0,500)" title="返回顶部" data-ll-status="loaded"/><div class="icon_left"><a class="icon_link" target="_blank" rel="noopener" href="https://www.chuckle.top/" title="我的主页"><i class="fa-solid fa-compass fa-fw"></i></a><a class="icon_link" target="_blank" href="https://res.abeim.cn/api/qq/?qq=1934009145" rel="noopener external nofollow" title="联系QQ"><i class="fa-brands fa-qq fa-fw"></i></a><a class="icon_link" target="_blank" href="https://github.com/qxchuckle" rel="noopener external nofollow" title="我的Github主页"><i class="fa-brands fa-github fa-fw"></i></a><a class="icon_link" href="mailto:1934009145@qq.com" rel="noopener external nofollow" title="邮件联系"><i class="fa-solid fa-envelope fa-fw"></i></a></div></div><div class="copyright">&copy;2022 By 『轻笑Chuckle』<a style="color:#fff;font-size:0.9rem;font-weight:400;" href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022076449号-1</a></div><div class="footer_custom_text">『Another branch will grow and flourish in the future』</div><div class="footer-banner"><div class="wordcount"><span>▹轻笑Chuckle居然写了「55k」字，</span><span>好像写完一本『埃克苏佩里』的《小王子》了啊◃</span></div><div id="footer-banner-time"><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span><script>if(! (navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))){
@@ -680,7 +898,7 @@ document.addEventListener('pjax:error', (e) => {
 })</script><div id="fixedcard-dashboard"><div class="fixedcard-user-avatar fixedcard-activebtn" onclick="RemoveFixedCardWidget()"><img class="fixedcard-user-avatar-img" src="/img/head.webp" title="『轻笑Chuckle』"></div></div></div><div class="contact-info"><div class="option"><i class="fas fa-dove"></i><div class="bloktop"></div><div class="text">宁静致远 倾尘轻笑<div class="strip"></div></div></div><div class="option"><i class="fas fa-burn"></i><div class="blok"></div><div class="text"><div class="strip"></div><div class="post-reward"><button class="tip-button reward-button"><span class="tip-button__text">投喂</span><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a class="about-reward" href="/img/weixin.webp" target="_blank"><img class="post-qr-code-img" src="/img/weixin.webp" alt="微信"></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a class="about-reward" href="/img/alipay.webp" target="_blank"><img class="post-qr-code-img" src="/img/alipay.webp" alt="支付宝"></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></button></div></div></div><div class="option"><i class="fas fa-music"></i><div class="blokbottom"></div><div class="text aplayertext"><div class="strip"></div><div class="aplayer no-destroy" mutex="true" listfolded="true" data-id="6609736315" data-preload="none" data-server="netease" data-volume="0.25" data-order="random" data-type="playlist" data-fixed="true" data-autoplay="false"></div></div></div></div><!-- hexo injector body_end start --><script data-pjax>
     function butterfly_categories_card_injector_config(){
       var parent_div_git = document.getElementById('recent-posts');
-      var item_html = '<style>li.categoryBar-list-item{width:24%;}.categoryBar-list{max-height: 190px;overflow:auto;}.categoryBar-list::-webkit-scrollbar{width:0!important}@media screen and (max-width: 650px){.categoryBar-list{max-height: 160px;}}</style><div class="recent-post-item" style="height:auto;width:100%;padding:0px;"><div id="categoryBar"><ul class="categoryBar-list"><li class="categoryBar-list-item" style="background:url(/img/h1.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/其它/&quot;);" href="javascript:void(0);">其它</a><span class="categoryBar-list-count">3</span><span class="categoryBar-list-descr">(&gt;_&lt;)</span></li><li class="categoryBar-list-item" style="background:url(/img/h2.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/教程/&quot;);" href="javascript:void(0);">教程</a><span class="categoryBar-list-count">2</span><span class="categoryBar-list-descr">(&gt;▽&lt;)</span></li><li class="categoryBar-list-item" style="background:url(/img/h5.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/学习笔记/&quot;);" href="javascript:void(0);">学习笔记</a><span class="categoryBar-list-count">7</span><span class="categoryBar-list-descr">Σ( ° △ °|||)︴</span></li><li class="categoryBar-list-item" style="background:url(/img/h3.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/Hexo/&quot;);" href="javascript:void(0);">Hexo</a><span class="categoryBar-list-count">11</span><span class="categoryBar-list-descr">&lt;(￣︶￣)&gt;</span></li><li class="categoryBar-list-item" style="background:url(/img/h4.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/Chuckle/&quot;);" href="javascript:void(0);">Chuckle</a><span class="categoryBar-list-count">2</span><span class="categoryBar-list-descr">╮(￣▽￣)╭</span></li><li class="categoryBar-list-item" style="background:url(/img/h6.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/项目/&quot;);" href="javascript:void(0);">项目</a><span class="categoryBar-list-count">2</span><span class="categoryBar-list-descr">(&gt;﹏&lt;)</span></li></ul></div></div>';
+      var item_html = '<style>li.categoryBar-list-item{width:24%;}.categoryBar-list{max-height: 190px;overflow:auto;}.categoryBar-list::-webkit-scrollbar{width:0!important}@media screen and (max-width: 650px){.categoryBar-list{max-height: 160px;}}</style><div class="recent-post-item" style="height:auto;width:100%;padding:0px;"><div id="categoryBar"><ul class="categoryBar-list"><li class="categoryBar-list-item" style="background:url(/img/h1.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/其它/&quot;);" href="javascript:void(0);">其它</a><span class="categoryBar-list-count">3</span><span class="categoryBar-list-descr">(&gt;_&lt;)</span></li><li class="categoryBar-list-item" style="background:url(/img/h2.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/Chuckle/&quot;);" href="javascript:void(0);">Chuckle</a><span class="categoryBar-list-count">2</span><span class="categoryBar-list-descr">(&gt;▽&lt;)</span></li><li class="categoryBar-list-item" style="background:url(/img/h5.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/Hexo/&quot;);" href="javascript:void(0);">Hexo</a><span class="categoryBar-list-count">11</span><span class="categoryBar-list-descr">Σ( ° △ °|||)︴</span></li><li class="categoryBar-list-item" style="background:url(/img/h3.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/学习笔记/&quot;);" href="javascript:void(0);">学习笔记</a><span class="categoryBar-list-count">7</span><span class="categoryBar-list-descr">&lt;(￣︶￣)&gt;</span></li><li class="categoryBar-list-item" style="background:url(/img/h4.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/教程/&quot;);" href="javascript:void(0);">教程</a><span class="categoryBar-list-count">2</span><span class="categoryBar-list-descr">╮(￣▽￣)╭</span></li><li class="categoryBar-list-item" style="background:url(/img/h6.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/项目/&quot;);" href="javascript:void(0);">项目</a><span class="categoryBar-list-count">2</span><span class="categoryBar-list-descr">(&gt;﹏&lt;)</span></li></ul></div></div>';
       console.log('已挂载butterfly_categories_card')
       parent_div_git.insertAdjacentHTML("afterbegin",item_html)
       }
@@ -690,7 +908,7 @@ document.addEventListener('pjax:error', (e) => {
   </script><script data-pjax>
   function butterfly_swiper_injector_config(){
     var parent_div_git = document.getElementById('recent-posts');
-    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/9f2dc6c7.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/7-8.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-04-22</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/9f2dc6c7.html&quot;);" href="javascript:void(0);" alt="">JAVA/面向对象学习笔记(2)</a><div class="blog-slider__text">文章描述什么的，等我想到再加吧</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/9f2dc6c7.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/8636f786.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/7-14.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-05-07</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/8636f786.html&quot;);" href="javascript:void(0);" alt="">JAVA/面向对象学习笔记(3)</a><div class="blog-slider__text">文章描述什么的，等我想到再加吧</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/8636f786.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/ab2d75d5.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/8-1.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-04-16</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/ab2d75d5.html&quot;);" href="javascript:void(0);" alt="">Butterfly魔改</a><div class="blog-slider__text">东抄西抄，面向cv魔改</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/ab2d75d5.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/a696e8fe.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/6-1.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-03-31</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/a696e8fe.html&quot;);" href="javascript:void(0);" alt="">C语言单链表菜品管理系统</a><div class="blog-slider__text">一个简单的管理系统</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/a696e8fe.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/bfb663c6.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/7-1.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-04-07</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/bfb663c6.html&quot;);" href="javascript:void(0);" alt="">JAVA/面向对象学习笔记(1)</a><div class="blog-slider__text">文章描述什么的，等我想到再加吧</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/bfb663c6.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/8f1fedc5.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/9-6.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-04-24</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/8f1fedc5.html&quot;);" href="javascript:void(0);" alt="">基于UptimeRobot的监控面板</a><div class="blog-slider__text">一个可部署在vercel的监控面板</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/8f1fedc5.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/9f2dc6c7.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/7-8.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-04-22</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/9f2dc6c7.html&quot;);" href="javascript:void(0);" alt="">JAVA/面向对象学习笔记(2)</a><div class="blog-slider__text">文章描述什么的，等我想到再加吧</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/9f2dc6c7.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/8636f786.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/7-14.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-05-07</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/8636f786.html&quot;);" href="javascript:void(0);" alt="">JAVA/面向对象学习笔记(3)</a><div class="blog-slider__text">文章描述什么的，等我想到再加吧</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/8636f786.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/ab2d75d5.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/8-1.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-04-16</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/ab2d75d5.html&quot;);" href="javascript:void(0);" alt="">Butterfly魔改</a><div class="blog-slider__text">东抄西抄，面向cv魔改</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/ab2d75d5.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/bfb663c6.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/7-1.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-04-07</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/bfb663c6.html&quot;);" href="javascript:void(0);" alt="">JAVA/面向对象学习笔记(1)</a><div class="blog-slider__text">文章描述什么的，等我想到再加吧</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/bfb663c6.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/a696e8fe.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/6-1.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-03-31</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/a696e8fe.html&quot;);" href="javascript:void(0);" alt="">C语言单链表菜品管理系统</a><div class="blog-slider__text">一个简单的管理系统</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/a696e8fe.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;article/8f1fedc5.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="/images/9-6.webp" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2022-04-24</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;article/8f1fedc5.html&quot;);" href="javascript:void(0);" alt="">基于UptimeRobot的监控面板</a><div class="blog-slider__text">一个可部署在vercel的监控面板</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;article/8f1fedc5.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
     console.log('已挂载butterfly_swiper')
     parent_div_git.insertAdjacentHTML("afterbegin",item_html)
     }
