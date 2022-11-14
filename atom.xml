@@ -6,7 +6,7 @@
   <link href="https://www.chuckle.top/atom.xml" rel="self"/>
   
   <link href="https://www.chuckle.top/"/>
-  <updated>2022-10-29T14:59:17.000Z</updated>
+  <updated>2022-11-14T13:14:03.000Z</updated>
   <id>https://www.chuckle.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用MiniSandbox前端代码可视化</title>
+    <link href="https://www.chuckle.top/article/b827db53.html"/>
+    <id>https://www.chuckle.top/article/b827db53.html</id>
+    <published>2022-11-14T13:14:03.000Z</published>
+    <updated>2022-11-14T13:14:03.000Z</updated>
+    
+    
+    <summary type="html">安利一个前端【代码/组件】的可视化方案，融合了【在线编辑&amp;实时预览】等特点</summary>
+    
+    
+    
+    <category term="教程" scheme="https://www.chuckle.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="瞎折腾" scheme="https://www.chuckle.top/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    
+  </entry>
   
   <entry>
     <title>老旧浏览器弹窗提醒</title>
@@ -31,9 +52,9 @@
     <category term="其它" scheme="https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/"/>
     
     
-    <category term="教程" scheme="https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Butterfly" scheme="https://www.chuckle.top/tags/Butterfly/"/>
+    
+    <category term="教程" scheme="https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -94,11 +115,11 @@
     <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
+    <category term="前端" scheme="https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/"/>
+    
     <category term="JS" scheme="https://www.chuckle.top/tags/JS/"/>
     
     <category term="CSS" scheme="https://www.chuckle.top/tags/CSS/"/>
-    
-    <category term="前端" scheme="https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -413,34 +434,6 @@
     
     
     <category term="教程" scheme="https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JAVA/面向对象学习笔记(2)</title>
-    <link href="https://www.chuckle.top/article/9f2dc6c7.html"/>
-    <id>https://www.chuckle.top/article/9f2dc6c7.html</id>
-    <published>2022-04-22T12:34:48.000Z</published>
-    <updated>2022-05-07T06:35:48.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;所看教程（视频）：《浙江大学-翁恺-Java-面向对象程序设计》&lt;br&gt;作为我自己的复习笔记，也可以当做该视频的同步笔记&lt;br&gt;上接&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
-    
-    <category term="JavaSE" scheme="https://www.chuckle.top/tags/JavaSE/"/>
     
   </entry>
   
