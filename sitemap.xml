@@ -478,6 +478,13 @@
   </url>
   
   <url>
+    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
+    <lastmod>2022-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/tags/JAVA/</loc>
     <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -506,13 +513,6 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
-    <lastmod>2022-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/tags/JS/</loc>
     <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -534,6 +534,13 @@
   </url>
   
   <url>
+    <loc>https://www.chuckle.top/tags/VScode/</loc>
+    <lastmod>2022-11-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -542,13 +549,6 @@
   
   <url>
     <loc>https://www.chuckle.top/tags/C%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2022-11-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/tags/VScode/</loc>
     <lastmod>2022-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
