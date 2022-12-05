@@ -487,6 +487,13 @@
   </url>
   
   <url>
+    <loc>https://www.chuckle.top/tags/Chuckle/</loc>
+    <lastmod>2022-12-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
     <lastmod>2022-12-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -495,13 +502,6 @@
   
   <url>
     <loc>https://www.chuckle.top/tags/JAVA/</loc>
-    <lastmod>2022-12-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/tags/JavaSE/</loc>
     <lastmod>2022-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -522,7 +522,7 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/Chuckle/</loc>
+    <loc>https://www.chuckle.top/tags/JavaSE/</loc>
     <lastmod>2022-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
