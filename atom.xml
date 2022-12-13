@@ -38,6 +38,25 @@
   </entry>
   
   <entry>
+    <title>前端三件套基础笔记</title>
+    <link href="https://www.chuckle.top/article/1475187a.html"/>
+    <id>https://www.chuckle.top/article/1475187a.html</id>
+    <published>2022-11-14T08:40:32.000Z</published>
+    <updated>2022-11-14T08:40:32.000Z</updated>
+    
+    
+    <summary type="html">前端这块零零碎碎的东西较多，特别是基础这块，还是做个笔记好</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="前端" scheme="https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>老旧浏览器弹窗提醒</title>
     <link href="https://www.chuckle.top/article/e61f6567.html"/>
     <id>https://www.chuckle.top/article/e61f6567.html</id>
@@ -115,11 +134,11 @@
     <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="前端" scheme="https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="JS" scheme="https://www.chuckle.top/tags/JS/"/>
     
     <category term="CSS" scheme="https://www.chuckle.top/tags/CSS/"/>
+    
+    <category term="前端" scheme="https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -415,25 +434,6 @@
     <category term="Butterfly" scheme="https://www.chuckle.top/tags/Butterfly/"/>
     
     <category term="Hexo" scheme="https://www.chuckle.top/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>基于UptimeRobot的监控面板</title>
-    <link href="https://www.chuckle.top/article/8f1fedc5.html"/>
-    <id>https://www.chuckle.top/article/8f1fedc5.html</id>
-    <published>2022-04-24T11:45:20.000Z</published>
-    <updated>2022-04-24T11:46:20.000Z</updated>
-    
-    
-    <summary type="html">一个可部署在vercel的监控面板</summary>
-    
-    
-    
-    <category term="教程" scheme="https://www.chuckle.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="教程" scheme="https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
