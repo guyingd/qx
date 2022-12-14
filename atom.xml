@@ -38,14 +38,14 @@
   </entry>
   
   <entry>
-    <title>前端三件套基础笔记</title>
+    <title>HTML基础笔记</title>
     <link href="https://www.chuckle.top/article/1475187a.html"/>
     <id>https://www.chuckle.top/article/1475187a.html</id>
     <published>2022-11-14T08:40:32.000Z</published>
     <updated>2022-11-14T08:40:32.000Z</updated>
     
     
-    <summary type="html">前端这块零零碎碎的东西较多，特别是基础这块，还是做个笔记好</summary>
+    <summary type="html">记录下零零碎碎的HTML标签和属性</summary>
     
     
     
@@ -304,9 +304,9 @@
     <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="JavaWeb" scheme="https://www.chuckle.top/tags/JavaWeb/"/>
-    
     <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
+    
+    <category term="JavaWeb" scheme="https://www.chuckle.top/tags/JavaWeb/"/>
     
   </entry>
   
