@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.chuckle.top/article/709b5ecb.html</loc>
+    
+    <lastmod>2022-12-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/charts/index.html</loc>
     
     <lastmod>2022-12-03</lastmod>
@@ -468,13 +477,6 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-12-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/tags/Butterfly/</loc>
     <lastmod>2022-12-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -489,14 +491,14 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/Chuckle/</loc>
+    <loc>https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
+    <loc>https://www.chuckle.top/tags/Chuckle/</loc>
     <lastmod>2022-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -511,6 +513,13 @@
   
   <url>
     <loc>https://www.chuckle.top/tags/JavaSE/</loc>
+    <lastmod>2022-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
     <lastmod>2022-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -582,14 +591,14 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://www.chuckle.top/categories/Hexo/</loc>
     <lastmod>2022-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/categories/Hexo/</loc>
+    <loc>https://www.chuckle.top/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-12-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
