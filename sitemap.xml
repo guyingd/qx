@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.chuckle.top/fcircle/index.html</loc>
+    
+    <lastmod>2023-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/about/index.html</loc>
     
     <lastmod>2023-01-06</lastmod>
@@ -254,15 +263,6 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/fcircle/index.html</loc>
-    
-    <lastmod>2022-10-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/article/cf571182.html</loc>
     
     <lastmod>2022-09-24</lastmod>
@@ -470,14 +470,14 @@
 
   
   <url>
-    <loc>https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/</loc>
+    <loc>https://www.chuckle.top/tags/Chuckle/</loc>
     <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/Chuckle/</loc>
+    <loc>https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/</loc>
     <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -540,13 +540,6 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/VScode/</loc>
-    <lastmod>2023-01-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/tags/JS/</loc>
     <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -562,6 +555,13 @@
   
   <url>
     <loc>https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/VScode/</loc>
     <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -598,14 +598,14 @@
 
   
   <url>
-    <loc>https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/</loc>
+    <loc>https://www.chuckle.top/categories/Chuckle/</loc>
     <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/categories/Chuckle/</loc>
+    <loc>https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/</loc>
     <lastmod>2023-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
