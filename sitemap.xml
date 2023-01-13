@@ -470,20 +470,6 @@
 
   
   <url>
-    <loc>https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/</loc>
-    <lastmod>2023-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/tags/Chuckle/</loc>
-    <lastmod>2023-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/tags/Butterfly/</loc>
     <lastmod>2023-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -505,7 +491,28 @@
   </url>
   
   <url>
+    <loc>https://www.chuckle.top/tags/Chuckle/</loc>
+    <lastmod>2023-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
+    <lastmod>2023-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/tags/JAVA/</loc>
+    <lastmod>2023-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/</loc>
     <lastmod>2023-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -533,20 +540,6 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
-    <lastmod>2023-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/tags/VScode/</loc>
-    <lastmod>2023-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/tags/JS/</loc>
     <lastmod>2023-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -562,6 +555,13 @@
   
   <url>
     <loc>https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2023-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/VScode/</loc>
     <lastmod>2023-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -598,20 +598,6 @@
 
   
   <url>
-    <loc>https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/</loc>
-    <lastmod>2023-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/categories/Chuckle/</loc>
-    <lastmod>2023-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/categories/Hexo/</loc>
     <lastmod>2023-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -626,7 +612,21 @@
   </url>
   
   <url>
+    <loc>https://www.chuckle.top/categories/Chuckle/</loc>
+    <lastmod>2023-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/categories/%E5%85%B6%E5%AE%83/</loc>
     <lastmod>2023-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
