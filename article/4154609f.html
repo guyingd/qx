@@ -3,7 +3,7 @@
     (async()=>{window.stop()})()
     window.localStorage.setItem('ChenBlogHelper_Set', 1)
   }
-  navigator.serviceWorker.register('/giggles.js?10')
+  navigator.serviceWorker.register('/giggles.js')
     .then(async () => {
       if (Number(window.localStorage.getItem('ChenBlogHelper_Set')) < 2) {
         window.localStorage.setItem('ChenBlogHelper_Set', 2)

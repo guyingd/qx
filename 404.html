@@ -3,7 +3,7 @@
     (async()=>{window.stop()})()
     window.localStorage.setItem('ChenBlogHelper_Set', 1)
   }
-  navigator.serviceWorker.register('/giggles.js?10')
+  navigator.serviceWorker.register('/giggles.js')
     .then(async () => {
       if (Number(window.localStorage.getItem('ChenBlogHelper_Set')) < 2) {
         window.localStorage.setItem('ChenBlogHelper_Set', 2)
@@ -96,7 +96,7 @@ f.parentNode.insertBefore(h,f);h.src=e;})(window,document,"https://sdk.51.la/per
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-01-13 21:58:03'
+  postUpdate: '2023-01-13 22:02:36'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
