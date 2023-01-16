@@ -6,7 +6,7 @@
   <link href="https://www.chuckle.top/atom.xml" rel="self"/>
   
   <link href="https://www.chuckle.top/"/>
-  <updated>2022-12-30T16:05:00.000Z</updated>
+  <updated>2023-01-16T06:20:11.000Z</updated>
   <id>https://www.chuckle.top/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>BF添加输入页数跳转</title>
+    <link href="https://www.chuckle.top/article/8e0b4c43.html"/>
+    <id>https://www.chuckle.top/article/8e0b4c43.html</id>
+    <published>2023-01-16T06:20:11.000Z</published>
+    <updated>2023-01-16T06:20:11.000Z</updated>
+    
+    
+    <summary type="html">Butterfly在分页处添加输入页数跳转页面，以后页数多了方便跳转</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.chuckle.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.chuckle.top/tags/Hexo/"/>
+    
+    <category term="Butterfly" scheme="https://www.chuckle.top/tags/Butterfly/"/>
+    
+  </entry>
+  
+  <entry>
     <title>阳了个🐑</title>
     <link href="https://www.chuckle.top/article/4154609f.html"/>
     <id>https://www.chuckle.top/article/4154609f.html</id>
     <published>2022-12-29T12:47:00.000Z</published>
-    <updated>2022-12-30T16:05:00.000Z</updated>
+    <updated>2023-01-10T16:05:00.000Z</updated>
     
     
     <summary type="html">千防万防，终究还是难逃一阳</summary>
@@ -406,25 +427,6 @@
     
     
     <category term="Chuckle" scheme="https://www.chuckle.top/tags/Chuckle/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>FakeLocation模拟校园跑教程</title>
-    <link href="https://www.chuckle.top/article/c5d354fd.html"/>
-    <id>https://www.chuckle.top/article/c5d354fd.html</id>
-    <published>2022-05-21T11:05:02.000Z</published>
-    <updated>2022-05-21T11:05:05.000Z</updated>
-    
-    
-    <summary type="html">坐地日行八万里</summary>
-    
-    
-    
-    <category term="教程" scheme="https://www.chuckle.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="教程" scheme="https://www.chuckle.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
