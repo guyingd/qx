@@ -6,7 +6,7 @@
   <link href="https://www.chuckle.top/atom.xml" rel="self"/>
   
   <link href="https://www.chuckle.top/"/>
-  <updated>2023-01-17T06:25:26.000Z</updated>
+  <updated>2023-01-16T06:20:11.000Z</updated>
   <id>https://www.chuckle.top/</id>
   
   <author>
@@ -15,29 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>vscode自用插件推荐</title>
-    <link href="https://www.chuckle.top/article/263a53e8.html"/>
-    <id>https://www.chuckle.top/article/263a53e8.html</id>
-    <published>2023-01-17T06:25:26.000Z</published>
-    <updated>2023-01-17T06:25:26.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;咕咕咕&lt;/p&gt;
-&lt;hr&gt;
-</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>BF添加输入页数跳转</title>
@@ -218,11 +195,11 @@
     <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
+    <category term="前端" scheme="https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/"/>
+    
     <category term="JS" scheme="https://www.chuckle.top/tags/JS/"/>
     
     <category term="CSS" scheme="https://www.chuckle.top/tags/CSS/"/>
-    
-    <category term="前端" scheme="https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -388,9 +365,9 @@
     <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="JavaWeb" scheme="https://www.chuckle.top/tags/JavaWeb/"/>
-    
     <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
+    
+    <category term="JavaWeb" scheme="https://www.chuckle.top/tags/JavaWeb/"/>
     
   </entry>
   
@@ -431,6 +408,25 @@
     
     
     <category term="其它" scheme="https://www.chuckle.top/tags/%E5%85%B6%E5%AE%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次超声波避障小车比赛</title>
+    <link href="https://www.chuckle.top/article/81935dcb.html"/>
+    <id>https://www.chuckle.top/article/81935dcb.html</id>
+    <published>2022-05-28T08:25:05.000Z</published>
+    <updated>2022-05-28T08:26:05.000Z</updated>
+    
+    
+    <summary type="html">超声波避障小车比赛，上一次是红外循迹</summary>
+    
+    
+    
+    <category term="Chuckle" scheme="https://www.chuckle.top/categories/Chuckle/"/>
+    
+    
+    <category term="Chuckle" scheme="https://www.chuckle.top/tags/Chuckle/"/>
     
   </entry>
   
