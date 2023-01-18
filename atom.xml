@@ -195,11 +195,11 @@
     <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="前端" scheme="https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
     <category term="JS" scheme="https://www.chuckle.top/tags/JS/"/>
     
     <category term="CSS" scheme="https://www.chuckle.top/tags/CSS/"/>
+    
+    <category term="前端" scheme="https://www.chuckle.top/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
@@ -365,9 +365,9 @@
     <category term="学习笔记" scheme="https://www.chuckle.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
-    
     <category term="JavaWeb" scheme="https://www.chuckle.top/tags/JavaWeb/"/>
+    
+    <category term="JAVA" scheme="https://www.chuckle.top/tags/JAVA/"/>
     
   </entry>
   

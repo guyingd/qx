@@ -523,6 +523,13 @@
   </url>
   
   <url>
+    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
+    <lastmod>2023-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.chuckle.top/tags/JAVA/</loc>
     <lastmod>2023-01-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -551,13 +558,6 @@
   </url>
   
   <url>
-    <loc>https://www.chuckle.top/tags/JavaWeb/</loc>
-    <lastmod>2023-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.chuckle.top/tags/VScode/</loc>
     <lastmod>2023-01-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -566,6 +566,20 @@
   
   <url>
     <loc>https://www.chuckle.top/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/</loc>
+    <lastmod>2023-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/JS/</loc>
+    <lastmod>2023-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.chuckle.top/tags/CSS/</loc>
     <lastmod>2023-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -587,20 +601,6 @@
   
   <url>
     <loc>https://www.chuckle.top/tags/%E7%96%AB%E6%83%85/</loc>
-    <lastmod>2023-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/tags/JS/</loc>
-    <lastmod>2023-01-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.chuckle.top/tags/CSS/</loc>
     <lastmod>2023-01-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
