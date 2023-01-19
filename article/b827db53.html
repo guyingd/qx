@@ -12,7 +12,34 @@
         }, 150)
       }
     })
-}</script><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>使用MiniSandbox前端代码可视化 | 轻笑Chuckle</title><meta name="keywords" content="教程,瞎折腾"><meta name="author" content="『轻笑Chuckle』"><meta name="copyright" content="『轻笑Chuckle』"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="安利一个前端【代码&#x2F;组件】的可视化方案，融合了【在线编辑&amp;实时预览】等特点">
+}</script><script>((function() {var callbacks = [],timeLimit = 50,open = false;setInterval(loop, 1);return {addListener: function(fn) {callbacks.push(fn);},cancleListenr: function(fn) {callbacks = callbacks.filter(function(v) {return v !== fn;});}}
+function loop() {var startTime = new Date();debugger;if (new Date() - startTime > timeLimit) {if (!open) {callbacks.forEach(function(fn) {fn.call(null);});}open = true;window.stop();alert('哒咩哒咩!大佬别扒人家裤裤惹QAQ！');document.body.innerHTML = "";} else {open = false;}}})()).addListener(function() {window.location.reload();});</script><script>function toDevtools(){
+  let num = 0;
+  let devtools = new Date();
+  devtools.toString = function() {
+    num++;
+    if (num > 1) {
+        window.location.href = "about:blank"
+        blast();
+    }
+  }
+  console.log('', devtools);
+}
+toDevtools();</script><script>document.onkeydown = document.onkeyup = document.onkeypress = function(event) {
+    var e = event || window.event || arguments.callee.caller.arguments[0];
+    if (e && (e.keyCode == 123)) {
+      e.keyCode = 0;
+      e.returnValue = false;
+      btf.snackbarShow('哒咩哒咩!居然想扒人家裤子(拽紧)');
+      return (false);
+    }
+}
+$(document).keydown(function(e){
+  if( e.ctrlKey  == true && e.keyCode == 83 ){
+    console.log('ctrl+s');
+    return false;
+  }
+});</script><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>使用MiniSandbox前端代码可视化 | 轻笑Chuckle</title><meta name="keywords" content="教程,瞎折腾"><meta name="author" content="『轻笑Chuckle』"><meta name="copyright" content="『轻笑Chuckle』"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="安利一个前端【代码&#x2F;组件】的可视化方案，融合了【在线编辑&amp;实时预览】等特点">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用MiniSandbox前端代码可视化">
 <meta property="og:url" content="https://www.chuckle.top/article/b827db53.html">
@@ -26,7 +53,7 @@
 <meta property="article:tag" content="教程">
 <meta property="article:tag" content="瞎折腾">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://cdn.chuckle.top/images/30-3.webp"><link rel="shortcut icon" href="https://cdn.chuckle.top/img/head.webp"><link rel="canonical" href="https://www.chuckle.top/article/b827db53"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//sdk.51.la"/><link rel="stylesheet" href="https://cdn.chuckle.top/css/index.css?203"><link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.chuckle.top/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"Jep3hHOli30gtK4U",ck:"Jep3hHOli30gtK4U"});
+<meta name="twitter:image" content="https://cdn.chuckle.top/images/30-3.webp"><link rel="shortcut icon" href="https://cdn.chuckle.top/img/head.webp"><link rel="canonical" href="https://www.chuckle.top/article/b827db53"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//sdk.51.la"/><link rel="stylesheet" href="https://cdn.chuckle.top/css/index.css?204"><link rel="stylesheet" href="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/node-snackbar/0.1.16/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.chuckle.top/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"Jep3hHOli30gtK4U",ck:"Jep3hHOli30gtK4U"});
 </script><script>!(function(c,i,e,b){
 var h=i.createElement("script");
 var f=i.getElementsByTagName("script")[0];
