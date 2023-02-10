@@ -6,7 +6,7 @@
   <link href="https://qcqx.cn/atom.xml" rel="self"/>
   
   <link href="https://qcqx.cn/"/>
-  <updated>2023-02-06T00:47:00.000Z</updated>
+  <updated>2023-02-10T04:46:50.000Z</updated>
   <id>https://qcqx.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>给文章添加自定义文本锚点</title>
+    <link href="https://qcqx.cn/article/6f237a88.html"/>
+    <id>https://qcqx.cn/article/6f237a88.html</id>
+    <published>2023-02-10T04:46:50.000Z</published>
+    <updated>2023-02-10T04:46:50.000Z</updated>
+    
+    
+    <summary type="html">文章太长不方便找内容，右键添加锚点后，点击锚点，网页即可快速滚动到锚点对应的文本处</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    
+    
+    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    
+    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Ventoy多系统移动硬(U)盘</title>
@@ -410,25 +431,6 @@
     <category term="JAVA" scheme="https://qcqx.cn/tags/JAVA/"/>
     
     <category term="JavaSE" scheme="https://qcqx.cn/tags/JavaSE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>超星学习通数据泄露事件记录</title>
-    <link href="https://qcqx.cn/article/af84a159.html"/>
-    <id>https://qcqx.cn/article/af84a159.html</id>
-    <published>2022-06-21T09:35:01.000Z</published>
-    <updated>2022-06-21T09:36:01.000Z</updated>
-    
-    
-    <summary type="html">2022年6月20日，学习通被爆1.7亿师生数据泄露</summary>
-    
-    
-    
-    <category term="其它" scheme="https://qcqx.cn/categories/%E5%85%B6%E5%AE%83/"/>
-    
-    
-    <category term="其它" scheme="https://qcqx.cn/tags/%E5%85%B6%E5%AE%83/"/>
     
   </entry>
   
