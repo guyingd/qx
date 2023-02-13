@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>轻笑Chuckle</title>
-  <icon>https://qcqx.cn/img/head.webp</icon>
+  <icon>https://www.qcqx.cn/img/head.webp</icon>
   
-  <link href="https://qcqx.cn/atom.xml" rel="self"/>
+  <link href="https://www.qcqx.cn/atom.xml" rel="self"/>
   
-  <link href="https://qcqx.cn/"/>
+  <link href="https://www.qcqx.cn/"/>
   <updated>2023-02-12T12:05:09.000Z</updated>
-  <id>https://qcqx.cn/</id>
+  <id>https://www.qcqx.cn/</id>
   
   <author>
     <name>『轻笑Chuckle』</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>页面链接二维码(扫一扫)卡片</title>
-    <link href="https://qcqx.cn/article/59995f0e.html"/>
-    <id>https://qcqx.cn/article/59995f0e.html</id>
+    <link href="https://www.qcqx.cn/article/59995f0e.html"/>
+    <id>https://www.qcqx.cn/article/59995f0e.html</id>
     <published>2023-02-12T12:05:09.000Z</published>
     <updated>2023-02-12T12:05:09.000Z</updated>
     
@@ -28,19 +28,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>给文章添加自定义文本锚点</title>
-    <link href="https://qcqx.cn/article/6f237a88.html"/>
-    <id>https://qcqx.cn/article/6f237a88.html</id>
+    <link href="https://www.qcqx.cn/article/6f237a88.html"/>
+    <id>https://www.qcqx.cn/article/6f237a88.html</id>
     <published>2023-02-10T04:46:50.000Z</published>
     <updated>2023-02-10T04:46:50.000Z</updated>
     
@@ -49,19 +49,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Ventoy多系统移动硬(U)盘</title>
-    <link href="https://qcqx.cn/article/a41cefd.html"/>
-    <id>https://qcqx.cn/article/a41cefd.html</id>
+    <link href="https://www.qcqx.cn/article/a41cefd.html"/>
+    <id>https://www.qcqx.cn/article/a41cefd.html</id>
     <published>2023-02-06T00:47:00.000Z</published>
     <updated>2023-02-06T00:47:00.000Z</updated>
     
@@ -70,19 +70,19 @@
     
     
     
-    <category term="教程" scheme="https://qcqx.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.qcqx.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Ventoy" scheme="https://qcqx.cn/tags/Ventoy/"/>
+    <category term="Ventoy" scheme="https://www.qcqx.cn/tags/Ventoy/"/>
     
   </entry>
   
   <entry>
     <title>BF添加输入页数跳转</title>
-    <link href="https://qcqx.cn/article/8e0b4c43.html"/>
-    <id>https://qcqx.cn/article/8e0b4c43.html</id>
+    <link href="https://www.qcqx.cn/article/8e0b4c43.html"/>
+    <id>https://www.qcqx.cn/article/8e0b4c43.html</id>
     <published>2023-01-16T06:20:11.000Z</published>
     <updated>2023-01-16T06:20:11.000Z</updated>
     
@@ -91,19 +91,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>阳了个🐑</title>
-    <link href="https://qcqx.cn/article/4154609f.html"/>
-    <id>https://qcqx.cn/article/4154609f.html</id>
+    <link href="https://www.qcqx.cn/article/4154609f.html"/>
+    <id>https://www.qcqx.cn/article/4154609f.html</id>
     <published>2022-12-29T12:47:00.000Z</published>
     <updated>2023-01-10T16:05:00.000Z</updated>
     
@@ -112,19 +112,19 @@
     
     
     
-    <category term="其它" scheme="https://qcqx.cn/categories/%E5%85%B6%E5%AE%83/"/>
+    <category term="其它" scheme="https://www.qcqx.cn/categories/%E5%85%B6%E5%AE%83/"/>
     
     
-    <category term="新冠" scheme="https://qcqx.cn/tags/%E6%96%B0%E5%86%A0/"/>
+    <category term="新冠" scheme="https://www.qcqx.cn/tags/%E6%96%B0%E5%86%A0/"/>
     
-    <category term="疫情" scheme="https://qcqx.cn/tags/%E7%96%AB%E6%83%85/"/>
+    <category term="疫情" scheme="https://www.qcqx.cn/tags/%E7%96%AB%E6%83%85/"/>
     
   </entry>
   
   <entry>
     <title>前后端交互初步概念</title>
-    <link href="https://qcqx.cn/article/709b5ecb.html"/>
-    <id>https://qcqx.cn/article/709b5ecb.html</id>
+    <link href="https://www.qcqx.cn/article/709b5ecb.html"/>
+    <id>https://www.qcqx.cn/article/709b5ecb.html</id>
     <published>2022-12-18T08:50:00.000Z</published>
     <updated>2022-12-18T08:50:00.000Z</updated>
     
@@ -133,17 +133,17 @@
     
     
     
-    <category term="学习笔记" scheme="https://qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="学习笔记" scheme="https://www.qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="前端" scheme="https://qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>使用MiniSandbox前端代码可视化</title>
-    <link href="https://qcqx.cn/article/b827db53.html"/>
-    <id>https://qcqx.cn/article/b827db53.html</id>
+    <link href="https://www.qcqx.cn/article/b827db53.html"/>
+    <id>https://www.qcqx.cn/article/b827db53.html</id>
     <published>2022-11-14T17:00:03.000Z</published>
     <updated>2022-11-14T17:00:03.000Z</updated>
     
@@ -152,19 +152,19 @@
     
     
     
-    <category term="教程" scheme="https://qcqx.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.qcqx.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="瞎折腾" scheme="https://qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    <category term="瞎折腾" scheme="https://www.qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
     
   </entry>
   
   <entry>
     <title>HTML基础笔记</title>
-    <link href="https://qcqx.cn/article/1475187a.html"/>
-    <id>https://qcqx.cn/article/1475187a.html</id>
+    <link href="https://www.qcqx.cn/article/1475187a.html"/>
+    <id>https://www.qcqx.cn/article/1475187a.html</id>
     <published>2022-11-14T08:40:32.000Z</published>
     <updated>2022-11-14T08:40:32.000Z</updated>
     
@@ -173,17 +173,17 @@
     
     
     
-    <category term="学习笔记" scheme="https://qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="学习笔记" scheme="https://www.qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="前端" scheme="https://qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>老旧浏览器弹窗提醒</title>
-    <link href="https://qcqx.cn/article/e61f6567.html"/>
-    <id>https://qcqx.cn/article/e61f6567.html</id>
+    <link href="https://www.qcqx.cn/article/e61f6567.html"/>
+    <id>https://www.qcqx.cn/article/e61f6567.html</id>
     <published>2022-10-28T14:59:17.000Z</published>
     <updated>2022-10-29T14:59:17.000Z</updated>
     
@@ -192,19 +192,19 @@
     
     
     
-    <category term="其它" scheme="https://qcqx.cn/categories/%E5%85%B6%E5%AE%83/"/>
+    <category term="其它" scheme="https://www.qcqx.cn/categories/%E5%85%B6%E5%AE%83/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="教程" scheme="https://qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>写个网页版电子木鱼</title>
-    <link href="https://qcqx.cn/article/904a2780.html"/>
-    <id>https://qcqx.cn/article/904a2780.html</id>
+    <link href="https://www.qcqx.cn/article/904a2780.html"/>
+    <id>https://www.qcqx.cn/article/904a2780.html</id>
     <published>2022-10-21T14:35:46.000Z</published>
     <updated>2022-10-21T14:35:46.000Z</updated>
     
@@ -213,19 +213,19 @@
     
     
     
-    <category term="项目" scheme="https://qcqx.cn/categories/%E9%A1%B9%E7%9B%AE/"/>
+    <category term="项目" scheme="https://www.qcqx.cn/categories/%E9%A1%B9%E7%9B%AE/"/>
     
     
-    <category term="教程" scheme="https://qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://www.qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="瞎折腾" scheme="https://qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
+    <category term="瞎折腾" scheme="https://www.qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/"/>
     
   </entry>
   
   <entry>
     <title>CodeFA×Hexo体验</title>
-    <link href="https://qcqx.cn/article/cf571182.html"/>
-    <id>https://qcqx.cn/article/cf571182.html</id>
+    <link href="https://www.qcqx.cn/article/cf571182.html"/>
+    <id>https://www.qcqx.cn/article/cf571182.html</id>
     <published>2022-09-24T07:15:00.000Z</published>
     <updated>2022-09-24T07:16:00.000Z</updated>
     
@@ -234,19 +234,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
-    <category term="VScode" scheme="https://qcqx.cn/tags/VScode/"/>
+    <category term="VScode" scheme="https://www.qcqx.cn/tags/VScode/"/>
     
   </entry>
   
   <entry>
     <title>CSS/JS备忘录</title>
-    <link href="https://qcqx.cn/article/2ec41fd7.html"/>
-    <id>https://qcqx.cn/article/2ec41fd7.html</id>
+    <link href="https://www.qcqx.cn/article/2ec41fd7.html"/>
+    <id>https://www.qcqx.cn/article/2ec41fd7.html</id>
     <published>2022-09-19T10:08:39.000Z</published>
     <updated>2022-11-05T03:09:39.000Z</updated>
     
@@ -255,21 +255,21 @@
     
     
     
-    <category term="学习笔记" scheme="https://qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="学习笔记" scheme="https://www.qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="JS" scheme="https://qcqx.cn/tags/JS/"/>
+    <category term="JS" scheme="https://www.qcqx.cn/tags/JS/"/>
     
-    <category term="CSS" scheme="https://qcqx.cn/tags/CSS/"/>
+    <category term="CSS" scheme="https://www.qcqx.cn/tags/CSS/"/>
     
-    <category term="前端" scheme="https://qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>给网站增加悬浮伸缩侧边栏</title>
-    <link href="https://qcqx.cn/article/fab5c3df.html"/>
-    <id>https://qcqx.cn/article/fab5c3df.html</id>
+    <link href="https://www.qcqx.cn/article/fab5c3df.html"/>
+    <id>https://www.qcqx.cn/article/fab5c3df.html</id>
     <published>2022-09-18T08:45:34.000Z</published>
     <updated>2023-01-24T06:45:34.000Z</updated>
     
@@ -278,19 +278,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>添加音乐页面</title>
-    <link href="https://qcqx.cn/article/3322c8a8.html"/>
-    <id>https://qcqx.cn/article/3322c8a8.html</id>
+    <link href="https://www.qcqx.cn/article/3322c8a8.html"/>
+    <id>https://www.qcqx.cn/article/3322c8a8.html</id>
     <published>2022-09-16T05:49:08.000Z</published>
     <updated>2022-09-16T05:50:08.000Z</updated>
     
@@ -299,19 +299,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>归档、分类、标签页文章卡片加上所属分类和标签</title>
-    <link href="https://qcqx.cn/article/a19bb7fb.html"/>
-    <id>https://qcqx.cn/article/a19bb7fb.html</id>
+    <link href="https://www.qcqx.cn/article/a19bb7fb.html"/>
+    <id>https://www.qcqx.cn/article/a19bb7fb.html</id>
     <published>2022-08-24T14:24:29.000Z</published>
     <updated>2022-08-24T14:25:29.000Z</updated>
     
@@ -320,19 +320,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>控制指定单页的背景样式</title>
-    <link href="https://qcqx.cn/article/eb3a4679.html"/>
-    <id>https://qcqx.cn/article/eb3a4679.html</id>
+    <link href="https://www.qcqx.cn/article/eb3a4679.html"/>
+    <id>https://www.qcqx.cn/article/eb3a4679.html</id>
     <published>2022-08-23T12:04:59.000Z</published>
     <updated>2022-08-23T12:14:59.000Z</updated>
     
@@ -341,19 +341,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Butterfly给首页首个文章卡片加个class</title>
-    <link href="https://qcqx.cn/article/dbde845d.html"/>
-    <id>https://qcqx.cn/article/dbde845d.html</id>
+    <link href="https://www.qcqx.cn/article/dbde845d.html"/>
+    <id>https://www.qcqx.cn/article/dbde845d.html</id>
     <published>2022-08-17T08:41:35.000Z</published>
     <updated>2022-08-22T06:30:35.000Z</updated>
     
@@ -362,19 +362,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Butterfly文章卡片加上最新文章标志</title>
-    <link href="https://qcqx.cn/article/2ed7d622.html"/>
-    <id>https://qcqx.cn/article/2ed7d622.html</id>
+    <link href="https://www.qcqx.cn/article/2ed7d622.html"/>
+    <id>https://www.qcqx.cn/article/2ed7d622.html</id>
     <published>2022-08-17T03:59:20.000Z</published>
     <updated>2022-08-17T04:00:20.000Z</updated>
     
@@ -383,19 +383,19 @@
     
     
     
-    <category term="Hexo" scheme="https://qcqx.cn/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
     
     
-    <category term="Butterfly" scheme="https://qcqx.cn/tags/Butterfly/"/>
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
-    <category term="Hexo" scheme="https://qcqx.cn/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>小米妙享--MIUI的生态互联</title>
-    <link href="https://qcqx.cn/article/eb38f645.html"/>
-    <id>https://qcqx.cn/article/eb38f645.html</id>
+    <link href="https://www.qcqx.cn/article/eb38f645.html"/>
+    <id>https://www.qcqx.cn/article/eb38f645.html</id>
     <published>2022-08-15T14:46:39.000Z</published>
     <updated>2022-08-15T15:46:39.000Z</updated>
     
@@ -404,19 +404,19 @@
     
     
     
-    <category term="其它" scheme="https://qcqx.cn/categories/%E5%85%B6%E5%AE%83/"/>
+    <category term="其它" scheme="https://www.qcqx.cn/categories/%E5%85%B6%E5%AE%83/"/>
     
     
-    <category term="小米妙享" scheme="https://qcqx.cn/tags/%E5%B0%8F%E7%B1%B3%E5%A6%99%E4%BA%AB/"/>
+    <category term="小米妙享" scheme="https://www.qcqx.cn/tags/%E5%B0%8F%E7%B1%B3%E5%A6%99%E4%BA%AB/"/>
     
-    <category term="MIUI" scheme="https://qcqx.cn/tags/MIUI/"/>
+    <category term="MIUI" scheme="https://www.qcqx.cn/tags/MIUI/"/>
     
   </entry>
   
   <entry>
     <title>JavaWeb笔记--寄途的初始</title>
-    <link href="https://qcqx.cn/article/7c1f73d5.html"/>
-    <id>https://qcqx.cn/article/7c1f73d5.html</id>
+    <link href="https://www.qcqx.cn/article/7c1f73d5.html"/>
+    <id>https://www.qcqx.cn/article/7c1f73d5.html</id>
     <published>2022-08-01T10:34:38.000Z</published>
     <updated>2022-08-01T09:34:38.000Z</updated>
     
@@ -425,12 +425,12 @@
     
     
     
-    <category term="学习笔记" scheme="https://qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="学习笔记" scheme="https://www.qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="JavaWeb" scheme="https://qcqx.cn/tags/JavaWeb/"/>
+    <category term="JavaWeb" scheme="https://www.qcqx.cn/tags/JavaWeb/"/>
     
-    <category term="JAVA" scheme="https://qcqx.cn/tags/JAVA/"/>
+    <category term="JAVA" scheme="https://www.qcqx.cn/tags/JAVA/"/>
     
   </entry>
   
