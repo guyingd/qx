@@ -216,9 +216,9 @@
     <category term="教程" scheme="https://www.qcqx.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://www.qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
+    
+    <category term="教程" scheme="https://www.qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -281,9 +281,9 @@
     
     <category term="JS" scheme="https://www.qcqx.cn/tags/JS/"/>
     
-    <category term="CSS" scheme="https://www.qcqx.cn/tags/CSS/"/>
-    
     <category term="前端" scheme="https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="https://www.qcqx.cn/tags/CSS/"/>
     
   </entry>
   
