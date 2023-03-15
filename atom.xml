@@ -6,7 +6,7 @@
   <link href="https://www.qcqx.cn/atom.xml" rel="self"/>
   
   <link href="https://www.qcqx.cn/"/>
-  <updated>2023-02-14T06:00:53.000Z</updated>
+  <updated>2023-03-15T04:47:14.000Z</updated>
   <id>https://www.qcqx.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>网站添加点赞、踩功能</title>
+    <link href="https://www.qcqx.cn/article/5de26c08.html"/>
+    <id>https://www.qcqx.cn/article/5de26c08.html</id>
+    <published>2023-03-15T04:47:14.000Z</published>
+    <updated>2023-03-15T04:47:14.000Z</updated>
+    
+    
+    <summary type="html">给博客文章页添加点赞和点踩的功能，</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
+    
+    
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
+    
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>体验ChatGPT 不仅是搜索的革命</title>
@@ -216,9 +237,9 @@
     <category term="教程" scheme="https://www.qcqx.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="教程" scheme="https://www.qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
+    
+    <category term="教程" scheme="https://www.qcqx.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -281,9 +302,9 @@
     
     <category term="JS" scheme="https://www.qcqx.cn/tags/JS/"/>
     
-    <category term="CSS" scheme="https://www.qcqx.cn/tags/CSS/"/>
-    
     <category term="前端" scheme="https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="CSS" scheme="https://www.qcqx.cn/tags/CSS/"/>
     
   </entry>
   
@@ -410,27 +431,6 @@
     <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
     
     <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>小米妙享--MIUI的生态互联</title>
-    <link href="https://www.qcqx.cn/article/eb38f645.html"/>
-    <id>https://www.qcqx.cn/article/eb38f645.html</id>
-    <published>2022-08-15T14:46:39.000Z</published>
-    <updated>2022-08-15T15:46:39.000Z</updated>
-    
-    
-    <summary type="html">小米妙享作为去年的产品，在最近的更新中展现了全新的面貌</summary>
-    
-    
-    
-    <category term="其它" scheme="https://www.qcqx.cn/categories/%E5%85%B6%E5%AE%83/"/>
-    
-    
-    <category term="小米妙享" scheme="https://www.qcqx.cn/tags/%E5%B0%8F%E7%B1%B3%E5%A6%99%E4%BA%AB/"/>
-    
-    <category term="MIUI" scheme="https://www.qcqx.cn/tags/MIUI/"/>
     
   </entry>
   
