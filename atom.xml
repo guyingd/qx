@@ -6,7 +6,7 @@
   <link href="https://www.qcqx.cn/atom.xml" rel="self"/>
   
   <link href="https://www.qcqx.cn/"/>
-  <updated>2023-03-15T04:47:14.000Z</updated>
+  <updated>2023-03-18T10:34:08.000Z</updated>
   <id>https://www.qcqx.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客添加待办清单页</title>
+    <link href="https://www.qcqx.cn/article/9875347c.html"/>
+    <id>https://www.qcqx.cn/article/9875347c.html</id>
+    <published>2023-03-18T10:34:08.000Z</published>
+    <updated>2023-03-18T10:34:08.000Z</updated>
+    
+    
+    <summary type="html">要做的事还有很多，想做的事源源不断，那就都记录在博客里吧</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
+    
+    
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
+    
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>网站添加点赞、踩功能</title>
@@ -401,27 +422,6 @@
     
     
     <summary type="html">用css控制这个class就可控制首个文章卡片的样式</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
-    
-    
-    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
-    
-    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Butterfly文章卡片加上最新文章标志</title>
-    <link href="https://www.qcqx.cn/article/2ed7d622.html"/>
-    <id>https://www.qcqx.cn/article/2ed7d622.html</id>
-    <published>2022-08-17T03:59:20.000Z</published>
-    <updated>2022-08-17T04:00:20.000Z</updated>
-    
-    
-    <summary type="html">在首页的文章卡片上加上最新文章的标志</summary>
     
     
     
