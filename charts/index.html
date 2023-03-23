@@ -191,11 +191,7 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
 <!-- 文章发布时间统计图 -->
 <div id="posts-chart" data-start="2022-02" ; style="border-radius: 8px; height: 300px; padding: 10px;"></div>
   <script id="postsChart">
-    var echartScript1 = document.createElement('script');
-    echartScript1.setAttribute('type','text/javascript');
-    echartScript1.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
-    document.getElementsByTagName('head')[0].appendChild(echartScript1);
-    echartScript1.onload = function(){
+    function postsChart1(){
     var color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4c4948' : 'rgba(255,255,255,0.9)'
     var postsChart = echarts.init(document.getElementById('posts-chart'), 'light');
     var postsOption = {
@@ -300,16 +296,22 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
       postsChart.resize();
     });
   }
+    const apostsChart= 1;if(apostsChart==1){const apostsChart= 2;
+      var echartScript1 = document.createElement('script');
+      echartScript1.setAttribute('type','text/javascript');
+      echartScript1.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
+      document.getElementsByTagName('head')[0].appendChild(echartScript1);
+      echartScript1.onload = function(){postsChart1()}
+      }
+      document.addEventListener('pjax:complete', (e) => {
+        postsChart1();
+      })
   </script>
 
 <!-- 文章标签统计图 -->
 <div id="tags-chart" data-length="10" style="border-radius: 8px;height: 300px; padding: 10px;"></div>
   <script id="tagsChart">
-    var echartScript2 = document.createElement('script');
-    echartScript2.setAttribute('type','text/javascript');
-    echartScript2.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
-    document.getElementsByTagName('head')[0].appendChild(echartScript2);
-    echartScript2.onload = function(){
+    function tagsChart1(){
     var color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4c4948' : 'rgba(255,255,255,0.9)'
     var tagsChart = echarts.init(document.getElementById('tags-chart'), 'light');
     var tagsOption = {
@@ -341,7 +343,7 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
             color: color
           }
         },
-        data: ["Hexo","Butterfly","教程","JAVA","JavaSE","前端","瞎折腾","C语言","Chuckle","其它"]
+        data: ["Hexo","Butterfly","教程","JAVA","JavaSE","前端","瞎折腾","C语言","其它","Chuckle"]
       },
       yAxis: {
         name: '文章篇数',
@@ -427,16 +429,22 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
       }
     });
   }
+  const atagsChart= 1;if(atagsChart==1){const atagsChart= 2;
+    var echartScript2 = document.createElement('script');
+    echartScript2.setAttribute('type','text/javascript');
+    echartScript2.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
+    document.getElementsByTagName('head')[0].appendChild(echartScript2);
+    echartScript2.onload = function(){tagsChart1()};
+    }
+    document.addEventListener('pjax:complete', (e) => {
+      tagsChart1()
+    })
   </script>
 
 <!-- 文章分类统计图 -->
 <div id="categories-chart" style="border-radius: 8px; height:300px; padding: 10px;"></div>
   <script id="categoriesChart">
-    var echartScript3 = document.createElement('script');
-    echartScript3.setAttribute('type','text/javascript');
-    echartScript3.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
-    document.getElementsByTagName('head')[0].appendChild(echartScript3);
-    echartScript3.onload = function(){
+    function categoriesChart1(){
     var color = document.documentElement.getAttribute('data-theme') === 'light' ? '#4c4948' : 'rgba(255,255,255,0.9)'
     var categoriesChart = echarts.init(document.getElementById('categories-chart'), 'light');
     var categoriesOption = {
@@ -487,6 +495,16 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
       window.location.href = href;
     });
   }
+  const acategoriesChart= 1;if(acategoriesChart==1){const acategoriesChart= 2;
+    var echartScript3 = document.createElement('script');
+    echartScript3.setAttribute('type','text/javascript');
+    echartScript3.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
+    document.getElementsByTagName('head')[0].appendChild(echartScript3);
+    echartScript3.onload = function(){categoriesChart1()}
+  }
+  document.addEventListener('pjax:complete', (e) => {
+    categoriesChart1()
+  })
   </script>
 
 <p><br></p>
