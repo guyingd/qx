@@ -302,10 +302,10 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
       echartScript1.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
       document.getElementsByTagName('head')[0].appendChild(echartScript1);
       echartScript1.onload = function(){postsChart1()}
-      }
       document.addEventListener('pjax:complete', (e) => {
         postsChart1();
       })
+      }
   </script>
 
 <!-- 文章标签统计图 -->
@@ -343,7 +343,7 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
             color: color
           }
         },
-        data: ["Hexo","Butterfly","教程","JAVA","JavaSE","前端","瞎折腾","C语言","其它","JS"]
+        data: ["Hexo","Butterfly","教程","JAVA","JavaSE","前端","瞎折腾","C语言","其它","Chuckle"]
       },
       yAxis: {
         name: '文章篇数',
@@ -435,10 +435,10 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
     echartScript2.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
     document.getElementsByTagName('head')[0].appendChild(echartScript2);
     echartScript2.onload = function(){tagsChart1()};
-    }
     document.addEventListener('pjax:complete', (e) => {
       tagsChart1()
     })
+    }
   </script>
 
 <!-- 文章分类统计图 -->
@@ -501,10 +501,10 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
     echartScript3.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
     document.getElementsByTagName('head')[0].appendChild(echartScript3);
     echartScript3.onload = function(){categoriesChart1()}
+    document.addEventListener('pjax:complete', (e) => {
+      categoriesChart1()
+    })
   }
-  document.addEventListener('pjax:complete', (e) => {
-    categoriesChart1()
-  })
   </script>
 
 <p><br></p>
