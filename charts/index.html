@@ -303,7 +303,9 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
       document.getElementsByTagName('head')[0].appendChild(echartScript1);
       echartScript1.onload = function(){postsChart1()}
       document.addEventListener('pjax:complete', (e) => {
+        if(document.getElementById("posts-chart")){
         postsChart1();
+        }
       })
       }
   </script>
@@ -436,7 +438,9 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
     document.getElementsByTagName('head')[0].appendChild(echartScript2);
     echartScript2.onload = function(){tagsChart1()};
     document.addEventListener('pjax:complete', (e) => {
-      tagsChart1()
+      if(document.getElementById("tags-chart")){
+        tagsChart1()
+      }
     })
     }
   </script>
@@ -502,7 +506,9 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
     document.getElementsByTagName('head')[0].appendChild(echartScript3);
     echartScript3.onload = function(){categoriesChart1()}
     document.addEventListener('pjax:complete', (e) => {
+      if(document.getElementById("categories-chart")){
       categoriesChart1()
+      }
     })
   }
   </script>
