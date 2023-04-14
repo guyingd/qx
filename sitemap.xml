@@ -654,6 +654,13 @@
   </url>
   
   <url>
+    <loc>https://www.qcqx.cn/tags/JavaSE/</loc>
+    <lastmod>2023-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.qcqx.cn/tags/%E5%B0%8F%E7%B1%B3%E5%A6%99%E4%BA%AB/</loc>
     <lastmod>2023-04-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -662,13 +669,6 @@
   
   <url>
     <loc>https://www.qcqx.cn/tags/MIUI/</loc>
-    <lastmod>2023-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qcqx.cn/tags/JavaSE/</loc>
     <lastmod>2023-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -696,13 +696,6 @@
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/</loc>
-    <lastmod>2023-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.qcqx.cn/tags/VScode/</loc>
     <lastmod>2023-04-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -710,7 +703,7 @@
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/Ventoy/</loc>
+    <loc>https://www.qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2023-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -725,6 +718,13 @@
   
   <url>
     <loc>https://www.qcqx.cn/tags/%E7%96%AB%E6%83%85/</loc>
+    <lastmod>2023-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qcqx.cn/tags/Ventoy/</loc>
     <lastmod>2023-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
