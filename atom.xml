@@ -6,7 +6,7 @@
   <link href="https://www.qcqx.cn/atom.xml" rel="self"/>
   
   <link href="https://www.qcqx.cn/"/>
-  <updated>2023-04-06T10:19:15.000Z</updated>
+  <updated>2023-04-13T15:30:55.000Z</updated>
   <id>https://www.qcqx.cn/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>文章添加AI摘要简介</title>
+    <link href="https://www.qcqx.cn/article/17d3383a.html"/>
+    <id>https://www.qcqx.cn/article/17d3383a.html</id>
+    <published>2023-04-13T15:30:55.000Z</published>
+    <updated>2023-04-13T15:30:55.000Z</updated>
+    
+    
+    <summary type="html">给文章加上AI生成的摘要，打字机效果模拟ChatGPT</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
+    
+    
+    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
+    
+    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript—DOM案例</title>
+    <link href="https://www.qcqx.cn/article/b0cb9f85.html"/>
+    <id>https://www.qcqx.cn/article/b0cb9f85.html</id>
+    <published>2023-04-12T03:36:18.000Z</published>
+    <updated>2023-04-12T03:36:18.000Z</updated>
+    
+    
+    <summary type="html">DOM操作的一些案例，轮播图、数据表、常见组件等</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://www.qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JS" scheme="https://www.qcqx.cn/tags/JS/"/>
+    
+    <category term="前端" scheme="https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript笔记DOM操作</title>
@@ -387,50 +429,6 @@
     <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
     <category term="VScode" scheme="https://www.qcqx.cn/tags/VScode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CSS/JS备忘录</title>
-    <link href="https://www.qcqx.cn/article/2ec41fd7.html"/>
-    <id>https://www.qcqx.cn/article/2ec41fd7.html</id>
-    <published>2022-09-19T10:08:39.000Z</published>
-    <updated>2022-11-05T03:09:39.000Z</updated>
-    
-    
-    <summary type="html">CSS/JS备忘录，一些常用的东西老是忘，还是记下来好</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://www.qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="JS" scheme="https://www.qcqx.cn/tags/JS/"/>
-    
-    <category term="前端" scheme="https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="CSS" scheme="https://www.qcqx.cn/tags/CSS/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>给网站增加悬浮伸缩侧边栏</title>
-    <link href="https://www.qcqx.cn/article/fab5c3df.html"/>
-    <id>https://www.qcqx.cn/article/fab5c3df.html</id>
-    <published>2022-09-18T08:45:34.000Z</published>
-    <updated>2023-01-24T06:45:34.000Z</updated>
-    
-    
-    <summary type="html">aplayer、打赏什么的都可以往里塞，优雅，太优雅了~</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://www.qcqx.cn/categories/Hexo/"/>
-    
-    
-    <category term="Butterfly" scheme="https://www.qcqx.cn/tags/Butterfly/"/>
-    
-    <category term="Hexo" scheme="https://www.qcqx.cn/tags/Hexo/"/>
     
   </entry>
   
