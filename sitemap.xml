@@ -654,13 +654,6 @@
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/JavaSE/</loc>
-    <lastmod>2023-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.qcqx.cn/tags/%E5%B0%8F%E7%B1%B3%E5%A6%99%E4%BA%AB/</loc>
     <lastmod>2023-04-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -675,21 +668,14 @@
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/JS/</loc>
+    <loc>https://www.qcqx.cn/tags/JavaSE/</loc>
     <lastmod>2023-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/CSS/</loc>
-    <lastmod>2023-04-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <loc>https://www.qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2023-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -703,7 +689,21 @@
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/</loc>
+    <loc>https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2023-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qcqx.cn/tags/JS/</loc>
+    <lastmod>2023-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qcqx.cn/tags/CSS/</loc>
     <lastmod>2023-04-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
