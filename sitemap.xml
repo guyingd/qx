@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.qcqx.cn/article/b0cb9f85.html</loc>
+    
+    <lastmod>2023-04-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.qcqx.cn/about/index.html</loc>
     
     <lastmod>2023-04-14</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://www.qcqx.cn/article/17d3383a.html</loc>
     
     <lastmod>2023-04-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qcqx.cn/article/b0cb9f85.html</loc>
-    
-    <lastmod>2023-04-12</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -640,14 +640,21 @@
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/JavaWeb/</loc>
+    <loc>https://www.qcqx.cn/tags/JAVA/</loc>
     <lastmod>2023-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/JAVA/</loc>
+    <loc>https://www.qcqx.cn/tags/JavaSE/</loc>
+    <lastmod>2023-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.qcqx.cn/tags/JavaWeb/</loc>
     <lastmod>2023-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -662,13 +669,6 @@
   
   <url>
     <loc>https://www.qcqx.cn/tags/MIUI/</loc>
-    <lastmod>2023-04-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qcqx.cn/tags/JavaSE/</loc>
     <lastmod>2023-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
