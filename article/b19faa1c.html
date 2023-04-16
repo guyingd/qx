@@ -420,7 +420,6 @@ document.addEventListener('pjax:error', (e) => {
 //-https://meting-api.qcqx.cn/api/?server=netease&type=playlist&id=6609736315</script><div class="strip"></div><div class="aplayer no-destroy" mutex="true" listfolded="true" data-id="6609736315" data-preload="none" data-server="netease" data-volume="0.25" data-order="random" data-type="playlist" data-fixed="true" data-autoplay="false"></div></div></div></div><!-- hexo injector body_end start --><script data-pjax>function hope_light_loader_injector_config(){
                 var parent_div_git = document.getElementById('body-wrap');
                 var item_html = '<div id="loading-bar-wrapper">';
-                console.log('已挂载hope_light_loader')
                 // parent_div_git.innerHTML=item_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
                 parent_div_git.insertAdjacentHTML("afterbegin",item_html) // 有报错，但不影响使用(支持pjax跳转)
             }if( document.getElementById('body-wrap') && (location.pathname ==='all'|| 'all' ==='all')){
