@@ -292,9 +292,8 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
       }]
     };
     postsChart.setOption(postsOption);
-    window.addEventListener('resize', () => { 
-      postsChart.resize();
-    });
+    window.removeEventListener('resize', postsChart.resize);
+    window.addEventListener('resize', postsChart.resize);
   }
     const apostsChart= 1;if(apostsChart==1){const apostsChart= 2;
       var echartScript1 = document.createElement('script');
@@ -302,11 +301,13 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
       echartScript1.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
       document.getElementsByTagName('head')[0].appendChild(echartScript1);
       echartScript1.onload = function(){postsChart1()}
-      document.addEventListener('pjax:complete', (e) => {
+      function posts_chart(){
         if(document.getElementById("posts-chart")){
-        postsChart1();
+          postsChart1();
         }
-      })
+      }
+      document.removeEventListener('pjax:complete',posts_chart);
+      document.addEventListener('pjax:complete',posts_chart);
       }
   </script>
 
@@ -410,10 +411,12 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
     };
     tagsChart.setOption(tagsOption);
     setRotate();
-    window.addEventListener('resize', () => { 
+    function tagsfun(){
       setRotate();
       tagsChart.resize();
-    });
+    }
+    window.removeEventListener('resize', tagsfun);
+    window.addEventListener('resize', tagsfun);
     function setRotate() {
       let tagsOptionNew = tagsOption
       if (document.body.clientWidth<=768) {
@@ -427,7 +430,7 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
     tagsChart.on('click', 'series', (event) => {
       if(event.name != '平均值'){
         let href = '/tags/' + event.name + '/';
-        window.location.href = href;
+        pjax.loadUrl(href);
       }
     });
   }
@@ -437,11 +440,13 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
     echartScript2.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
     document.getElementsByTagName('head')[0].appendChild(echartScript2);
     echartScript2.onload = function(){tagsChart1()};
-    document.addEventListener('pjax:complete', (e) => {
+    function tags_chart(){
       if(document.getElementById("tags-chart")){
-        tagsChart1()
+        tagsChart1();
       }
-    })
+    }
+    document.removeEventListener('pjax:complete',tags_chart);
+    document.addEventListener('pjax:complete',tags_chart);
     }
   </script>
 
@@ -491,12 +496,11 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
       }]
     };
     categoriesChart.setOption(categoriesOption);
-    window.addEventListener('resize', () => { 
-      categoriesChart.resize();
-    });
+    window.removeEventListener('resize', categoriesChart.resize);
+    window.addEventListener('resize', categoriesChart.resize);
     categoriesChart.on('click', 'series', (event) => {
       let href = '/categories/' + event.name + '/';
-      window.location.href = href;
+      pjax.loadUrl(href);
     });
   }
   const acategoriesChart= 1;if(acategoriesChart==1){const acategoriesChart= 2;
@@ -505,11 +509,13 @@ fetch('https://v6-widget.51.la/v6/Jep3hHOli30gtK4U/quote.js').then(res => res.te
     echartScript3.setAttribute('src','https://cdn.bootcdn.net/ajax/libs/echarts/4.7.0/echarts.min.js');
     document.getElementsByTagName('head')[0].appendChild(echartScript3);
     echartScript3.onload = function(){categoriesChart1()}
-    document.addEventListener('pjax:complete', (e) => {
+    function categories_chart(){
       if(document.getElementById("categories-chart")){
-      categoriesChart1()
+        categoriesChart1();
       }
-    })
+    }
+    document.removeEventListener('pjax:complete', categories_chart);
+    document.addEventListener('pjax:complete', categories_chart);
   }
   </script>
 
@@ -550,7 +556,7 @@ setInterval("createtime()",1000);
   }
 }
 window.addEventListener('load',preloader.endLoading())
-setTimeout(function(){preloader.endLoading();}, 2500);</script><div class="js-pjax"></div><script src="https://cdn.chuckle.top/random.min.js?11"></script><script defer="true" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script defer="true" src="https://cdn.qcqx.cn/js/orlike.js?2"></script><script defer="true" src="https://cdn.qcqx.cn/js/chuckle.js?2"></script><link rel="stylesheet" href="/" media="print" onload="this.media=&apos;all&apos;"><script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js"></script><script src="https://cdn.chuckle.top/npm/js-heo/metingjs/Meting.min.js"></script><script src="https://cdn.chuckle.top/js/pjax.min.js"></script><script>let pjaxSelectors = ["title","#config-diff","#body-wrap","#fixedcard-dashboard","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+setTimeout(function(){preloader.endLoading();}, 2500);</script><div class="js-pjax"></div><script src="https://cdn.chuckle.top/random.min.js?12"></script><script defer="true" src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script><script defer="true" src="https://cdn.qcqx.cn/js/orlike.js?2"></script><script defer="true" src="https://cdn.qcqx.cn/js/chuckle.js?5"></script><link rel="stylesheet" href="/" media="print" onload="this.media=&apos;all&apos;"><script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js"></script><script src="https://cdn.chuckle.top/npm/js-heo/metingjs/Meting.min.js"></script><script src="https://cdn.chuckle.top/js/pjax.min.js"></script><script>let pjaxSelectors = ["title","#config-diff","#body-wrap","#fixedcard-dashboard","#rightside-config-hide","#rightside-config-show",".js-pjax"]
 
 var pjax = new Pjax({
   elements: 'a:not([target="_blank"])',
