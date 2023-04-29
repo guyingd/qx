@@ -6,7 +6,7 @@
   <link href="https://www.qcqx.cn/atom.xml" rel="self"/>
   
   <link href="https://www.qcqx.cn/"/>
-  <updated>2023-04-24T12:39:34.000Z</updated>
+  <updated>2023-04-26T00:40:44.000Z</updated>
   <id>https://www.qcqx.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Promise异步编程</title>
+    <link href="https://www.qcqx.cn/article/7a1fbbc5.html"/>
+    <id>https://www.qcqx.cn/article/7a1fbbc5.html</id>
+    <published>2023-04-26T00:40:44.000Z</published>
+    <updated>2023-04-26T00:40:44.000Z</updated>
+    
+    
+    <summary type="html">同步与异步、事件循环、Promise、async-await、promisify</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://www.qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="JS" scheme="https://www.qcqx.cn/tags/JS/"/>
+    
+    <category term="前端" scheme="https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>AJAX请求相关</title>
@@ -414,25 +435,6 @@
     <category term="新冠" scheme="https://www.qcqx.cn/tags/%E6%96%B0%E5%86%A0/"/>
     
     <category term="疫情" scheme="https://www.qcqx.cn/tags/%E7%96%AB%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>前后端交互初步概念</title>
-    <link href="https://www.qcqx.cn/article/709b5ecb.html"/>
-    <id>https://www.qcqx.cn/article/709b5ecb.html</id>
-    <published>2022-12-18T08:50:00.000Z</published>
-    <updated>2022-12-18T08:50:00.000Z</updated>
-    
-    
-    <summary type="html">简单从前端视角讲讲前后端交互的方法和逻辑</summary>
-    
-    
-    
-    <category term="学习笔记" scheme="https://www.qcqx.cn/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="前端" scheme="https://www.qcqx.cn/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
