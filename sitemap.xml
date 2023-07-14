@@ -775,6 +775,13 @@
   </url>
   
   <url>
+    <loc>https://www.qcqx.cn/tags/JavaWeb/</loc>
+    <lastmod>2023-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://www.qcqx.cn/tags/JAVA/</loc>
     <lastmod>2023-07-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -783,13 +790,6 @@
   
   <url>
     <loc>https://www.qcqx.cn/tags/JavaSE/</loc>
-    <lastmod>2023-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qcqx.cn/tags/JavaWeb/</loc>
     <lastmod>2023-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -831,14 +831,14 @@
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/</loc>
+    <loc>https://www.qcqx.cn/tags/VScode/</loc>
     <lastmod>2023-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.qcqx.cn/tags/VScode/</loc>
+    <loc>https://www.qcqx.cn/tags/%E7%9E%8E%E6%8A%98%E8%85%BE/</loc>
     <lastmod>2023-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
