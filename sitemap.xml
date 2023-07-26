@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.qcqx.cn/update/index.html</loc>
+    
+    <lastmod>2023-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.qcqx.cn/link/index.html</loc>
     
     <lastmod>2023-07-24</lastmod>
@@ -77,15 +86,6 @@
     <loc>https://www.qcqx.cn/article/63b3ee69.html</loc>
     
     <lastmod>2023-05-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qcqx.cn/update/index.html</loc>
-    
-    <lastmod>2023-05-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
